@@ -210,6 +210,8 @@ export default function App() {
     helpExportDesc: lang === 'fr' ? 'Téléchargez les résultats filtrés en CSV ou Excel.' : 'Download filtered results in CSV or Excel.',
     helpLang: lang === 'fr' ? '🌐 Langue' : '🌐 Language',
     helpLangDesc: lang === 'fr' ? 'Basculez entre français et anglais.' : 'Switch between French and English.',
+    helpUpdates: lang === 'fr' ? '🔄 Mises à jour' : '🔄 Updates',
+    helpUpdatesDesc: lang === 'fr' ? 'Les données sont vérifiées automatiquement chaque lundi via l\'API EUR-Lex. En cas de nouvel amendement, une Issue GitHub est créée et vous êtes alerté.' : 'Data is checked automatically every Monday via EUR-Lex API. If a new amendment is found, a GitHub Issue is created and you are alerted.',
     close: lang === 'fr' ? 'Fermer' : 'Close',
     expandAll: lang === 'fr' ? 'Tout développer' : 'Expand all',
     collapseAll: lang === 'fr' ? 'Tout réduire' : 'Collapse all',
@@ -256,14 +258,22 @@ export default function App() {
 
       <main className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-4">
         {regulationInfo && (
-          <div className="bg-white border border-gray-200 rounded-xl p-3 sm:p-4 flex items-start gap-2 sm:gap-3 shadow-sm">
-            <Info size={18} className="text-blue-500 mt-0.5 shrink-0" />
-            <div className="min-w-0 flex-1">
-              <p className="text-xs sm:text-sm font-semibold text-gray-900 leading-snug">{regulationInfo.title}</p>
-              <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1.5 text-xs sm:text-sm text-gray-600">
-                <span>{t.consolidated} <strong className="text-gray-900">{regulationInfo.lastUpdated}</strong></span>
-                <span className="hidden sm:inline">|</span>
-                <span><strong className="text-gray-900">{results.length}</strong> {t.limits}</span>
+          <div className="bg-white border border-gray-200 rounded-xl p-3 sm:p-4 shadow-sm">
+            <div className="flex items-start gap-2 sm:gap-3">
+              <Info size={18} className="text-blue-500 mt-0.5 shrink-0" />
+              <div className="min-w-0 flex-1">
+                <p className="text-xs sm:text-sm font-semibold text-gray-900 leading-snug">{regulationInfo.title}</p>
+                <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1.5 text-xs sm:text-sm text-gray-600">
+                  <span>{t.consolidated} <strong className="text-gray-900">{regulationInfo.lastUpdated}</strong></span>
+                  <span className="hidden sm:inline">|</span>
+                  <span><strong className="text-gray-900">{results.length}</strong> {t.limits}</span>
+                </div>
+                <div className="mt-2 pt-2 border-t border-gray-100 text-xs text-gray-500">
+                  <p>🔄 <strong>{lang === 'fr' ? 'Mises à jour automatiques' : 'Automatic updates'}</strong> — {lang === 'fr' 
+                    ? 'Vérification chaque lundi via EUR-Lex. En cas de nouvel amendement, une alerte est créée.'
+                    : 'Check every Monday via EUR-Lex. If new amendment, an alert is created.'}</p>
+                  <p className="mt-1">📡 <strong>{lang === 'fr' ? 'Source' : 'Source'}</strong>: <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R0915" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">EUR-Lex</a> — {lang === 'fr' ? 'Base officielle du droit européen' : 'Official EU law database'}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -395,10 +405,12 @@ export default function App() {
       </main>
 
       <footer className="bg-gray-100 border-t border-gray-200 py-4 sm:py-6 mt-8">
-        <div className="max-w-5xl mx-auto px-4 text-center">
+        <div className="max-w-5xl mx-auto px-4 text-center space-y-2">
           <p className="text-xs sm:text-sm text-gray-500">
-            {lang === 'fr' ? 'Application basée sur le' : 'Application based on'} <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R0915" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Règlement (UE) 2023/915</a>
-            {lang === 'fr' ? ' · Vérification automatique des mises à jour via GitHub Actions' : ' · Automatic update verification via GitHub Actions'}
+            {lang === 'fr' ? 'Données officielles:' : 'Official data:'} <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R0915" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Règlement (UE) 2023/915</a> — {lang === 'fr' ? 'EUR-Lex, base officielle du droit européen' : 'EUR-Lex, official EU law database'}
+          </p>
+          <p className="text-xs text-gray-400">
+            🔄 {lang === 'fr' ? 'Mise à jour automatique:' : 'Automatic updates:'} {lang === 'fr' ? 'Vérification chaque lundi via GitHub Actions' : 'Check every Monday via GitHub Actions'} · <a href="https://github.com/Visitune/eu-food-contaminant-limits-search/actions" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">{lang === 'fr' ? 'Voir les exécutions' : 'View runs'}</a>
           </p>
         </div>
       </footer>
@@ -449,6 +461,13 @@ export default function App() {
                     <div>
                       <h3 className="font-semibold text-gray-900">{t.helpLang}</h3>
                       <p className="text-sm text-gray-600">{t.helpLangDesc}</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <span className="text-2xl">{t.helpUpdates.split(' ')[0]}</span>
+                    <div>
+                      <h3 className="font-semibold text-gray-900">{t.helpUpdates}</h3>
+                      <p className="text-sm text-gray-600">{t.helpUpdatesDesc}</p>
                     </div>
                   </div>
                 </div>
