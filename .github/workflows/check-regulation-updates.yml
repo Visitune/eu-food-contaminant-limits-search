@@ -1,11 +1,11 @@
 name: Vérification des mises à jour — Règlement (UE) 2023/915
 
 on:
-  # Exécution automatique chaque lundi matin à 8h00 UTC
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 8 * * 1'
-
-  # Déclenchement manuel depuis l'onglet "Actions" de GitHub
   workflow_dispatch:
 
 jobs:
