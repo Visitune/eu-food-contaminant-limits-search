@@ -1,0 +1,54 @@
+{
+  "lastChecked": "2026-04-01",
+  "baseRegulation": {
+    "celex": "32023R0915",
+    "date": "2023-04-25",
+    "title": "Règlement (UE) 2023/915 de la Commission du 25 avril 2023"
+  },
+  "knownAmendments": [
+    {
+      "celex": "32024R1003",
+      "date": "2024-04-04",
+      "subject": "3-MCPD et esters d'acides gras du 3-MCPD dans les préparations pour nourrissons",
+      "applicableFrom": "2025-01-01"
+    },
+    {
+      "celex": "32024R1022",
+      "date": "2024-04-08",
+      "subject": "Déoxynivalénol (DON) — niveaux maximaux mis à jour",
+      "applicableFrom": "2024-04-08"
+    },
+    {
+      "celex": "32024R1038",
+      "date": "2024-04-09",
+      "subject": "Toxines T-2 et HT-2 dans les grains de céréales non transformés",
+      "applicableFrom": "2024-07-01"
+    },
+    {
+      "celex": "32024R1756",
+      "date": "2024-06-25",
+      "subject": "Alcaloïdes d'ergot — procédures d'échantillonnage et d'analyse corrigées",
+      "applicableFrom": "2024-07-01"
+    },
+    {
+      "celex": "32024R1808",
+      "date": "2024-07-01",
+      "subject": "Alcaloïdes d'ergot — date d'application reportée au 1er juillet 2024",
+      "applicableFrom": "2024-07-01"
+    },
+    {
+      "celex": "32024R1987",
+      "date": "2024-07-30",
+      "subject": "Nickel — nouveau contaminant ajouté (section 3.6)",
+      "applicableFrom": "2025-07-01"
+    },
+    {
+      "celex": "32025R1891",
+      "date": "2025-09-17",
+      "subject": "Arsenic inorganique — niveaux maximaux pour les poissons et fruits de mer",
+      "applicableFrom": "2025-10-08"
+    }
+  ],
+  "latestConsolidationDate": "2025-10-08",
+  "latestConsolidationCelex": "02023R0915-20251008"
+}

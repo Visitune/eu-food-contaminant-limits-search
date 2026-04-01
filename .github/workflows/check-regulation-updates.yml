@@ -1,0 +1,74 @@
+name: Vérification des mises à jour — Règlement (UE) 2023/915
+
+on:
+  # Exécution automatique chaque lundi matin à 8h00 UTC
+  schedule:
+    - cron: '0 8 * * 1'
+
+  # Déclenchement manuel depuis l'onglet "Actions" de GitHub
+  workflow_dispatch:
+
+jobs:
+  check-updates:
+    name: Vérifier les amendements EUR-Lex
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # Pour commiter regulation-state.json mis à jour
+      issues: write     # Pour créer une Issue d'alerte
+
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configuration Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Exécution du script de vérification
+        run: node scripts/check-regulation-update.js
+
+      - name: Créer une Issue GitHub si mise à jour détectée
+        run: |
+          # Lire le contenu généré par le script
+          if [ -f "update-found.json" ] && [ -s "update-found.json" ]; then
+            COUNT=$(node -e "const f=require('./update-found.json'); console.log(f.count)")
+
+            if [ "$COUNT" -gt "0" ]; then
+              ISSUE_TITLE=$(node -e "const f=require('./update-found.json'); console.log(f.title)")
+              ISSUE_BODY=$(node -e "const f=require('./update-found.json'); console.log(f.body)")
+              echo "🚨 $COUNT nouvel(s) amendement(s) détecté(s) — création de l'Issue..."
+              gh issue create \
+                --title "$ISSUE_TITLE" \
+                --body "$ISSUE_BODY" \
+                --label "réglementation,mise-à-jour" \
+                --assignee "@me" \
+                || gh issue create \
+                     --title "$ISSUE_TITLE" \
+                     --body "$ISSUE_BODY"
+              echo "✅ Issue créée."
+            else
+              echo "✅ Aucun amendement — pas d'Issue créée."
+            fi
+          else
+            echo "✅ Aucun fichier de mise à jour — pas d'Issue créée."
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Nettoyer le fichier de sortie temporaire
+        if: always()
+        run: rm -f update-found.json
+
+      - name: Commiter l'état mis à jour (date de vérification)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add regulation-state.json
+          # Ne commite que si regulation-state.json a changé
+          git diff --staged --quiet \
+            && echo "Aucun changement dans regulation-state.json" \
+            || git commit -m "chore: mise à jour automatique de l'état réglementaire [skip ci]"
+          git push

@@ -1,0 +1,5 @@
+{
+  "name": "EU Food Contaminant Limits Search",
+  "description": "Search for food contaminant limits based on EU Regulation 2023/915.",
+  "requestFramePermissions": []
+}

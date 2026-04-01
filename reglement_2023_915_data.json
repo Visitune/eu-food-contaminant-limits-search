@@ -1,0 +1,642 @@
+{
+  "regulation": {
+    "id": "UE-2023-915",
+    "title": "RÈGLEMENT (UE) 2023/915 DE LA COMMISSION du 25 avril 2023 concernant les teneurs maximales pour certains contaminants dans les denrées alimentaires et abrogeant le règlement (CE) n° 1881/2006",
+    "officialJournal": "L 119/103",
+    "date": "2023-04-25",
+    "effectiveDate": "2023-05-15",
+    "abrogates": "Règlement (CE) n° 1881/2006",
+    "lastUpdated": "2025-10-08",
+    "consolidatedVersion": "02023R0915-20251008",
+    "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2023/915/2025-10-08/eng",
+    "amendments": [
+      {"celex": "32024R1003", "date": "2024-04-04", "subject": "3-MCPD en préparations pour nourrissons", "applicableFrom": "2025-01-01"},
+      {"celex": "32024R1022", "date": "2024-04-08", "subject": "Déoxynivalénol (DON)", "applicableFrom": "2024-04-08"},
+      {"celex": "32024R1038", "date": "2024-04-09", "subject": "Toxines T-2 et HT-2", "applicableFrom": "2024-07-01"},
+      {"celex": "32024R1756", "date": "2024-06-25", "subject": "Alcaloïdes d'ergot — procédures d'échantillonnage", "applicableFrom": "2024-07-01"},
+      {"celex": "32024R1808", "date": "2024-07-01", "subject": "Alcaloïdes d'ergot — date d'application", "applicableFrom": "2024-07-01"},
+      {"celex": "32024R1987", "date": "2024-07-30", "subject": "Nickel — nouveau contaminant section 3.6", "applicableFrom": "2025-07-01"},
+      {"celex": "32025R1891", "date": "2025-09-17", "subject": "Arsenic inorganique — poissons et fruits de mer", "applicableFrom": "2025-10-08"}
+    ]
+  },
+  "categories": [
+    {
+      "id": "1",
+      "name": "Mycotoxines",
+      "nameEn": "Mycotoxins",
+      "subcategories": [
+        {
+          "id": "1.1",
+          "name": "Aflatoxines",
+          "nameEn": "Aflatoxins",
+          "limits": [
+            {"code": "1.1.1", "product": "Fruits séchés destinés à être soumis à un tri ou à un autre traitement physique avant d'être mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l'exclusion des produits énumérés au point 1.1.3", "limitB1": "5,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.2", "product": "Fruits séchés utilisés comme seuls ingrédients ou produits transformés à partir de fruits séchés, mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l'exclusion des produits énumérés au point 1.1.3", "limitB1": "2,0 μg/kg", "limitSum": "4,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.3", "product": "Figues sèches", "limitB1": "6,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.4", "product": "Arachides (cacahuètes) et autres graines oléagineuses destinées à être soumises à un tri ou à un autre traitement physique avant d'être mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires", "limitB1": "8,0 μg/kg", "limitSum": "15,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.5", "product": "Arachides (cacahuètes) et autres graines oléagineuses utilisées comme seuls ingrédients ou produits transformés à partir d'arachides (cacahuètes) et autres graines oléagineuses, mises sur le marché pour le consommateur final", "limitB1": "2,0 μg/kg", "limitSum": "4,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.6", "product": "Fruits à coque destinés à être soumis à un tri ou à un autre traitement physique avant d'être mis sur le marché pour le consommateur final, à l'exclusion des produits énumérés aux points 1.1.8 et 1.1.10", "limitB1": "5,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.7", "product": "Fruits à coque utilisés comme seuls ingrédients ou produits transformés à partir de fruits à coque, mis sur le marché pour le consommateur final, à l'exclusion des produits énumérés aux points 1.1.9 et 1.1.11", "limitB1": "2,0 μg/kg", "limitSum": "4,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.8", "product": "Amandes, pistaches et amandes d'abricot destinées à être soumises à un tri ou à un autre traitement physique avant d'être mises sur le marché pour le consommateur final", "limitB1": "12,0 μg/kg", "limitSum": "15,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.9", "product": "Amandes, pistaches et amandes d'abricot mises sur le marché pour le consommateur final", "limitB1": "8,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.10", "product": "Noisettes et noix du Brésil destinées à être soumises à un tri ou à un autre traitement physique avant d'être mises sur le marché pour le consommateur final", "limitB1": "8,0 μg/kg", "limitSum": "15,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.11", "product": "Noisettes et noix du Brésil mises sur le marché pour le consommateur final", "limitB1": "5,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.12", "product": "Céréales et produits dérivés de céréales, à l'exclusion des produits énumérés aux points 1.1.13, 1.1.18 et 1.1.19", "limitB1": "2,0 μg/kg", "limitSum": "4,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.13", "product": "Maïs et riz destinés à être soumis à un tri ou à un autre traitement physique avant d'être mis sur le marché pour le consommateur final", "limitB1": "5,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.14", "product": "Épices séchées: Capsicum spp., poivre, noix muscade, curcuma et mélanges", "limitB1": "5,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.15", "product": "Gingembre (Zingiber officinale) (séché)", "limitB1": "5,0 μg/kg", "limitSum": "10,0 μg/kg", "limitM1": "-", "notes": ""},
+            {"code": "1.1.16", "product": "Lait cru, lait traité thermiquement et lait destiné à la fabrication de produits à base de lait", "limitB1": "-", "limitSum": "-", "limitM1": "0,050 μg/kg", "notes": ""},
+            {"code": "1.1.17", "product": "Préparations pour nourrissons, préparations de suite et préparations pour enfants en bas âge", "limitB1": "-", "limitSum": "-", "limitM1": "0,025 μg/kg", "notes": ""},
+            {"code": "1.1.18", "product": "Aliments pour bébé et préparations à base de céréales destinés aux nourrissons et enfants en bas âge", "limitB1": "0,10 μg/kg", "limitSum": "-", "limitM1": "-", "notes": ""},
+            {"code": "1.1.19", "product": "Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge", "limitB1": "0,10 μg/kg", "limitSum": "-", "limitM1": "0,025 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Ochratoxine A",
+          "nameEn": "Ochratoxin A",
+          "limits": [
+            {"code": "1.2.1.1", "product": "Raisins secs (raisins de Corinthe, sultanines et autres raisins secs) et figues séchées", "limit": "8,0 μg/kg", "notes": ""},
+            {"code": "1.2.1.2", "product": "Autres fruits séchés", "limit": "2,0 μg/kg", "notes": ""},
+            {"code": "1.2.2", "product": "Sirop de dattes", "limit": "15 μg/kg", "notes": ""},
+            {"code": "1.2.3", "product": "Pistaches destinées à être soumises à un tri ou à un autre traitement physique avant d'être mises sur le marché", "limit": "10,0 μg/kg", "notes": "Si des fruits à coque non écalés sont analysés, toute la contamination est supposée être dans la partie comestible."},
+            {"code": "1.2.4", "product": "Pistaches mises sur le marché pour le consommateur final", "limit": "5,0 μg/kg", "notes": "Si des fruits à coque non écalés sont analysés, toute la contamination est supposée être dans la partie comestible."},
+            {"code": "1.2.5", "product": "Herbes séchées", "limit": "10,0 μg/kg", "notes": ""},
+            {"code": "1.2.6", "product": "Racines de gengembre (séchées) destinées à être utilisées dans des infusions", "limit": "15 μg/kg", "notes": ""},
+            {"code": "1.2.7", "product": "Racines de guimauve (séchées), racines de pissenlit (séchées) et fleurs d'oranger (séchées) destinées à être utilisées dans des infusions ou des substituts de café", "limit": "20 μg/kg", "notes": ""},
+            {"code": "1.2.8", "product": "Graines de tournesol, graines de courge, graines de pastèque et de melon, chènevis, fèves de soja", "limit": "5,0 μg/kg", "notes": ""},
+            {"code": "1.2.9", "product": "Grains de céréales non transformés", "limit": "5,0 μg/kg", "notes": "La teneur maximale s'applique aux grains de céréales non transformés mis sur le marché avant qu'ils ne subissent une première transformation."},
+            {"code": "1.2.10", "product": "Produits dérivés de grains de céréales non transformés et de céréales brutes mis sur le marché pour le consommateur final", "limit": "3,0 μg/kg", "notes": "Y compris les produits à base de céréales transformés."},
+            {"code": "1.2.11.1", "product": "Produits de boulangerie, collations aux céréales et céréales pour petit-déjeuner - Produits ne contenant pas de graines oléagineuses, de fruits à coque ou de fruits séchés", "limit": "2,0 μg/kg", "notes": ""},
+            {"code": "1.2.11.2", "product": "Produits de boulangerie, collations aux cereales et cereales pour petit-dejeuner - Produits contenant au moins 20% de raisins secs et/ou de figues sechees", "limit": "4,0 μg/kg", "notes": ""},
+            {"code": "1.2.11.3", "product": "Produits de boulangerie, collations aux cereales et cereales pour petit-dejeuner - Autres produits contenant des graines oleagineuses, des fruits a coque et/ou des fruits seches", "limit": "3,0 μg/kg", "notes": ""},
+            {"code": "1.2.12", "product": "Boissons non alcooliques à base de malt", "limit": "3,0 μg/kg", "notes": ""},
+            {"code": "1.2.13", "product": "Gluten de blé non mis sur le marché pour le consommateur final", "limit": "8,0 μg/kg", "notes": ""},
+            {"code": "1.2.14", "product": "Grains de café torréfié et café torréfié moulu", "limit": "3,0 μg/kg", "notes": ""},
+            {"code": "1.2.15", "product": "Café soluble (café instantané)", "limit": "5,0 μg/kg", "notes": ""},
+            {"code": "1.2.16", "product": "Poudre de cacao", "limit": "3,0 μg/kg", "notes": ""},
+            {"code": "1.2.17", "product": "Épices séchées, à l'exclusion des produits énumérés au point 1.2.18", "limit": "15 μg/kg", "notes": "La teneur maximale s'applique également aux mélanges d'épices séchées."},
+            {"code": "1.2.18", "product": "Capsicum spp. (leurs fruits séchés, entiers ou en poudre)", "limit": "20 μg/kg", "notes": ""},
+            {"code": "1.2.19.1", "product": "Racine de réglisse (séchée), y compris comme ingrédient dans les infusions", "limit": "20 μg/kg", "notes": ""},
+            {"code": "1.2.19.2", "product": "Extrait de réglisse destiné à être utilisé dans les denrées alimentaires", "limit": "80 μg/kg", "notes": "La teneur maximale s'applique à l'extrait pur et non dilué."},
+            {"code": "1.2.19.3", "product": "Confiseries à base de réglisse contenant ≥ 97% d'extrait de réglisse sur la base de la matière sèche", "limit": "50 μg/kg", "notes": ""},
+            {"code": "1.2.19.4", "product": "Autres confiseries à base de réglisse", "limit": "10,0 μg/kg", "notes": ""},
+            {"code": "1.2.20", "product": "Vins et vins de fruits", "limit": "2,0 μg/kg", "notes": "Y compris les vins pétillants et mousseux, à l'exclusion des vins de liqueur et des vins ayant un titre alcoométrique volumique minimal de 15%."},
+            {"code": "1.2.21", "product": "Vins aromatisés, boissons aromatisées à base de vin et cocktails aromatisés de produits vitivinicoles", "limit": "2,0 μg/kg", "notes": ""},
+            {"code": "1.2.22", "product": "Jus de raisin, jus de raisin à base de concentré, jus de raisin concentré, nectar de raisin, moût de raisins et moût de raisins concentré", "limit": "2,0 μg/kg", "notes": "Dans le cas du jus de raisin concentré ou du moût de raisins concentré, la teneur maximale s'applique au jus ou au moût reconstitué."},
+            {"code": "1.2.23", "product": "Aliments pour bébé et préparations à base de céréales destinés aux nourrissons et enfants en bas âge", "limit": "0,50 μg/kg", "notes": "La teneur maximale s'applique à la matière sèche du produit tel que mis sur le marché."},
+            {"code": "1.2.24", "product": "Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge", "limit": "0,50 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "1.3",
+          "name": "Patuline",
+          "nameEn": "Patulin",
+          "limits": [
+            {"code": "1.3.1", "product": "Jus de fruits, jus de fruits à base de concentré, jus de fruits concentrés et nectars de fruits", "limit": "50 μg/kg", "notes": "Dans le cas des jus de fruits concentrés, la teneur maximale s'applique aux jus reconstitués."},
+            {"code": "1.3.2", "product": "Boissons spiritueuses, cidre et autres boissons fermentées produites à partir de pommes ou contenant du jus de pomme", "limit": "50 μg/kg", "notes": ""},
+            {"code": "1.3.3", "product": "Produits à base de morceaux de pomme mis sur le marché pour le consommateur final", "limit": "25 μg/kg", "notes": "Y compris la compote de pommes et la purée de pommes."},
+            {"code": "1.3.4", "product": "Jus de pomme et produits à base de morceaux de pomme destinés aux nourrissons et enfants en bas âge", "limit": "10,0 μg/kg", "notes": "La teneur maximale s'applique aux produits prêts à être utilisés."},
+            {"code": "1.3.5", "product": "Aliments pour bébé", "limit": "10,0 μg/kg", "notes": "La teneur maximale s'applique aux produits prêts à être utilisés."}
+          ]
+        },
+        {
+          "id": "1.4",
+          "name": "Déoxynivalénol",
+          "nameEn": "Deoxynivalenol",
+          "limits": [
+            {"code": "1.4.1", "product": "Grains de céréales non transformés, à l'exclusion des produits énumérés aux points 1.4.2 et 1.4.3", "limit": "1250 μg/kg", "notes": "À l'exclusion des grains de maïs non transformés destinés à être transformés par mouture humide et à l'exclusion du riz."},
+            {"code": "1.4.2", "product": "Grains de blé dur non transformés et grains d'avoine non transformés", "limit": "1750 μg/kg", "notes": ""},
+            {"code": "1.4.3", "product": "Grains de maïs non transformés", "limit": "1750 μg/kg", "notes": ""},
+            {"code": "1.4.4", "product": "Céréales mises sur le marché pour le consommateur final, farine, semoule, son et germe de céréales", "limit": "750 μg/kg", "notes": "À l'exclusion du riz et des produits à base de riz."},
+            {"code": "1.4.5", "product": "Pâtes", "limit": "750 μg/kg", "notes": "Les pâtes désignent les pâtes (sèches) dont la teneur en eau avoisine 12%."},
+            {"code": "1.4.6", "product": "Pain, pâtisseries, biscuits, collations aux céréales et céréales pour petit-déjeuner", "limit": "500 μg/kg", "notes": "À l'exclusion des produits à base de riz."},
+            {"code": "1.4.7.1", "product": "Farine de maíz non mise sur le marché pour le consommateur final", "limit": "1250 μg/kg", "notes": "Au moins 90%, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm."},
+            {"code": "1.4.7.2", "product": "Autres produits de mouture du maïs non mis sur le marché pour le consommateur final", "limit": "750 μg/kg", "notes": "Moins de 90% des particules ont une taille ≤ 500 μm."},
+            {"code": "1.4.8", "product": "Aliments pour bébé et preparations a base de cereales destinés aux nourrissons et enfants en bas âge", "limit": "200 μg/kg", "notes": "À l'exclusion des produits à base de riz."}
+          ]
+        },
+        {
+          "id": "1.5",
+          "name": "Zéaralénone",
+          "nameEn": "Zearalenone",
+          "limits": [
+            {"code": "1.5.1", "product": "Grains de céréales non transformés, à l'exclusion des produits énumérés au point 1.5.2", "limit": "100 μg/kg", "notes": ""},
+            {"code": "1.5.2", "product": "Grains de maíz non transformés", "limit": "350 μg/kg", "notes": ""},
+            {"code": "1.5.3", "product": "Céréales mises sur le marché pour le consommateur final, farine, semoule, son et germe de céréales", "limit": "75 μg/kg", "notes": "À l'exclusion du riz et des produits à base de riz."},
+            {"code": "1.5.4", "product": "Pain, pâtisseries, biscuits, collations aux céréales et céréales pour petit-déjeuner", "limit": "50 μg/kg", "notes": "À l'exclusion des produits à base de riz."},
+            {"code": "1.5.5", "product": "Maïs mis sur le marché pour le consommateur final, collations à base de maíz et cereales pour petit-dejeuner a base de maíz", "limit": "100 μg/kg", "notes": ""},
+            {"code": "1.5.6.1", "product": "Farine de maíz non mise sur le marché pour le consommateur final", "limit": "300 μg/kg", "notes": "Au moins 90% des particules ont une taille ≤ 500 μm."},
+            {"code": "1.5.6.2", "product": "Autres produits de mouture du maíz non mis sur le marché pour le consommateur final", "limit": "200 μg/kg", "notes": ""},
+            {"code": "1.5.7", "product": "Huiles de maíz raffinée", "limit": "400 μg/kg", "notes": ""},
+            {"code": "1.5.8", "product": "Aliments pour bébé et preparations a base de cereales destinés aux nourrissons et enfants en bas âge", "limit": "20 μg/kg", "notes": "À l'exclusion des produits à base de riz."}
+          ]
+        },
+        {
+          "id": "1.6",
+          "name": "Fumonisines",
+          "nameEn": "Fumonisins",
+          "limits": [
+            {"code": "1.6.1", "product": "Grains de maíz non transformés", "limit": "4000 μg/kg (Somme B1 et B2)", "notes": ""},
+            {"code": "1.6.2", "product": "Maïs mis sur le marché pour le consommateur final, produits de mouture du maíz", "limit": "1000 μg/kg (Somme B1 et B2)", "notes": ""},
+            {"code": "1.6.3", "product": "Céréales pour petit-déjeuner à base de maíz et collations à base de maíz", "limit": "800 μg/kg (Somme B1 et B2)", "notes": ""},
+            {"code": "1.6.4.1", "product": "Farine de maíz non mise sur le marché pour le consommateur final", "limit": "2000 μg/kg (Somme B1 et B2)", "notes": "Au moins 90% des particules ont une taille ≤ 500 μm."},
+            {"code": "1.6.4.2", "product": "Autres produits de mouture du maíz non mis sur le marché pour le consommateur final", "limit": "1400 μg/kg (Somme B1 et B2)", "notes": ""},
+            {"code": "1.6.5", "product": "Aliments pour bébé contenant du maíz et preparations a base de maíz destinés aux nourrissons et enfants en bas âge", "limit": "200 μg/kg (Somme B1 et B2)", "notes": ""}
+          ]
+        },
+        {
+          "id": "1.7",
+          "name": "Citrinine",
+          "nameEn": "Citrinin",
+          "limits": [
+            {"code": "1.7.1", "product": "Compléments alimentaires à base de levure de riz rouge fermentée Monascus purpureus", "limit": "100 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "1.8",
+          "name": "Sclérotes d'ergot et alcaloïdes de l'ergot",
+          "nameEn": "Ergot sclerotia and ergot alkaloids",
+          "limits": [
+            {"code": "1.8.1.1", "product": "Grains de céréales non transformés, à l'exclusion du maïs et du riz", "limit": "0,2 g/kg", "notes": ""},
+            {"code": "1.8.1.2", "product": "Grains de seigle non transformés", "limit": "0,5 g/kg (0,2 à partir du 1er juillet 2024)", "notes": ""},
+            {"code": "1.8.2.1", "product": "Produits de mouture de l'orge, du blé, de l'épeautre et de l'avoine (teneur en cendres < 900 mg/100g)", "limit": "100 μg/kg (50 à partir du 1er juillet 2024)", "notes": "Somme des alcaloïdes de l'ergot."},
+            {"code": "1.8.2.2", "product": "Produits de mouture de l'orge, du blé, de l'épeautre et de l'avoine (teneur en cendres ≥ 900 mg/100g)", "limit": "150 μg/kg", "notes": "Somme des alcaloïdes de l'ergot."},
+            {"code": "1.8.2.3", "product": "Produits de mouture du seigle et seigle mis sur le marché pour le consommateur final", "limit": "500 μg/kg (250 à partir du 1er juillet 2024)", "notes": "Somme des alcaloïdes de l'ergot."},
+            {"code": "1.8.2.4", "product": "Gluten de blé", "limit": "400 μg/kg", "notes": "Somme des alcaloïdes de l'ergot."},
+            {"code": "1.8.2.5", "product": "Preparations a base de cereales destinées aux nourrissons et enfants en bas âge", "limit": "20 μg/kg", "notes": "Somme des alcaloïdes de l'ergot."}
+          ]
+        },
+        {
+          "id": "1.9",
+          "name": "Toxines T-2 et HT-2",
+          "nameEn": "T-2 and HT-2 toxins",
+          "limits": [
+            {"code": "1.9.1", "product": "Grains de céréales non transformés, à l'exclusion du maïs, du riz, de l'orge, du blé dur et de l'avoine", "limit": "50 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038, applicable depuis le 1er juillet 2024."},
+            {"code": "1.9.2", "product": "Grains d'orge de maltage non transformés", "limit": "200 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.3", "product": "Autres grains d'orge non transformés (à l'exclusion de l'orge de maltage)", "limit": "150 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.4", "product": "Grains de maïs et de blé dur non transformés", "limit": "100 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.5", "product": "Grains d'avoine non transformés avec enveloppe non comestible", "limit": "1250 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.6", "product": "Céréales mises sur le marché pour le consommateur final, à l'exclusion du riz, de l'avoine, de l'orge, du maïs et du blé dur", "limit": "20 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.7", "product": "Avoine mise sur le marché pour le consommateur final", "limit": "100 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.8", "product": "Orge, maïs et blé dur mis sur le marché pour le consommateur final", "limit": "50 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.9", "product": "Produits de mouture généraux, à l'exclusion du riz, de l'avoine, du son de maïs", "limit": "20 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.10", "product": "Produits de mouture d'avoine, y compris son d'avoine", "limit": "100 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.11", "product": "Son de maïs et autres sons de céréales", "limit": "50 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.12", "product": "Produits de boulangerie, à l'exclusion des produits à base d'avoine et de riz", "limit": "20 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.13", "product": "Produits de boulangerie à base d'avoine contenant ≥ 90% de produits de mouture d'avoine", "limit": "100 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.14", "product": "Flocons d'avoine", "limit": "100 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.15", "product": "Pâtes alimentaires et snacks céréaliers", "limit": "20 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.16", "product": "Céréales pour petit-déjeuner avec ≥ 50% son, contenant < 40% avoine", "limit": "50 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.17", "product": "Céréales pour petit-déjeuner avec ≥ 50% son, contenant ≥ 40% avoine", "limit": "75 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.18", "product": "Aliments pour bébé et préparations à base de céréales destinés aux nourrissons et enfants en bas âge, à l'exclusion du riz", "limit": "10 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."},
+            {"code": "1.9.19", "product": "Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et enfants en bas âge, à l'exclusion du riz", "limit": "10 μg/kg", "notes": "Somme de T-2 et HT-2. Règl. (UE) 2024/1038."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Toxines végétales",
+      "nameEn": "Plant toxins",
+      "subcategories": [
+        {
+          "id": "2.1",
+          "name": "Acide érucique",
+          "nameEn": "Erucic acid",
+          "limits": [
+            {"code": "2.1.1", "product": "Huiles et graisses végétales mises sur le marché pour le consommateur final", "limit": "20,0 g/kg", "notes": ""},
+            {"code": "2.1.2", "product": "Huile de cameline, huile de moutarde et huile de bourrache", "limit": "50,0 g/kg", "notes": ""},
+            {"code": "2.1.3", "product": "Moutarde (condiment)", "limit": "35,0 g/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "2.2",
+          "name": "Alcaloïdes tropaniques",
+          "nameEn": "Tropane alkaloids",
+          "limits": [
+            {"code": "2.2.1", "product": "Aliments pour bébé et preparations a base de cereales contenant du millet, du sorgho, du sarrasin, du maïs", "limitAtropine": "1,0 μg/kg", "limitScopolamine": "1,0 μg/kg", "notes": ""},
+            {"code": "2.2.2", "product": "Grains de millet non transformés et grains de sorgho non transformés", "limitAtropine": "5,0 μg/kg", "limitScopolamine": "5,0 μg/kg", "notes": ""},
+            {"code": "2.2.3", "product": "Grains de maïs non transformés", "limitAtropine": "15 μg/kg", "limitScopolamine": "15 μg/kg", "notes": ""},
+            {"code": "2.2.4", "product": "Grains de sarrasin non transformés", "limitAtropine": "10 μg/kg", "limitScopolamine": "10 μg/kg", "notes": ""},
+            {"code": "2.2.5", "product": "Maïs destiné au soufflage, millet, sorgho et maíz mis sur le marché pour le consommateur final", "limitAtropine": "5,0 μg/kg", "limitScopolamine": "5,0 μg/kg", "notes": ""},
+            {"code": "2.2.6", "product": "Sarrasin mis sur le marché pour le consommateur final et produits de mouture du sarrasin", "limitAtropine": "10 μg/kg", "limitScopolamine": "10 μg/kg", "notes": ""},
+            {"code": "2.2.7", "product": "Infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions", "limitAtropine": "25 μg/kg", "limitScopolamine": "25 μg/kg", "notes": ""},
+            {"code": "2.2.8", "product": "Infusions (produit séché) de graines d'anis exclusivement", "limitAtropine": "50 μg/kg", "limitScopolamine": "50 μg/kg", "notes": ""},
+            {"code": "2.2.9", "product": "Infusions (produit liquide)", "limitAtropine": "0,20 μg/kg", "limitScopolamine": "0,20 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "2.3",
+          "name": "Acide cyanhydrique",
+          "nameEn": "Hydrocyanic acid",
+          "limits": [
+            {"code": "2.3.1", "product": "Graines de lin non transformées entières, broyées, moulues, brisées ou concassées non mises sur le marché pour le consommateur final", "limit": "250 mg/kg", "notes": ""},
+            {"code": "2.3.2", "product": "Graines de lin non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final", "limit": "150 mg/kg", "notes": "Avec avertissement obligatoire."},
+            {"code": "2.3.3", "product": "Amandes non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final", "limit": "35 mg/kg", "notes": ""},
+            {"code": "2.3.4", "product": "Amandes d'abricot non transformées entières, broyées, moulues, brisées ou concassées", "limit": "20,0 mg/kg", "notes": ""},
+            {"code": "2.3.5", "product": "Racine de manioc (fraîche, épluchée)", "limit": "50,0 mg/kg", "notes": ""},
+            {"code": "2.3.6", "product": "Farine de manioc et farine de tapioca", "limit": "10,0 mg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "2.4",
+          "name": "Alcaloïdes pyrrolizidiniques",
+          "nameEn": "Pyrrolizidine alkaloids",
+          "limits": [
+            {"code": "2.4.1", "product": "Feuilles de bourrache (fraîches, congelées) mises sur le marché pour le consommateur final", "limit": "750 μg/kg", "notes": "Somme des 21 alcaloïdes pyrrolizidiniques."},
+            {"code": "2.4.2", "product": "Herbes séchées", "limit": "400 μg/kg", "notes": ""},
+            {"code": "2.4.3", "product": "Bourrache, livèche, marjolaine et origan (produit séché)", "limit": "1000 μg/kg", "notes": ""},
+            {"code": "2.4.4", "product": "Thé (Camellia sinensis) et thé aromatisé (produit séché)", "limit": "150 μg/kg", "notes": ""},
+            {"code": "2.4.5", "product": "Thé et infusions pour nourrissons et enfants en bas âge", "limit": "75 μg/kg", "notes": ""},
+            {"code": "2.4.6", "product": "Thé et infusions (produit liquide) pour nourrissons et enfants en bas âge", "limit": "1,0 μg/kg", "notes": ""},
+            {"code": "2.4.7", "product": "Infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions", "limit": "200 μg/kg", "notes": ""},
+            {"code": "2.4.8", "product": "Infusions de rooibos, anis, mélisse, camomille, thym, menthe poivrée, verveine citronnée", "limit": "400 μg/kg", "notes": ""},
+            {"code": "2.4.9", "product": "Cumin", "limit": "400 μg/kg", "notes": ""},
+            {"code": "2.4.10", "product": "Compléments alimentaires contenant une préparation de plante", "limit": "400 μg/kg", "notes": ""},
+            {"code": "2.4.11", "product": "Compléments alimentaires à base de pollen et produits de pollen", "limit": "500 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "2.5",
+          "name": "Alcaloïdes opioïdes",
+          "nameEn": "Opium alkaloids",
+          "limits": [
+            {"code": "2.5.1", "product": "Graines de pavot entières, broyées ou moulues mises sur le marché pour le consommateur final", "limit": "20 mg/kg", "notes": "Somme de morphine + 0,2 × codéine."},
+            {"code": "2.5.2", "product": "Produits de boulangerie contenant des graines de pavot", "limit": "1,50 mg/kg", "notes": "Somme de morphine + 0,2 × codéine."}
+          ]
+        },
+        {
+          "id": "2.6",
+          "name": "Équivalents de THC",
+          "nameEn": "THC equivalents",
+          "limits": [
+            {"code": "2.6.1", "product": "Chènevis (graines de chanvre)", "limit": "3,0 mg/kg", "notes": ""},
+            {"code": "2.6.2", "product": "Graines de chanvre moulues, partiellement dégraissées et autres produits transformés", "limit": "3,0 mg/kg", "notes": ""},
+            {"code": "2.6.3", "product": "Huiles de chènevis", "limit": "7,5 mg/kg", "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Métaux et autres éléments",
+      "nameEn": "Metals and other elements",
+      "subcategories": [
+        {
+          "id": "3.1",
+          "name": "Plomb",
+          "nameEn": "Lead",
+          "limits": [
+            {"code": "3.1.1.1", "product": "Airelles, groseilles, baies de sureau et arbouses", "limit": "0,20 mg/kg", "notes": "La teneur maximale s'applique au poids à l'état frais."},
+            {"code": "3.1.1.2", "product": "Fruits autres que les airelles, les groseilles, les baies de sureau et les arbouses", "limit": "0,10 mg/kg", "notes": "La teneur maximale s'applique au poids à l'état frais."},
+            {"code": "3.1.2.1", "product": "Légumes-racines et légumes-tubercules", "limit": "0,10 mg/kg", "notes": "Pour les pommes de terre, la teneur maximale s'applique aux pommes de terre pelées."},
+            {"code": "3.1.2.2", "product": "Gingembre frais, curcuma frais", "limit": "0,80 mg/kg", "notes": ""},
+            {"code": "3.1.2.3", "product": "Salsifis", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.1.3", "product": "Légumes-bulbes", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.4.1", "product": "Légumes-fruits, à l'exclusion du maïs doux", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.1.4.2", "product": "Maïs doux", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.5.1", "product": "Légumes du genre Brassica autres que les choux feuilles", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.5.2", "product": "Choux feuilles", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.1.6", "product": "Légumes-feuilles, à l'exclusion des herbes fraîches et des fleurs comestibles", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.1.7", "product": "Légumineuses potagères", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.8", "product": "Légumes-tiges", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.9.1", "product": "Champignons de couche (champignon de Paris, pleurote, shiitake)", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.1.9.2", "product": "Champignons sauvages", "limit": "0,80 mg/kg", "notes": ""},
+            {"code": "3.1.10", "product": "Légumineuses séchées", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.1.11", "product": "Céréales", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.1.12.1", "product": "Épices en graines", "limit": "0,90 mg/kg", "notes": ""},
+            {"code": "3.1.12.2", "product": "Épices tirées de fruits", "limit": "0,60 mg/kg", "notes": ""},
+            {"code": "3.1.12.3", "product": "Épices tirées d'écorces", "limit": "2,0 mg/kg", "notes": ""},
+            {"code": "3.1.12.4", "product": "Épices tirées de racines ou de rhizomes", "limit": "1,50 mg/kg", "notes": ""},
+            {"code": "3.1.12.5", "product": "Épices tirées de boutons", "limit": "1,0 mg/kg", "notes": ""},
+            {"code": "3.1.12.6", "product": "Épices tirées de pistils de fleurs", "limit": "1,0 mg/kg", "notes": ""},
+            {"code": "3.1.13", "product": "Viandes de bovins, d'ovins, de porcins et de volailles", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.14.1", "product": "Abats de bovins et d'ovins", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.1.14.2", "product": "Abats de porcins", "limit": "0,15 mg/kg", "notes": ""},
+            {"code": "3.1.14.3", "product": "Abats de volailles", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.15.1", "product": "Chair musculaire de poisson", "limit": "0,30 mg/kg", "notes": "Pour les poissons destinés à être consommés en entier, la teneur maximale s'applique au poisson entier."},
+            {"code": "3.1.15.2", "product": "Céphalopodes", "limit": "0,30 mg/kg", "notes": "La teneur maximale s'applique à l'animal sans viscères."},
+            {"code": "3.1.15.3", "product": "Crustacés", "limit": "0,50 mg/kg", "notes": "La teneur maximale s'applique à la chair musculaire des appendices et de l'abdomen."},
+            {"code": "3.1.15.4", "product": "Mollusques bivalves", "limit": "1,50 mg/kg", "notes": "Pour les coquilles Saint-Jacques, la teneur maximale s'applique seulement au muscle adducteur et à la gonade."},
+            {"code": "3.1.16", "product": "Lait cru, lait traité thermiquement et lait destiné à la fabrication de produits à base de lait", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.1.17", "product": "Miel", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.18", "product": "Huiles et graisses", "limit": "0,10 mg/kg", "notes": "Y compris les graisses du lait."},
+            {"code": "3.1.19.1", "product": "Jus de fruits exclusivement à partir de baies et d'autres petits fruits", "limit": "0,05 mg/kg", "notes": ""},
+            {"code": "3.1.19.2", "product": "Jus de fruits autres qu'exclusivement à partir de baies", "limit": "0,03 mg/kg", "notes": ""},
+            {"code": "3.1.20.1", "product": "Vins - produits à partir des vendanges de 2001 à 2015", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.1.20.2", "product": "Vins - produits à partir des vendanges de 2016 à 2021", "limit": "0,15 mg/kg", "notes": ""},
+            {"code": "3.1.20.3", "product": "Vins - produits à partir des vendanges de 2022 et suivantes", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.1.23.1", "product": "Sels, à l'exclusion des produits énumérés au 3.1.23.2", "limit": "1,0 mg/kg", "notes": ""},
+            {"code": "3.1.23.2", "product": "Sels non raffinés: fleur de sel et sel gris", "limit": "2,0 mg/kg", "notes": ""},
+            {"code": "3.1.24.1", "product": "Preparations pour nourrissons, preparations de suite et preparations pour enfants en bas âge - forme poudre", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.1.24.2", "product": "Preparations pour nourrissons, preparations de suite et preparations pour enfants en bas âge - état liquide", "limit": "0,010 mg/kg", "notes": ""},
+            {"code": "3.1.25.1", "product": "Boissons destinées aux nourrissons et aux enfants en bas âge - état liquide", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.1.25.2", "product": "Boissons destinées aux nourrissons et aux enfants en bas âge - infusion ou décoction", "limit": "0,50 mg/kg", "notes": ""},
+            {"code": "3.1.28", "product": "Compléments alimentaires", "limit": "3,0 mg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "3.2",
+          "name": "Cadmium",
+          "nameEn": "Cadmium",
+          "limits": [
+            {"code": "3.2.1.1", "product": "Fruits, à l'exclusion des agrumes, fruits à pépins, fruits à noyau, olives, kiwis, bananes, mangues, papayes, ananas, baies, framboises et fruits à coque", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.2.1.2", "product": "Agrumes, fruits à pépins, fruits à noyau, olives de table, kiwis, bananes, mangues, papayes et ananas", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.2.1.3", "product": "Baies et petits fruits", "limit": "0,030 mg/kg", "notes": ""},
+            {"code": "3.2.1.4", "product": "Framboises", "limit": "0,040 mg/kg", "notes": ""},
+            {"code": "3.2.1.5.1", "product": "Fruits à coque", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.2.1.5.2", "product": "Pignons", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.2.2.1", "product": "Légumes-racines et légumes-tubercules", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.2.2", "product": "Betteraves", "limit": "0,060 mg/kg", "notes": ""},
+            {"code": "3.2.2.3", "product": "Céleris-raves", "limit": "0,15 mg/kg", "notes": ""},
+            {"code": "3.2.2.4", "product": "Raiforts, panais, salsifis", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.2.2.5", "product": "Radis", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.2.2.6", "product": "Racines et tubercules tropicaux, persil à grosse racine, navets", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.2.3.1", "product": "Légumes-bulbes", "limit": "0,030 mg/kg", "notes": ""},
+            {"code": "3.2.3.2", "product": "Aulx", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.2.4.1", "product": "Légumes-fruits", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.2.4.2", "product": "Aubergines", "limit": "0,030 mg/kg", "notes": ""},
+            {"code": "3.2.5.1", "product": "Légumes du genre Brassica", "limit": "0,040 mg/kg", "notes": ""},
+            {"code": "3.2.5.2", "product": "Choux feuilles", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.6.1", "product": "Légumes-feuilles", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.6.2", "product": "Épinards et feuilles similaires, plants de moutarde et herbes fraîches", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.2.7", "product": "Légumineuses potagères", "limit": "0,020 mg/kg", "notes": ""},
+            {"code": "3.2.8.1", "product": "Légumes-tiges", "limit": "0,030 mg/kg", "notes": ""},
+            {"code": "3.2.8.2", "product": "Céleris", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.8.3", "product": "Poireaux", "limit": "0,040 mg/kg", "notes": ""},
+            {"code": "3.2.9.1", "product": "Champignons de couche", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.2.9.2", "product": "Pleurotes et shiitake", "limit": "0,15 mg/kg", "notes": ""},
+            {"code": "3.2.9.3", "product": "Champignons sauvages", "limit": "0,50 mg/kg", "notes": ""},
+            {"code": "3.2.10.1", "product": "Légumineuses séchées", "limit": "0,040 mg/kg", "notes": ""},
+            {"code": "3.2.10.2", "product": "Protéines provenant de légumineuses séchées", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.11.1", "product": "Graines oléagineuses", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.11.2", "product": "Graines de colza", "limit": "0,15 mg/kg", "notes": ""},
+            {"code": "3.2.11.3", "product": "Cacahuètes et fèves de soja", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.2.11.4", "product": "Graines de moutarde", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.2.11.5", "product": "Graines de lin et graines de tournesol", "limit": "0,50 mg/kg", "notes": ""},
+            {"code": "3.2.11.6", "product": "Graines de pavot", "limit": "1,20 mg/kg", "notes": ""},
+            {"code": "3.2.12.1", "product": "Céréales", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.12.2", "product": "Orge et seigle", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.2.12.3", "product": "Riz, quinoa, son de blé et gluten de blé", "limit": "0,15 mg/kg", "notes": ""},
+            {"code": "3.2.12.4", "product": "Blé dur", "limit": "0,18 mg/kg", "notes": ""},
+            {"code": "3.2.12.5", "product": "Germe de blé", "limit": "0,20 mg/kg", "notes": ""},
+            {"code": "3.2.13.1", "product": "Viandes de bovin, de mouton, de porc et de volaille", "limit": "0,050 mg/kg", "notes": "À l'exclusion des abats."},
+            {"code": "3.2.13.2", "product": "Viandes de cheval", "limit": "0,20 mg/kg", "notes": "À l'exclusion des abats."},
+            {"code": "3.2.13.3", "product": "Foies de bovin, de mouton, de porc, de volaille et de cheval", "limit": "0,50 mg/kg", "notes": ""},
+            {"code": "3.2.13.4", "product": "Rognons de bovin, de mouton, de porc, de volaille et de cheval", "limit": "1,0 mg/kg", "notes": ""},
+            {"code": "3.2.14.1", "product": "Chair musculaire de poisson", "limit": "0,050 mg/kg", "notes": ""},
+            {"code": "3.2.15.1", "product": "Chocolat au lait avec < 30% de matière sèche totale de cacao", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.2.15.2", "product": "Chocolat avec < 50% de matière sèche totale de cacao; chocolat au lait avec ≥ 30%", "limit": "0,30 mg/kg", "notes": ""},
+            {"code": "3.2.15.3", "product": "Chocolat avec ≥ 50% de matière sèche totale de cacao", "limit": "0,80 mg/kg", "notes": ""},
+            {"code": "3.2.15.4", "product": "Poudre de cacao mise sur le marché pour le consommateur final", "limit": "0,60 mg/kg", "notes": ""},
+            {"code": "3.2.16", "product": "Sel", "limit": "0,50 mg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "3.3",
+          "name": "Mercure",
+          "nameEn": "Mercury",
+          "limits": [
+            {"code": "3.3.1.1", "product": "Crustacés, mollusques et chair musculaire de poisson (à l'exclusion des especes specifiquees)", "limit": "0,50 mg/kg", "notes": ""},
+            {"code": "3.3.1.2", "product": "Chair musculaire de certains poissons (mackerel, thon, espadon, requin, etc.)", "limit": "1,0 mg/kg", "notes": "Voir liste complète des especes dans le reglement."},
+            {"code": "3.3.1.3", "product": "Cephalopodes et certains poissons (anchois, cabillaud, hareng, etc.)", "limit": "0,30 mg/kg", "notes": "Voir liste complete des especes dans le reglement."},
+            {"code": "3.3.2", "product": "Compléments alimentaires", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "3.3.3", "product": "Sel", "limit": "0,10 mg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "3.4",
+          "name": "Arsenic",
+          "nameEn": "Arsenic",
+          "limits": [
+            {"code": "3.4.1.1", "product": "Riz usiné, non étuvé (riz poli ou riz blanc)", "limit": "0,15 mg/kg", "notes": "Arsenic inorganique."},
+            {"code": "3.4.1.2", "product": "Riz étuvé et riz décortiqué", "limit": "0,25 mg/kg", "notes": "Arsenic inorganique."},
+            {"code": "3.4.1.3", "product": "Farine de riz", "limit": "0,25 mg/kg", "notes": "Arsenic inorganique."},
+            {"code": "3.4.1.4", "product": "Galettes de riz soufflé, feuilles de riz, crackers de riz, Gateaux a la farine de riz, flocons de riz et riz soufflé", "limit": "0,30 mg/kg", "notes": "Arsenic inorganique."},
+            {"code": "3.4.1.5", "product": "Riz destiné à la production de denrées alimentaires pour les nourrissons et les enfants en bas âge", "limit": "0,10 mg/kg", "notes": "Arsenic inorganique."},
+            {"code": "3.4.1.6", "product": "Boissons non alcooliques à base de riz", "limit": "0,030 mg/kg", "notes": "Arsenic inorganique."},
+            {"code": "3.4.5", "product": "Sel", "limit": "0,50 mg/kg", "notes": "Arsenic total."},
+            {"code": "3.4.6.1", "product": "Chair musculaire de poisson (général)", "limit": "0,10 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891, applicable depuis le 8 octobre 2025."},
+            {"code": "3.4.6.2", "product": "Chair musculaire de certains poissons (familles Somniosidae, Carcharhinidae, Rajidae)", "limit": "0,50 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."},
+            {"code": "3.4.7.1", "product": "Crabes et crevettes", "limit": "0,10 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."},
+            {"code": "3.4.7.2", "product": "Autres crustacés", "limit": "0,20 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."},
+            {"code": "3.4.7.3", "product": "Langoustines et langoustes", "limit": "1,5 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."},
+            {"code": "3.4.8.1", "product": "Muscle adducteur et gonades de coquilles Saint-Jacques", "limit": "0,10 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."},
+            {"code": "3.4.8.2", "product": "Autres mollusques bivalves", "limit": "0,50 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."},
+            {"code": "3.4.8.3", "product": "Céphalopodes sans viscères (calamars, seiches, pieuvres)", "limit": "0,050 mg/kg", "notes": "Arsenic inorganique. Règl. (UE) 2025/1891."}
+          ]
+        },
+        {
+          "id": "3.5",
+          "name": "Étain (inorganique)",
+          "nameEn": "Inorganic tin",
+          "limits": [
+            {"code": "3.5.1", "product": "Denrées alimentaires en conserve", "limit": "200 mg/kg", "notes": ""},
+            {"code": "3.5.2", "product": "Boissons en boîte", "limit": "100 mg/kg", "notes": "Y compris les jus de fruits et de légumes."},
+            {"code": "3.5.3", "product": "Preparations pour nourrissons en conserve, preparations de suite en conserve", "limit": "50 mg/kg", "notes": "À l'exclusion des produits séchés et en poudre."},
+            {"code": "3.5.4", "product": "Aliments pour bébé et preparations a base de cereales en conserve", "limit": "50 mg/kg", "notes": "À l'exclusion des produits séchés et en poudre."}
+          ]
+        },
+        {
+          "id": "3.6",
+          "name": "Nickel",
+          "nameEn": "Nickel",
+          "limits": [
+            {"code": "3.6.1.1", "product": "Châtaignes, pignons, noix, noix du Brésil, noix de cajou", "limit": "10,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987, applicable depuis le 1er juillet 2025."},
+            {"code": "3.6.1.2", "product": "Autres fruits à coque", "limit": "3,5 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.2.1", "product": "Graines de tournesol", "limit": "8,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.2.2", "product": "Arachides (cacahuètes)", "limit": "12,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.2.3", "product": "Fèves de soja (graines oléagineuses)", "limit": "15,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.3.1", "product": "Légumes-racines, légumes-tubercules et légumes-bulbes", "limit": "0,90 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.3.2", "product": "Légumes-fruits", "limit": "0,40 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.3.3", "product": "Légumes du genre Brassica", "limit": "0,50 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.3.4", "product": "Légumes-feuilles, à l'exclusion des herbes fraîches", "limit": "0,50 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.3.5", "product": "Légumes-tiges", "limit": "0,40 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.3.6", "product": "Herbes fraîches", "limit": "1,2 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.4.1", "product": "Edamame et fèves de soja fraîches", "limit": "6,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.4.2", "product": "Autres légumineuses fraîches", "limit": "1,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.4.3", "product": "Haricots secs et lupins", "limit": "12,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.4.4", "product": "Autres légumineuses séchées", "limit": "4,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.5.1", "product": "Algues wakamé", "limit": "40,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.5.2", "product": "Autres algues", "limit": "30,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.6.1", "product": "Chocolat au lait avec < 30% de matière sèche totale de cacao", "limit": "2,5 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.6.2", "product": "Chocolat au lait avec ≥ 30% de matière sèche totale de cacao", "limit": "7,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.6.3", "product": "Poudre de cacao mise sur le marché pour le consommateur final", "limit": "15,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.7.1", "product": "Préparations pour nourrissons à base de soja — forme poudre", "limit": "0,40 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.7.2", "product": "Autres préparations pour nourrissons — forme poudre", "limit": "0,25 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.7.3", "product": "Préparations pour nourrissons — état liquide", "limit": "0,10 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.7.4", "product": "Préparations à base de céréales pour nourrissons et enfants en bas âge", "limit": "3,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.7.5", "product": "Aliments pour bébé", "limit": "0,50 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.8.1", "product": "Jus de fruits et de légumes", "limit": "0,25 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.8.2", "product": "Jus de fruits spéciaux (agrumes, ananas, grenade)", "limit": "1,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987."},
+            {"code": "3.6.9.1", "product": "Riz usiné non étuvé (riz blanc)", "limit": "2,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987, applicable depuis le 1er juillet 2026."},
+            {"code": "3.6.9.2", "product": "Blé dur et riz étuvé", "limit": "1,5 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987, applicable depuis le 1er juillet 2026."},
+            {"code": "3.6.9.3", "product": "Pseudo-céréales et millet", "limit": "3,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987, applicable depuis le 1er juillet 2026."},
+            {"code": "3.6.9.4", "product": "Avoine", "limit": "5,0 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987, applicable depuis le 1er juillet 2026."},
+            {"code": "3.6.9.5", "product": "Autres céréales", "limit": "0,80 mg/kg", "notes": "Nickel. Règl. (UE) 2024/1987, applicable depuis le 1er juillet 2026."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Polluants organiques persistants halogénés",
+      "nameEn": "Halogenated persistent organic pollutants",
+      "subcategories": [
+        {
+          "id": "4.1",
+          "name": "Dioxines et PCB",
+          "nameEn": "Dioxins and PCBs",
+          "limits": [
+            {"code": "4.1.1.1", "product": "Viandes de bovins, d'ovins et de caprins", "limitDioxines": "2,5 pg/g graisses", "limitDioxinesPCB": "4,0 pg/g graisses", "limitPCB": "40 ng/g graisses", "notes": ""},
+            {"code": "4.1.1.2", "product": "Viandes de porcins", "limitDioxines": "1,0 pg/g graisses", "limitDioxinesPCB": "1,25 pg/g graisses", "limitPCB": "40 ng/g graisses", "notes": ""},
+            {"code": "4.1.1.3", "product": "Viandes de volailles", "limitDioxines": "1,75 pg/g graisses", "limitDioxinesPCB": "3,0 pg/g graisses", "limitPCB": "40 ng/g graisses", "notes": ""},
+            {"code": "4.1.5", "product": "Produits de la pêche et mollusques bivalves", "limitDioxines": "3,5 pg/g poids frais", "limitDioxinesPCB": "6,5 pg/g poids frais", "limitPCB": "75 ng/g poids frais", "notes": ""},
+            {"code": "4.1.11", "product": "Lait cru et produits laitiers", "limitDioxines": "2,0 pg/g graisses", "limitDioxinesPCB": "4,0 pg/g graisses", "limitPCB": "40 ng/g graisses", "notes": ""},
+            {"code": "4.1.12", "product": "Œufs et ovoproduits", "limitDioxines": "2,5 pg/g graisses", "limitDioxinesPCB": "5,0 pg/g graisses", "limitPCB": "40 ng/g graisses", "notes": ""},
+            {"code": "4.1.13", "product": "Huiles et graisses végétales", "limitDioxines": "0,75 pg/g graisses", "limitDioxinesPCB": "1,25 pg/g graisses", "limitPCB": "40 ng/g graisses", "notes": ""},
+            {"code": "4.1.14", "product": "Denrées alimentaires destinées aux nourrissons et aux enfants en bas âge", "limitDioxines": "0,1 pg/g poids frais", "limitDioxinesPCB": "0,2 pg/g poids frais", "limitPCB": "1,0 ng/g poids frais", "notes": ""}
+          ]
+        },
+        {
+          "id": "4.2",
+          "name": "Substances perfluoroalkylées",
+          "nameEn": "Perfluoroalkyl substances",
+          "limits": [
+            {"code": "4.2.1.1", "product": "Viandes de bovins, de porcins et de volailles", "limitPFOS": "0,30 μg/kg", "limitPFOA": "0,80 μg/kg", "limitPFNA": "0,20 μg/kg", "notes": ""},
+            {"code": "4.2.1.2", "product": "Viandes d'ovins", "limitPFOS": "1,0 μg/kg", "limitPFOA": "0,20 μg/kg", "limitPFNA": "0,20 μg/kg", "notes": ""},
+            {"code": "4.2.1.3", "product": "Abats de bovins, d'ovins, de porcins et de volailles", "limitPFOS": "6,0 μg/kg", "limitPFOA": "0,70 μg/kg", "limitPFNA": "0,40 μg/kg", "notes": ""},
+            {"code": "4.2.2.1.1", "product": "Chair musculaire de poisson", "limitPFOS": "2,0 μg/kg", "limitPFOA": "0,20 μg/kg", "limitPFNA": "0,50 μg/kg", "notes": ""},
+            {"code": "4.2.2.2", "product": "Crustacés et mollusques bivalves", "limitPFOS": "3,0 μg/kg", "limitPFOA": "0,70 μg/kg", "limitPFNA": "1,0 μg/kg", "notes": ""},
+            {"code": "4.2.3", "product": "Œufs", "limitPFOS": "1,0 μg/kg", "limitPFOA": "0,30 μg/kg", "limitPFNA": "0,70 μg/kg", "notes": ""}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Contaminants liés aux procédés de transformation",
+      "nameEn": "Process-related contaminants",
+      "subcategories": [
+        {
+          "id": "5.1",
+          "name": "Hydrocarbures aromatiques polycycliques (HAP)",
+          "nameEn": "Polycyclic aromatic hydrocarbons (PAH)",
+          "limits": [
+            {"code": "5.1.1", "product": "Chips de banane", "limitBaP": "2,0 μg/kg", "limitSumHAP": "20,0 μg/kg", "notes": ""},
+            {"code": "5.1.2", "product": "Poudres de denrées alimentaires d'origine végétale pour la préparation de boissons", "limitBaP": "10,0 μg/kg", "limitSumHAP": "50,0 μg/kg", "notes": ""},
+            {"code": "5.1.3", "product": "Herbes séchées", "limitBaP": "10,0 μg/kg", "limitSumHAP": "50,0 μg/kg", "notes": ""},
+            {"code": "5.1.4", "product": "Fèves de cacao et produits dérivés", "limitBaP": "5,0 μg/kg graisses", "limitSumHAP": "30,0 μg/kg graisses", "notes": "Y compris le beurre de cacao."},
+            {"code": "5.1.6", "product": "Viandes fumées et produits à base de viande fumés", "limitBaP": "2,0 μg/kg", "limitSumHAP": "12,0 μg/kg", "notes": ""},
+            {"code": "5.1.7", "product": "Produits de la pêche fumés", "limitBaP": "2,0 μg/kg", "limitSumHAP": "12,0 μg/kg", "notes": ""},
+            {"code": "5.1.10", "product": "Épices séchées", "limitBaP": "10,0 μg/kg", "limitSumHAP": "50,0 μg/kg", "notes": "À l'exclusion de la cardamome et des épices Capsicum spp. fumées."},
+            {"code": "5.1.11", "product": "Huiles et graisses mises sur le marché pour le consommateur final", "limitBaP": "2,0 μg/kg", "limitSumHAP": "10,0 μg/kg", "notes": ""},
+            {"code": "5.1.12", "product": "Huiles de coco", "limitBaP": "2,0 μg/kg", "limitSumHAP": "20,0 μg/kg", "notes": ""},
+            {"code": "5.1.13", "product": "Preparations pour nourrissons, preparations de suite et preparations pour enfants en bas âge", "limitBaP": "1,0 μg/kg", "limitSumHAP": "1,0 μg/kg", "notes": ""},
+            {"code": "5.1.16", "product": "Compléments alimentaires contenant des plantes, propolis, gelée royale, spiruline", "limitBaP": "10,0 μg/kg", "limitSumHAP": "50,0 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "5.2",
+          "name": "3-monochloro-propane-1,2-diol (3-MCPD)",
+          "nameEn": "3-monochloro-propane-1,2-diol (3-MCPD)",
+          "limits": [
+            {"code": "5.2.1", "product": "Protéine végétale hydrolysée", "limit": "20 μg/kg", "notes": "Pour le produit liquide contenant 40% de matière sèche."},
+            {"code": "5.2.2", "product": "Sauce de soja", "limit": "20 μg/kg", "notes": "Pour le produit liquide contenant 40% de matière sèche."}
+          ]
+        },
+        {
+          "id": "5.3",
+          "name": "Somme du 3-MCPD et de ses esters d'acides gras",
+          "nameEn": "Sum of 3-MCPD and its fatty acid esters",
+          "limits": [
+            {"code": "5.3.1.1", "product": "Huiles et graisses de noix de coco, maíz, colza, tournesol, soja, palmiste et huiles d'olive", "limit": "1250 μg/kg", "notes": ""},
+            {"code": "5.3.1.2", "product": "Autres huiles végétales, huiles de poisson et autres organismes marins", "limit": "2500 μg/kg", "notes": ""},
+            {"code": "5.3.2", "product": "Huiles et graisses destinées à la production d'aliments pour bébé", "limit": "750 μg/kg", "notes": ""},
+            {"code": "5.3.3.1", "product": "Preparations pour nourrissons, preparations de suite - forme poudre", "limit": "125 μg/kg", "notes": ""},
+            {"code": "5.3.3.2", "product": "Preparations pour nourrissons, preparations de suite - état liquide", "limit": "15 μg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "5.4",
+          "name": "Esters d'acides gras de glycidol",
+          "nameEn": "Glycidol fatty acid esters",
+          "limits": [
+            {"code": "5.4.1", "product": "Huiles et graisses végétales, huiles de poisson", "limit": "1000 μg/kg", "notes": "Exprimés en glycidol."},
+            {"code": "5.4.2", "product": "Huiles et graisses destinées à la production d'aliments pour bébé", "limit": "500 μg/kg", "notes": "Exprimés en glycidol."},
+            {"code": "5.4.3.1", "product": "Preparations pour nourrissons, preparations de suite - forme poudre", "limit": "50 μg/kg", "notes": "Exprimés en glycidol."},
+            {"code": "5.4.3.2", "product": "Preparations pour nourrissons, preparations de suite - état liquide", "limit": "6,0 μg/kg", "notes": "Exprimés en glycidol."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Autres contaminants",
+      "nameEn": "Other contaminants",
+      "subcategories": [
+        {
+          "id": "6.1",
+          "name": "Nitrates",
+          "nameEn": "Nitrates",
+          "limits": [
+            {"code": "6.1.1", "product": "Épinards frais", "limit": "3500 mg NO3/kg", "notes": ""},
+            {"code": "6.1.2", "product": "Épinards conservés, surgelés ou congelés", "limit": "2000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.3.1", "product": "Laitues cultivées sous abri (1er octobre - 31 mars)", "limit": "5000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.3.2", "product": "Laitues cultivées en plein air (1er octobre - 31 mars)", "limit": "4000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.3.3", "product": "Laitues cultivées sousabri (1er avril - 30 septembre)", "limit": "4000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.3.4", "product": "Laitues cultivées en plein air (1er avril - 30 septembre)", "limit": "3000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.4.1", "product": "Laitues de type Iceberg cultivées sousabri", "limit": "2500 mg NO3/kg", "notes": ""},
+            {"code": "6.1.4.2", "product": "Laitues de type Iceberg cultivées en plein air", "limit": "2000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.5.1", "product": "Roquette (1er octobre - 31 mars)", "limit": "7000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.5.2", "product": "Roquette (1er avril - 30 septembre)", "limit": "6000 mg NO3/kg", "notes": ""},
+            {"code": "6.1.6", "product": "Aliments pour bébé et preparations a base de cereales", "limit": "200 mg NO3/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "6.2",
+          "name": "Mélamine",
+          "nameEn": "Melamine",
+          "limits": [
+            {"code": "6.2.1", "product": "Denrées alimentaires", "limit": "2,5 mg/kg", "notes": "Ne s'applique pas si la présence de mélamine résulte de l'utilisation de cyromazine."},
+            {"code": "6.2.2.1", "product": "Preparations pour nourrissons, preparations de suite - forme poudre", "limit": "1,0 mg/kg", "notes": ""},
+            {"code": "6.2.2.2", "product": "Preparations pour nourrissons, preparations de suite - état liquide", "limit": "0,15 mg/kg", "notes": ""}
+          ]
+        },
+        {
+          "id": "6.3",
+          "name": "Perchlorate",
+          "nameEn": "Perchlorate",
+          "limits": [
+            {"code": "6.3.1", "product": "Fruits et légumes", "limit": "0,05 mg/kg", "notes": ""},
+            {"code": "6.3.1.1", "product": "Cucurbitaceae et chou frisé", "limit": "0,10 mg/kg", "notes": ""},
+            {"code": "6.3.1.2", "product": "Légumes-feuilles et fines herbes", "limit": "0,50 mg/kg", "notes": ""},
+            {"code": "6.3.2", "product": "Thé et infusions de plantes et de fruits (produit séché)", "limit": "0,75 mg/kg", "notes": ""},
+            {"code": "6.3.3", "product": "Preparations pour nourrissons, preparations de suite", "limit": "0,01 mg/kg", "notes": ""},
+            {"code": "6.3.4", "product": "Aliments pour bébé", "limit": "0,02 mg/kg", "notes": ""},
+            {"code": "6.3.5", "product": "Preparations a base de cereales", "limit": "0,01 mg/kg", "notes": ""}
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "definitions": [
+      {"code": "(2)", "text": "Classification des denrées alimentaires d'origine animale conformement au reglement (CE) no 853/2004"},
+      {"code": "(3)", "text": "Telles que definies dans le reglement (UE) 2015/2283"},
+      {"code": "(4)", "text": "Telles que definies dans la directive 2006/125/CE"},
+      {"code": "(5)", "text": "La matiere seche est determinee conformement au reglement (UE) no 1278/2014"},
+      {"code": "(6)", "text": "Par premiere transformation, on entend le traitement physique ou thermique de cereales brutes, autre que le simple triage et/ou le nettoyage."},
+      {"code": "(7)", "text": "Tels que definis dans le reglement (UE) no 1308/2013"},
+      {"code": "(8)", "text": "Tels que definis dans le reglement (UE) no 251/2014"},
+      {"code": "(9)", "text": "Tels que definis dans la directive 2012/12/UE"},
+      {"code": "(10)", "text": "Tels que definis dans le reglement (CE) no 110/2008"},
+      {"code": "(11)", "text": "Corps de caracteristique specifique tel que defini dans le reglement (UE) no 1169/2011"},
+      {"code": "(12)", "text": "The aromatise tel que defini dans la directive 2002/46/CE"},
+      {"code": "(13)", "text": "Telles que definies dans la directive 2002/46/CE"},
+      {"code": "(14)", "text": "Tels que definis dans la directive 2000/36/CE"},
+      {"code": "(15)", "text": "Facteurs d'equivalence toxique de l'OMS (OMS-TEF) pour l'evaluation des risques"}
+    ]
+  }
+}

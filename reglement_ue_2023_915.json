@@ -1,0 +1,464 @@
+{
+  "metadata": {
+    "titre": "RÈGLEMENT (UE) 2023/915 DE LA COMMISSION",
+    "date": "25 avril 2023",
+    "objet": "teneurs maximales pour certains contaminants dans les denrées alimentaires",
+    "abroge": "règlement (CE) n° 1881/2006",
+    "journal_officiel": "L 119/103",
+    "titre_complet": "RÈGLEMENT (UE) 2023/915 DE LA COMMISSION "
+  },
+  "annexe_i": {
+    "titre": "Teneurs maximales pour certains contaminants dans les denrées alimentaires",
+    "sections": {
+      "1": {
+        "nom": "Mycotoxines",
+        "sous_sections": {
+          "1.1": {
+            "nom": "Aflatoxines",
+            "limites": [
+              {
+                "code": "1.1.3",
+                "produit": "Figues sèches",
+                "limite_b1": 6.0,
+                "limite_somme": 10.0,
+                "remarques": "— Dans le cas de denrées alimentaires compo sées de figues séché es"
+              },
+              {
+                "code": "1.1.15",
+                "produit": "Gingembre (Zingiber officinale) (séch é)",
+                "limite_b1": 5.0,
+                "limite_somme": 10.0,
+                "remarques": "-"
+              }
+            ]
+          },
+          "1.2": {
+            "nom": "Ochratoxine A",
+            "limites": []
+          },
+          "1.3": {
+            "nom": "Patuline",
+            "limites": []
+          },
+          "1.4": {
+            "nom": "Déoxynivalénol",
+            "limites": []
+          },
+          "1.5": {
+            "nom": "Zéaralénone",
+            "limites": []
+          },
+          "1.6": {
+            "nom": "Fumonisines",
+            "limites": []
+          }
+        }
+      },
+      "2": {
+        "nom": "Toxines végétales",
+        "sous_sections": {}
+      },
+      "3": {
+        "nom": "Métaux et autres éléments",
+        "sous_sections": {
+          "3.1": {
+            "nom": "Plomb",
+            "limites": [
+              {
+                "code": "3.1.1",
+                "produit": "Fruits La teneur maximale s’applique au poids à l’état frais.\nLa teneur maximale s’applique après lavage et séparation de la partie destinée à \nêtre consommée.",
+                "limite_mg_kg": 3.1,
+                "remarques": ".1.1 Airelles, groseilles, baies de sureau et arbouses 0,20"
+              },
+              {
+                "code": "3.1.1.2",
+                "produit": "Fruits autres que les airelles, les groseilles, les baies de sureau et les arbouses",
+                "limite_mg_kg": 0.1,
+                "remarques": "3.1.2 Légumes-racines et légumes-tubercules La teneur maximale s’applique au poids à l’état frais."
+              },
+              {
+                "code": "3.1.2.1",
+                "produit": "Légumes-racines et légumes-tubercules, à l’exclusion des produits énumérés \naux points",
+                "limite_mg_kg": 3.1,
+                "remarques": ".2.2 et 3.1.2.30,10 Dans le cas des pommes de terre, la teneur maximale s’applique aux pommes de"
+              },
+              {
+                "code": "3.1.2.2",
+                "produit": "Gingembre frais, curcuma frais",
+                "limite_mg_kg": 0.8,
+                "remarques": "3.1.2.3 Salsifi s 0,30"
+              },
+              {
+                "code": "3.1.3",
+                "produit": "Légumes-bulbes",
+                "limite_mg_kg": 0.1,
+                "remarques": "La teneur maximale s’applique au poids à l’état frais."
+              },
+              {
+                "code": "3.1.4",
+                "produit": "Légumes-fr uits La teneur maximale s’applique au poids à l’état frais.\nLa teneur maximale s’applique après lavage et séparation de la partie destinée à \nêtre consommée.",
+                "limite_mg_kg": 3.1,
+                "remarques": ".4.1 Légumes-fr uits, à l’exclusion des produits énumérés au point 3.1.4.2 0,050"
+              },
+              {
+                "code": "3.1.4.2",
+                "produit": "Maïs doux",
+                "limite_mg_kg": 0.1,
+                "remarques": "3.1.5 Légumes du genre Brassica La teneur maximale s’applique au poids à l’état frais."
+              },
+              {
+                "code": "3.1.5.1",
+                "produit": "Légumes du genre Brassica autres que ceux énumérés au point",
+                "limite_mg_kg": 3.1,
+                "remarques": ".5.2 0,10"
+              },
+              {
+                "code": "3.1.5.2",
+                "produit": "Choux feuilles",
+                "limite_mg_kg": 0.3,
+                "remarques": "3.1.6 Légumes-fe uilles, à l’exclusion des herbes fraîch es et des fleurs comestibles 0,30 La teneur maximale s’applique au poids à l’état frais."
+              },
+              {
+                "code": "3.1.7",
+                "produit": "Légumineuses potagères",
+                "limite_mg_kg": 0.1,
+                "remarques": "La teneur maximale s’applique au poids à l’état frais."
+              },
+              {
+                "code": "3.1.8",
+                "produit": "Légumes-tiges",
+                "limite_mg_kg": 0.1,
+                "remarques": "La teneur maximale s’applique au poids à l’état frais."
+              },
+              {
+                "code": "3.1.9",
+                "produit": "Champi gnons La teneur maximale s’applique au poids à l’état frais.\nLa teneur maximale s’applique après lavage et séparation de la partie destinée à \nêtre consommée.",
+                "limite_mg_kg": 3.1,
+                "remarques": ".9.1 Les champig nons de couc he suivants:"
+              },
+              {
+                "code": "3.1.9.2",
+                "produit": "Champi gnons sauvages",
+                "limite_mg_kg": 0.8,
+                "remarques": "3.1.10 Légumineuses séchées 0,20"
+              },
+              {
+                "code": "3.1.11",
+                "produit": "Céréales",
+                "limite_mg_kg": 0.2,
+                "remarques": "3.1.12 Épices séch ées"
+              },
+              {
+                "code": "3.1.12.1",
+                "produit": "Épices en graines",
+                "limite_mg_kg": 0.9,
+                "remarques": "3.1.12.2 Épices tirées de fruits 0,60"
+              },
+              {
+                "code": "3.1.12.3",
+                "produit": "Épices tirées d’écorces",
+                "limite_mg_kg": 2.0,
+                "remarques": "3.1.12.4 Épices tirées de racines ou de rhizomes 1,50"
+              },
+              {
+                "code": "3.1.12.5",
+                "produit": "Épices tirées de bouton s",
+                "limite_mg_kg": 1.0,
+                "remarques": "3.1.12.6 Épices tirées de pistils de fleurs 1,0"
+              },
+              {
+                "code": "3.1.14.1",
+                "produit": "de bovins et d’ovi ns",
+                "limite_mg_kg": 0.2,
+                "remarques": "3.1.14.2 de porcins 0,15"
+              },
+              {
+                "code": "3.1.14.3",
+                "produit": "de volai lles",
+                "limite_mg_kg": 0.1,
+                "remarques": "3.1.15 Produits de la pêche (2) et mollusques bivalves (2) La teneur maximale s’applique au poids à l’état frais.FR Jour nal officiel de l’Union européenne L 119/130 5.5.2023"
+              },
+              {
+                "code": "3.1.15.1",
+                "produit": "Chair musculaire de poisson",
+                "limite_mg_kg": 0.3,
+                "remarques": "Dans le cas des poissons destinés à être consommés en entier , la teneur maximale"
+              },
+              {
+                "code": "3.1.15.2",
+                "produit": "Céphalopodes",
+                "limite_mg_kg": 0.3,
+                "remarques": "La teneur maximale s’applique à l’animal sans viscères."
+              },
+              {
+                "code": "3.1.15.3",
+                "produit": "Crustacés",
+                "limite_mg_kg": 0.5,
+                "remarques": "La teneur maximale s’applique à la chair musculaire des appendices et de"
+              },
+              {
+                "code": "3.1.15.4",
+                "produit": "Mollusques bivalves",
+                "limite_mg_kg": 1.5,
+                "remarques": "Dans le cas des coquilles Saint-Jacques (Pecten maximus), la teneur maximale"
+              },
+              {
+                "code": "3.1.17",
+                "produit": "Miel",
+                "limite_mg_kg": 0.1,
+                "remarques": "3.1.18 Huiles et graisses 0,10 Y compr is les graisses du lait."
+              },
+              {
+                "code": "3.1.19.1",
+                "produit": "excl usivement à partir de baies et d’autres petits fruits",
+                "limite_mg_kg": 0.05,
+                "remarques": "3.1.19.2 autres qu’excl usivement à partir de baies et d’autres petits fruits, y compr is les"
+              },
+              {
+                "code": "3.1.20.1",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2001.0,
+                "remarques": "à 2015 0,20"
+              },
+              {
+                "code": "3.1.20.2",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2016.0,
+                "remarques": "à 2021 0,15FR Jour nal officiel de l’Union européenne 5.5.2023 L 119/131"
+              },
+              {
+                "code": "3.1.20.3",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2022.0,
+                "remarques": "et suivantes 0,10"
+              },
+              {
+                "code": "3.1.21.1",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2001.0,
+                "remarques": "à 2015 0,20"
+              },
+              {
+                "code": "3.1.21.2",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2016.0,
+                "remarques": "à 2021 0,15"
+              },
+              {
+                "code": "3.1.21.3",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2022.0,
+                "remarques": "et suivantes 0,10"
+              },
+              {
+                "code": "3.1.22.1",
+                "produit": "produits à partir des vendanges de",
+                "limite_mg_kg": 2022.0,
+                "remarques": "et suivantes 0,15"
+              },
+              {
+                "code": "3.1.23",
+                "produit": "Sels",
+                "limite_mg_kg": 3.1,
+                "remarques": ".23.1 Sels, à l’exclusion des produits énumérés au 3.1.23.2 1,0"
+              },
+              {
+                "code": "3.1.24.1",
+                "produit": "mises sur le march é sous forme de poudre",
+                "limite_mg_kg": 0.02,
+                "remarques": "3.1.24.2 mises sur le march é à l’état liquide 0,010"
+              },
+              {
+                "code": "3.1.25",
+                "produit": "Boissons destinées aux nour rissons et aux enfants en bas âge, mises sur le \nmarch é et étiquetées comme telles , à l’exclusi on des produits énumérés aux \npoints",
+                "limite_mg_kg": 3.1,
+                "remarques": ".24 et 3.1.27"
+              },
+              {
+                "code": "3.1.25.2",
+                "produit": "destinées à être préparées par infusion ou décoction",
+                "limite_mg_kg": 0.5,
+                "remarques": "La teneur maximale s’applique au produit tel que mis sur le march é."
+              },
+              {
+                "code": "3.1.27.1",
+                "produit": "mises sur le march é sous forme de poudre",
+                "limite_mg_kg": 0.02,
+                "remarques": "3.1.27.2 mises sur le march é à l’état liquide 0,010"
+              },
+              {
+                "code": "3.1.28",
+                "produit": "Com pléments alimentaires",
+                "limite_mg_kg": 3.0,
+                "remarques": "3.2 CadmiumTeneur"
+              },
+              {
+                "code": "3.1.1",
+                "produit": "Crustacés, mollusques et chair musculaire de poisson, à l’exclusi on des \nespèces énumérées aux points",
+                "limite_mg_kg": 3.3,
+                "remarques": ".1.2 et 3.3.1.30,50 Dans le cas des crustacés, la teneur maximale s’applique à la chair musculaire des"
+              },
+              {
+                "code": "3.1.3",
+                "produit": "mélange s d’huiles et de graisses provenant des produits énumérés aux \npoints",
+                "limite_mg_kg": 5.3,
+                "remarques": ".1.1 et 5.3.1.2— Les huiles et les graisses utilisées comme ingrédients du mélange doivent"
+              },
+              {
+                "code": "3.1.1",
+                "produit": "et",
+                "limite_mg_kg": 6.3,
+                "remarques": ".1.20,05"
+              },
+              {
+                "code": "3.1.1",
+                "produit": "Cucurbitaceae et chou frisé",
+                "limite_mg_kg": 0.1,
+                "remarques": "6.3.1.2 Légumes-fe uilles et fines herbes 0,50"
+              }
+            ]
+          },
+          "3.2": {
+            "nom": "Cadmium",
+            "limites": []
+          },
+          "3.3": {
+            "nom": "Mercure",
+            "limites": []
+          },
+          "3.4": {
+            "nom": "Arsenic",
+            "limites": []
+          }
+        }
+      },
+      "4": {
+        "nom": "Polluants organiques persistants halogénés",
+        "sous_sections": {}
+      },
+      "5": {
+        "nom": "Contaminants liés aux procédés de transformation",
+        "sous_sections": {
+          "5.1": {
+            "nom": "Hydrocarbures aromatiques polycycliques (HAP)",
+            "limites": [
+              {
+                "code": "5.1.1",
+                "produit": "Chips de banane",
+                "limite_benzo_a_pyrene": 2.0,
+                "limite_somme_hap": 20.0,
+                "remarques": "5.1.2 Poudres de denrées alimentaires d’or igine végétale pour la"
+              },
+              {
+                "code": "5.1.3",
+                "produit": "Herbes séché es",
+                "limite_benzo_a_pyrene": 10.0,
+                "limite_somme_hap": 50.0,
+                "remarques": "La teneur maximale s’applique au produit tel que mis sur le marché."
+              },
+              {
+                "code": "5.1.6",
+                "produit": "Viandes fumées et produits à base de viande fumés",
+                "limite_benzo_a_pyrene": 2.0,
+                "limite_somme_hap": 12.0,
+                "remarques": "5.1.7 Produits de la pêche fumés (2), à l’exclusion des produits énumérés"
+              },
+              {
+                "code": "5.1.10",
+                "produit": "Épices séch ées",
+                "limite_benzo_a_pyrene": 10.0,
+                "limite_somme_hap": 50.0,
+                "remarques": "À l’exclusi on de la cardamome et des épices Capsicum spp. fumées"
+              }
+            ]
+          }
+        }
+      },
+      "6": {
+        "nom": "Autres contaminants",
+        "sous_sections": {}
+      }
+    }
+  },
+  "articles": {
+    "2": {
+      "titre": "Article 2, paragraphes 1, 2 et 3 Article 3, paragraphes 1, 2 et 3",
+      "contenu": "",
+      "paragraphes": []
+    },
+    "3": {
+      "titre": "Denrées aliment aires séchées, diluées, transfor mées et composées",
+      "contenu": "1. Si aucune teneur maximale spécifi que de l’Union n’est fixée à l’annexe I pour les denrées alimentaires séchées, diluées, \ntransf ormées ou composées de plus d’un ingrédient, les aspects suivants sont pris en considération lors de l’application des \nteneurs maximales fixées à l’annex e I à ces denrées alimentaires:\na)les chang ements appor tés à la concentration du contaminant par les processus de séchage ou de dilution;\nb)les chang ements appor tés à la concentration du contaminant par la transf ormation;\nc)les propor tions relatives des ingrédients dans le produit ;\nd)le seuil de quantif ication de l’analyse.\n2. Lorsque l’autori té compét ente effectue un contrôle officiel, l’exploitant du secteur alimentaire fournit et justif ie les \nfacteurs spécif iques de concentration, de dilution ou de transf ormation pour les opérations de sécha ge, de dilution ou de \ntransf ormation concer nées ou les facteurs spécif iques de concentration, de dilution ou de transf ormation pour les denrées \nalimentaires séchées, diluées, transf ormées ou compo sées concer nées ainsi que la propor tion des ingrédients pour les \nopérations de mélang e concer nées.\nLorsque l’exploitant du secteur alimentaire ne fournit pas le facteur de concentration, de dilution ou de transf ormation \nnécessaire ou que l’autori té compé tent e le juge inappropr ié à la lumière des justifications données, l’autori té compét ente \ndéfinit elle-même ce facteur, sur la base des informations disponibles, dans le but d’assurer une prot ection maximale de la \nsanté humaine.\n(7)Règlement (CE) no 852/2004 du Parlement européen et du Conseil du 29 avril 2004 relatif à l’hygiène des denrées alimentaires \n(JO L 139 du 30.4.2004, p. 1).FR Jour nal officiel de l’Union européenne L 119/106 5.5.2023  \n--- PAGE 5 ---\n3. Lorsque l’annexe I ne fixe pas de teneurs maximales spécif iques de l’Union pour les denrées alimentaires destinées aux \nnour rissons et aux enfants en bas âge, les États membres peuvent prévoir des teneurs maximales plus strictes pour ces \ndenrées alimentaires.",
+      "paragraphes": [
+        "1. Si aucune teneur maximale spécifi que de l’Union n’est fixée à l’annexe I pour les denrées alimentaires séchées, diluées, \ntransf ormées ou composées de plus d’un ingrédient, les aspects suivants sont pris en considération lors de l’application des \nteneurs maximales fixées à l’annex e I à ces denrées alimentaires:\na)les chang ements appor tés à la concentration du contaminant par les processus de séchage ou de dilution;\nb)les chang ements appor tés à la concentration du contaminant par la transf ormation;\nc)les propor tions relatives des ingrédients dans le produit ;\nd)le seuil de quantif ication de l’analyse.\n2. Lorsque l’autori té compét ente effectue un contrôle officiel, l’exploitant du secteur alimentaire fournit et justif ie les \nfacteurs spécif iques de concentration, de dilution ou de transf ormation pour les opérations de sécha ge, de dilution ou de \ntransf ormation concer nées ou les facteurs spécif iques de concentration, de dilution ou de transf ormation pour les denrées \nalimentaires séchées, diluées, transf ormées ou compo sées concer nées ainsi que la propor tion des ingrédients pour les \nopérations de mélang e concer nées.\nLorsque l’exploitant du secteur alimentaire ne fournit pas le facteur de concentration, de dilution ou de transf ormation \nnécessaire ou que l’autori té compé tent e le juge inappropr ié à la lumière des justifications données, l’autori té compét ente \ndéfinit elle-même ce facteur, sur la base des informations disponibles, dans le but d’assurer une prot ection maximale de la \nsanté humaine.",
+        "Règlement (CE) no 852/2004 du Parlement européen et du Conseil du 29 avril 2004 relatif à l’hygiène des denrées alimentaires \n(JO L 139 du 30.4.2004, p. 1).FR Jour nal officiel de l’Union européenne L 119/106 5.5.2023  \n--- PAGE 5 ---\n3. Lorsque l’annexe I ne fixe pas de teneurs maximales spécif iques de l’Union pour les denrées alimentaires destinées aux \nnour rissons et aux enfants en bas âge, les États membres peuvent prévoir des teneurs maximales plus strictes pour ces \ndenrées alimentaires."
+      ]
+    },
+    "4": {
+      "titre": "Article 4 Article 5",
+      "contenu": "",
+      "paragraphes": []
+    },
+    "5": {
+      "titre": "Denrées alimentaires destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le",
+      "contenu": "marché pour le consommateur final ou pour une utilisation comme ingrédients alimentaires\n1. Lorsque l’annexe I fixe une teneur maximale pour un contaminant en ce qui concer ne spécifiquement des denrées \nalimentaires destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le march é pour le \nconsommateur final ou pour une utilisation comme ingrédients alimentaires, ces denrées alimentaires peuvent être mises \nsur le marc hé à condition:\na)qu’elles ne soient pas mises sur le marché pour le consommateur final ou une utilisation comme ingrédient alimentaire;\nb)qu’elles respectent la teneur maximale fixée à l’annexe I pour ce contaminant dans ces denrées alimentaires destinées à \nêtre soumises à un tri ou à un autre traitement physique avant d’être mises sur le marc hé pour le consommateur final \nou une utilisation comme ingrédient alimentaire;\nc)qu’elles soient étiquet ées et marquées conf ormément au paragraphe 2.\n2. L’étiquette de chaque conditionnement individuel et le document d’accom pagnement d’or igine des denrées \nalimentaires visées au paragraphe 1, point c), indiquent clairement leur utilisation et portent les informations suivantes: «Le \nproduit est destiné à être soumis à un tri ou à un autre traitem ent physique afin de réduire la contamination par [nom du ou \ndes contaminants] avant d’être mis sur le marc hé pour le consommateur final ou son utilisation comme ingrédient \nalimentaire».\nLe code d’identif ication de l’env oi/du lot est apposé de façon indélébile sur l’étiquette de chaque conditionnement individuel \nde l’env oi et sur le document d’accom pagnement d’or igine.\n3. Les denrées alimentaires destinées à être soumises à un tri ou à un autre traitement physique visant à réduire leur \nniveau de contamination ne peuvent être préalablement mélangées avec des denrées alimentaires mises sur le marc hé pour \nle consommate ur final ou avec des denrées alimentaires destinées à une utilisation comme ingrédient alimentaire.\n4. Les denrées alimentaires qui ont été soumises à un tri ou à un autre traitement physique visant à réduire leur niveau de \ncontamination peuvent être mises sur le marc hé à condition que les teneurs maximales fixées à l’annexe I pour les denrées \nalimentaires mises sur le marché pour le consommateur final ou leur utilisation comme ingrédient alimentaire ne soient \npas dépassées et que le traite ment utilisé n’ait pas entraîné la présence d’autres résidus nocifs.",
+      "paragraphes": [
+        "marché pour le consommateur final ou pour une utilisation comme ingrédients alimentaires\n1. Lorsque l’annexe I fixe une teneur maximale pour un contaminant en ce qui concer ne spécifiquement des denrées \nalimentaires destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le march é pour le \nconsommateur final ou pour une utilisation comme ingrédients alimentaires, ces denrées alimentaires peuvent être mises \nsur le marc hé à condition:\na)qu’elles ne soient pas mises sur le marché pour le consommateur final ou une utilisation comme ingrédient alimentaire;\nb)qu’elles respectent la teneur maximale fixée à l’annexe I pour ce contaminant dans ces denrées alimentaires destinées à \nêtre soumises à un tri ou à un autre traitement physique avant d’être mises sur le marc hé pour le consommateur final \nou une utilisation comme ingrédient alimentaire;\nc)qu’elles soient étiquet ées et marquées conf ormément au paragraphe 2.\n2. L’étiquette de chaque conditionnement individuel et le document d’accom pagnement d’or igine des denrées \nalimentaires visées au paragraphe 1, point c), indiquent clairement leur utilisation et portent les informations suivantes: «Le \nproduit est destiné à être soumis à un tri ou à un autre traitem ent physique afin de réduire la contamination par [nom du ou \ndes contaminants] avant d’être mis sur le marc hé pour le consommateur final ou son utilisation comme ingrédient \nalimentaire».\nLe code d’identif ication de l’env oi/du lot est apposé de façon indélébile sur l’étiquette de chaque conditionnement individuel \nde l’env oi et sur le document d’accom pagnement d’or igine.\n3. Les denrées alimentaires destinées à être soumises à un tri ou à un autre traitement physique visant à réduire leur \nniveau de contamination ne peuvent être préalablement mélangées avec des denrées alimentaires mises sur le marc hé pour \nle consommate ur final ou avec des denrées alimentaires destinées à une utilisation comme ingrédient alimentaire.\n4. Les denrées alimentaires qui ont été soumises à un tri ou à un autre traitement physique visant à réduire leur niveau de \ncontamination peuvent être mises sur le marc hé à condition que les teneurs maximales fixées à l’annexe I pour les denrées \nalimentaires mises sur le marché pour le consommateur final ou leur utilisation comme ingrédient alimentaire ne soient \npas dépassées et que le traite ment utilisé n’ait pas entraîné la présence d’autres résidus nocifs."
+      ]
+    },
+    "6": {
+      "titre": "Article 6 Annex e I, points 6.1.3.1, 6.1.3.3 et 6.1.4.1",
+      "contenu": "",
+      "paragraphes": []
+    },
+    "7": {
+      "titre": "Article 8 —",
+      "contenu": "",
+      "paragraphes": []
+    },
+    "8": {
+      "titre": "Article 10 Article 9",
+      "contenu": "",
+      "paragraphes": []
+    },
+    "9": {
+      "titre": "Abrogation",
+      "contenu": "Le règlement (CE) no 1881/2006 est abrogé.\nLes références faites au règlement abrogé s’ente ndent comme faites au présent règlement et sont à lire selon le tableau de \ncorrespondance figurant à l’annexe II.",
+      "paragraphes": [
+        "Le règlement (CE) no 1881/2006 est abrogé.\nLes références faites au règlement abrogé s’ente ndent comme faites au présent règlement et sont à lire selon le tableau de \ncorrespondance figurant à l’annexe II."
+      ]
+    },
+    "10": {
+      "titre": "Article 12 Article 11",
+      "contenu": "Annexe Annexe IFR Jour nal officiel de l’Union européenne 5.5.2023 L 119/157",
+      "paragraphes": [
+        "Annexe Annexe IFR Jour nal officiel de l’Union européenne 5.5.2023 L 119/157"
+      ]
+    },
+    "11": {
+      "titre": "Entrée en vigueur",
+      "contenu": "Le présent règlement entre en vigueur le vingtième jour suivant celui de sa publication au Journal officiel de l’Union européenne.FR Jour nal officiel de l’Union européenne L 119/110 5.5.2023  \n--- PAGE 9 ---\nLe présent règlement est oblig atoire dans tous ses éléments et directement applicable dans tout \nÉtat membre.\nFait à Bruxelles, le 25 avril 2023 .\nPar la Commission\nLa présidente\nUrsula VON DER LEYENFR Jour nal officiel de l’Union européenne 5.5.2023 L 119/111  \n--- PAGE 10 ---",
+      "paragraphes": [
+        "Le présent règlement entre en vigueur le vingtième jour suivant celui de sa publication au Journal officiel de l’Union européenne.FR Jour nal officiel de l’Union européenne L 119/110 5.5.2023  \n--- PAGE 9 ---\nLe présent règlement est oblig atoire dans tous ses éléments et directement applicable dans tout \nÉtat membre.\nFait à Bruxelles, le 25 avril 2023 .\nPar la Commission\nLa présidente\nUrsula VON DER LEYENFR Jour nal officiel de l’Union européenne 5.5.2023 L 119/111  \n--- PAGE 10 ---"
+      ]
+    }
+  },
+  "contaminants": {
+    "mycotoxines": {
+      "aflatoxines": [],
+      "ochratoxine_a": [],
+      "patuline": [],
+      "deoxynivalenol": [],
+      "zearalenone": [],
+      "fumonisines": []
+    },
+    "metaux_lourds": {
+      "plomb": [],
+      "cadmium": [],
+      "mercure": [],
+      "arsenic": []
+    },
+    "hap": [],
+    "autres": []
+  }
+}

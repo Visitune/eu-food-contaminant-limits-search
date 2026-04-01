@@ -1,0 +1,1163 @@
+﻿NUM;Produits;Contaminant;Limite;Remarques
+1.1;Aflatoxines;Teneur maximale (μg/kg);Remarques;
+;;B1;Somme de B1, B2, G1 et G2;M1
+1.1.1;Fruits séchés destinés à être soumis à un tri ou à un autre traitement physique avant d’être mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l’exclusion des produits énumérés au point 1.1.3;5,0;10,0;—
+1.1.2;Fruits séchés utilisés comme seuls ingrédients ou produits transformés à partir de fruits séchés, mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l’exclusion des produits énumérés au point 1.1.3;2,0;4,0;—
+1.1.3;Figues sèches;6,0;10,0;—
+1.1.4;Arachides (cacahuètes) et autres graines oléagineuses destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;8,0;15,0;—
+1.1.5;Arachides (cacahuètes) et autres graines oléagineuses utilisées comme seuls ingrédients ou produits transformés à partir d’arachides (cacahuètes) et autres graines oléagineuses, mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;2,0;4,0;—
+1.1.6;Fruits à coque destinés à être soumis à un tri ou à un autre traitement physique avant d’être mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l’exclusion des produits énumérés aux points 1.1.8 et 1.1.10;5,0;10,0;—
+1.1.7;Fruits à coque utilisés comme seuls ingrédients ou produits transformés à partir de fruits à coque, mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l’exclusion des produits énumérés aux points 1.1.9 et 1.1.11;2,0;4,0;—
+1.1.8;Amandes, pistaches et amandes d’abricot destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;12,0;15,0;—
+1.1.9;Amandes, pistaches et amandes d’abricot mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;8,0;10,0;—
+1.1.10;Noisettes et noix du Brésil destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;8,0;15,0;—
+1.1.11;Noisettes et noix du Brésil mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;5,0;10,0;—
+1.1.12;Céréales et produits dérivés de céréales, à l’exclusion des produits énumérés aux points 1.1.13, 1.1.18 et 1.1.19;2,0;4,0;—
+1.1.13;Maïs et riz destinés à être soumis à un tri ou à un autre traitement physique avant d’être mis sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;5,0;10,0;—
+1.1.14;"Épices séchées suivantes:
+
+Capsicum spp. (leurs fruits séchés, entiers ou en poudre, y compris les piments, la poudre de piment, le poivre de Cayenne et le paprika)
+poivre (fruits de Piper spp., y compris le poivre blanc et le poivre noir)
+noix muscade (Myristica fragrans)
+curcuma (Curcuma longa)
+Mélanges d’épices séchées contenant une ou plusieurs des épices séchées susmentionnées";5,0;10,0;—
+1.1.15;Gingembre (Zingiber officinale) (séché);5,0;10,0;-
+1.1.16;Lait cru (2), lait traité thermiquement et lait destiné à la fabrication de produits à base de lait;—;—;0,050
+1.1.17;Préparations pour nourrissons, préparations de suite (3) et préparations pour enfants en bas âge (4);—;—;0,025
+1.1.18;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);0,10;—;—
+1.1.19;Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3);0,10;—;0,025
+1.2;Ochratoxine A;Teneur maximale (μg/kg);Remarques;
+1.2.1;Fruits séchés;;;
+1.2.1.1;Raisins secs (raisins de Corinthe, sultanines et autres raisins secs) et figues séchées;8,0;;
+1.2.1.2;Autres fruits séchés;2,0;;
+1.2.2;Sirop de dattes;15;;
+1.2.3;Pistaches destinées à être soumises à un tri ou à un autre traitement physique avant d’être mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;10,0;Si des fruits à coque «non écalés» sont analysés, il est supposé, lors du calcul de la teneur en ochratoxine A, que toute la contamination est présente dans la partie comestible.;
+1.2.4;Pistaches mises sur le marché pour le consommateur final ou une utilisation comme ingrédients de denrées alimentaires;5,0;Si des fruits à coque «non écalés» sont analysés, il est supposé, lors du calcul de la teneur en ochratoxine A, que toute la contamination est présente dans la partie comestible.;
+1.2.5;Herbes séchées;10,0;;
+1.2.6;Racines de gingembre (séchées) destinées à être utilisées dans des infusions;15;;
+1.2.7;Racines de guimauve (séchées), racines de pissenlit (séchées) et fleurs d’oranger (séchées) destinées à être utilisées dans des infusions ou des substituts de café;20;;
+1.2.8;Graines de tournesol, graines de courge, graines de pastèque et de melon, chènevis (graines de chanvre), fèves de soja;5,0;;
+1.2.9;Grains de céréales non transformés;5,0;La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).;
+1.2.10;Produits dérivés de grains de céréales non transformés et de céréales brutes mis sur le marché pour le consommateur final, à l’exclusion des produits énumérés aux points 1.2.11, 1.2.12, 1.2.13, 1.2.23 et 1.2.24;3,0;"Y compris les produits à base de céréales transformés.
+Les produits dérivés de grains de céréales non transformés désignent les produits contenant au moins 80 % de produits à base de céréales.";
+1.2.11;Produits de boulangerie, collations aux céréales et céréales pour petit-déjeuner;;;
+1.2.11.1;Produits ne contenant pas de graines oléagineuses, de fruits à coque ou de fruits séchés;2,0;;
+1.2.11.2;Produits contenant au moins 20 % de raisins secs et/ou de figues séchées;4,0;;
+1.2.11.3;Autres produits contenant des graines oléagineuses, des fruits à coque et/ou des fruits séchés;3,0;;
+1.2.12;Boissons non alcooliques à base de malt;3,0;;
+1.2.13;Gluten de blé non mis sur le marché pour le consommateur final;8,0;;
+1.2.14;Grains de café torréfié et café torréfié moulu, à l’exclusion des produits énumérés au point 1.2.15;3,0;;
+1.2.15;Café soluble (café instantané);5,0;;
+1.2.16;Poudre de cacao;3,0;;
+1.2.17;Épices séchées, à l’exclusion des produits énumérés au point 1.2.18;15;La teneur maximale s’applique également aux mélanges d’épices séchées.;
+1.2.18;Capsicum spp. (leurs fruits séchés, entiers ou en poudre, y compris les piments, la poudre de piment, le poivre de Cayenne et le paprika);20;;
+1.2.19;Réglisse (Glycyrrhiza glabra, Glycyrrhiza inflate et autres espèces);;;
+1.2.19.1;Racine de réglisse (séchée), y compris comme ingrédient dans les infusions;20;;
+1.2.19.2;Extrait de réglisse destiné à être utilisé dans les denrées alimentaires, en particulier dans les boissons et confiseries;80;La teneur maximale s’applique à l’extrait pur et non dilué, lorsque 1 kg d’extrait est obtenu à partir de 3 à 4 kg de racine de réglisse.;
+1.2.19.3;Confiseries à base de réglisse contenant ≥ 97 % d’extrait de réglisse sur la base de la matière sèche;50;;
+1.2.19.4;Autres confiseries à base de réglisse;10,0;;
+1.2.20;Vins (7) et vins de fruits;2,0;"Y compris les vins pétillants et mousseux, à l’exclusion des vins de liqueur et des vins ayant un titre alcoométrique volumique minimal de 15 %.
+La teneur maximale s’applique aux produits fabriqués à partir de la récolte de 2005.";
+1.2.21;Vins aromatisés, boissons aromatisées à base de vin et cocktails aromatisés de produits vitivinicoles (8);2,0;"La teneur maximale s’applique aux produits fabriqués à partir de la récolte de 2005.
+La teneur maximale applicable à ces boissons dépend de la proportion de vin et/ou de moût de raisins présente dans le produit fini.";
+1.2.22;Jus de raisin, jus de raisin à base de concentré, jus de raisin concentré, nectar de raisin, moût de raisins et moût de raisins concentré mis sur le marché pour le consommateur final9;2,0;"Dans le cas du jus de raisin concentré ou du moût de raisins concentré, la teneur maximale s’applique au jus ou au moût reconstitué.
+La teneur maximale s’applique aux produits fabriqués à partir de la récolte de 2005.";
+1.2.23;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);0,50;La teneur maximale s’applique à la matière sèche (5) du produit tel que mis sur le marché.;
+1.2.24;Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3);0,50;La teneur maximale s’applique, dans le cas du lait, des produits laitiers et des produits similaires, aux produits prêts à être utilisés (mis sur le marché comme tels ou reconstitués conformément aux instructions du fabricant) et, dans le cas des produits autres que le lait, les produits laitiers et les produits similaires, à la matière sèche (5).;
+1.3;Patuline;Teneur maximale (μg/kg);Remarques;
+1.3.1;Jus de fruits, jus de fruits à base de concentré, jus de fruits concentrés et nectars de fruits (9);50;Dans le cas des jus de fruits concentrés, la teneur maximale s’applique aux jus reconstitués.;
+1.3.2;Boissons spiritueuses (10), cidre et autres boissons fermentées produites à partir de pommes ou contenant du jus de pomme;50;;
+1.3.3;Produits à base de morceaux de pomme mis sur le marché pour le consommateur final, à l’exclusion des produits énumérés aux points 1.3.4 et 1.3.5;25;Y compris la compote de pommes et la purée de pommes.;
+1.3.4;Jus de pomme et produits à base de morceaux de pomme destinés aux nourrissons et enfants en bas âge (3), étiquetés et mis sur le marché comme tels;10,0;"Y compris la compote de pommes et la purée de pommes.
+La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).";
+1.3.5;Aliments pour bébés (3);10,0;La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).;
+1.4;Déoxynivalénol;Teneur maximale (μg/kg);Remarques;
+1.4.1;Grains de céréales non transformés, à l’exclusion des produits énumérés aux points 1.4.2 et 1.4.3;1 250;"À l’exclusion des grains de maïs non transformés destinés à être transformés par mouture humide et à l’exclusion du riz.
+La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).";
+1.4.2;Grains de blé dur non transformés et grains d’avoine non transformés;1 750;La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).;
+1.4.3;Grains de maïs non transformés;1 750;"À l’exclusion des grains de maïs non transformés dont l’étiquetage ou la destination, par exemple, font clairement apparaître qu’ils sont destinés à être utilisés dans un processus de mouture humide (production d’amidon).
+La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).";
+1.4.4;Céréales mises sur le marché pour le consommateur final, farine, semoule, son et germe de céréales en tant que produit fini mis sur le marché pour le consommateur final, à l’exclusion des produits énumérés aux points 1.4.7 et 1.4.8;750;À l’exclusion du riz et des produits à base de riz.;
+1.4.5;Pâtes;750;Les pâtes désignent les pâtes (sèches) dont la teneur en eau avoisine 12 %.;
+1.4.6;Pain, pâtisseries, biscuits, collations aux céréales et céréales pour petit-déjeuner;500;"À l’exclusion des produits à base de riz.
+Y compris les petits produits de boulangerie.";
+1.4.7;Produits de mouture du maïs non mis sur le marché pour le consommateur final;;;
+1.4.7.1;Farine de maïs non mise sur le marché pour le consommateur final;1 250;Au moins 90 %, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm.;
+1.4.7.2;Autres produits de mouture du maïs non mis sur le marché pour le consommateur final;750;Moins de 90 %, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm.;
+1.4.8;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);200;"À l’exclusion des produits à base de riz.
+La teneur maximale s’applique à la matière sèche (5) du produit tel que mis sur le marché.";
+1.5;Zéaralénone;Teneur maximale (μg/kg);Remarques;
+1.5.1;Grains de céréales non transformés, à l’exclusion des produits énumérés au point 1.5.2;100;"À l’exclusion des grains de maïs non transformés destinés à être transformés par mouture humide et à l’exclusion du riz.
+La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).";
+1.5.2;Grains de maïs non transformés;350;"À l’exclusion des grains de maïs non transformés dont l’étiquetage ou la destination, par exemple, font clairement apparaître qu’ils sont destinés à être utilisés dans un processus de mouture humide (production d’amidon).
+La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).";
+1.5.3;Céréales mises sur le marché pour le consommateur final, farine, semoule, son et germe de céréales en tant que produit fini mis sur le marché pour le consommateur final, à l’exclusion des produits énumérés aux points 1.5.5, 1.5.6 et 1.5.8;75;À l’exclusion du riz et des produits à base de riz.;
+1.5.4;Pain, pâtisseries, biscuits, collations aux céréales et céréales pour petit-déjeuner, à l’exclusion des produits énumérés au point 1.5.5;50;"À l’exclusion des produits à base de riz.
+Y compris les petits produits de boulangerie.";
+1.5.5;"Maïs mis sur le marché pour le consommateur final
+Collations à base de maïs et céréales pour petit-déjeuner à base de maïs";100;;
+1.5.6;Produits de mouture du maïs non mis sur le marché pour le consommateur final;;;
+1.5.6.1;Farine de maïs non mise sur le marché pour le consommateur final;300;Au moins 90 %, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm.;
+1.5.6.2;Autres produits de mouture du maïs non mis sur le marché pour le consommateur final;200;Moins de 90 %, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm.;
+1.5.7;Huile de maïs raffinée;400;;
+1.5.8;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);20;"À l’exclusion des produits à base de riz.
+La teneur maximale s’applique à la matière sèche (5) du produit tel que mis sur le marché.";
+1.6;Fumonisines;Teneur maximale (μg/kg);Remarques;
+;;Somme de B1 et B2;Dans le cas des fumonisines, les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.;
+1.6.1;Grains de maïs non transformés;4 000;"À l’exclusion des grains de maïs non transformés dont l’étiquetage ou la destination, par exemple, font clairement apparaître qu’ils sont destinés à être utilisés dans un processus de mouture humide (production d’amidon).
+La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).";
+1.6.2;Maïs mis sur le marché pour le consommateur final, produits de mouture du maïs mis sur le marché pour le consommateur final, denrées alimentaires à base de maïs mises sur le marché pour le consommateur final, à l’exclusion des produits énumérés aux points 1.6.3 et 1.6.5;1 000;;
+1.6.3;Céréales pour petit-déjeuner à base de maïs et collations à base de maïs;800;;
+1.6.4;Produits de mouture du maïs non mis sur le marché pour le consommateur final;;;
+1.6.4.1;Farine de maïs non mise sur le marché pour le consommateur final;2 000;Au moins 90 %, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm.;
+1.6.4.2;Autres produits de mouture du maïs non mis sur le marché pour le consommateur final;1 400;Moins de 90 %, mesurés en poids, des particules du produit de mouture ont une taille ≤ 500 μm.;
+1.6.5;Aliments pour bébés contenant du maïs et préparations à base de maïs destinés aux nourrissons et enfants en bas âge3;200;La teneur maximale s’applique à la matière sèche (5) du produit tel que mis sur le marché.;
+1.7;Citrinine;Teneur maximale (μg/kg);Remarques;
+1.7.1;Compléments alimentaires à base de levure de riz rouge fermentée Monascus purpureus;100;;
+1.8;Sclérotes d’ergot et alcaloïdes de l’ergot;;;
+1.8.1;Sclérotes d’ergot;Teneur maximale (g/kg);Remarques;
+;;;"La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).
+Si l’épointage (6) est appliqué en présence de sclérotes d’ergot, les céréales doivent d’abord subir une étape de nettoyage avant cet épointage.
+Le prélèvement d’échantillons est réalisé conformément à l’annexe I, point B, du règlement (CE) no 401/2006.";
+1.8.1.1;Grains de céréales non transformés, à l’exclusion des produits énumérés au point 1.8.1.2;0,2;À l’exclusion du maïs et du riz.;
+1.8.1.2;Grains de seigle non transformés;"0,5 
+0,2 à partir du 1er juillet 2024";;
+1.8.2;Alcaloïdes de l’ergot;Teneur maximale (μg/kg);Remarques;
+;;"Limite inférieure
+de la somme des substances suivantes: ergocornine/ergocorninine; ergocristine/ergocristinine; ergocryptine/ergocryptinine (formes α et β); ergométrine/ergométrinine; ergosine/ergosinine; ergotamine/ergotaminine";Dans le cas des alcaloïdes de l’ergot, les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.;
+1.8.2.1;Produits de mouture de l’orge, du blé, de l’épeautre et de l’avoine (avec une teneur en cendres inférieure à 900 mg/100 g de matière sèche);"100 
+50 à partir du 1er juillet 2024";;
+1.8.2.2;"Produits de mouture de l’orge, du blé, de l’épeautre et de l’avoine (avec une teneur en cendres égale ou supérieure à 900 mg/100 g de matière sèche)
+Grains d’orge, de blé, d’épeautre et d’avoine mis sur le marché pour le consommateur final";150;;
+1.8.2.3;"Produits de mouture du seigle
+Seigle mis sur le marché pour le consommateur final";"500 
+250 à partir du 1er juillet 2024";;
+1.8.2.4;Gluten de blé;400;;
+1.8.2.5;Préparations à base de céréales destinées aux nourrissons et enfants en bas âge (3);20;La teneur maximale s’applique au produit tel que mis sur le marché.;
+2.1;Acide érucique, y compris l’acide érucique lié à des graisses;Teneur maximale (g/kg);Remarques;
+2.1.1;Huiles et graisses végétales mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l’exclusion des produits énumérés au point 2.1.2;20,0;;
+2.1.2;Huile de cameline, huile de moutarde et huile de bourrache;50,0;Avec l’approbation de l’autorité compétente, la teneur maximale ne s’applique pas à l’huile de moutarde produite et consommée localement.;
+2.1.3;Moutarde (condiment);35,0;;
+2.2;Alcaloïdes tropaniques;Teneur maximale (μg/kg);Remarques;
+;;Atropine;Scopolamine;
+2.2.1;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3) contenant du millet, du sorgho, du sarrasin, du maïs ou des produits qui en sont dérivés;1,0;1,0;"Les produits dérivés désignent les produits contenant au moins 80 % de ces produits à base de céréales.
+Le prélèvement d’échantillons aux fins du contrôle du respect de la teneur maximale est effectué conformément aux règles fixées à l’annexe I, point J, du règlement (CE) no 401/2006.
+La teneur maximale s’applique au produit tel que mis sur le marché."
+;;Somme de l’atropine et de la scopolamine;Pour la somme de l’atropine et de la scopolamine, les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.;
+2.2.2;Grains de millet non transformés et grains de sorgho non transformés;5,0;La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).;
+2.2.3;Grains de maïs non transformés;15;"À l’exclusion des grains de maïs non transformés dont l’étiquetage ou la destination, par exemple, font clairement apparaître qu’ils sont destinés à être utilisés dans un processus de mouture humide (production d’amidon) et à l’exclusion des grains de maïs non transformés destinés au soufflage.
+La teneur maximale s’applique aux grains de céréales non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).";
+2.2.4;Grains de sarrasin non transformés;10;La teneur maximale s’applique aux grains de sarrasin non transformés mis sur le marché avant qu’ils ne subissent une première transformation (6).;
+2.2.5;"Maïs destiné au soufflage
+Millet, sorgho et maïs mis sur le marché pour le consommateur final
+Produits de mouture du millet, du sorgho et du maïs";5,0;;
+2.2.6;"Sarrasin mis sur le marché pour le consommateur final
+Produits de mouture du sarrasin";10;;
+2.2.7;Infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions (produits séchés), à l’exclusion des produits énumérés au point 2.2.8;25;"Les infusions (produit séché) désignent:
+
+
+
+
+
+
+—
+
+
+les infusions (produit séché) de fleurs, de feuilles, de tiges, de racines et de toute autre partie de la plante (en sachets ou en vrac) utilisées pour la préparation d’une infusion (produit liquide); et
+
+
+
+
+
+
+
+
+
+
+—
+
+
+les infusions instantanées. Dans le cas des extraits en poudre, un facteur de concentration de 4 doit être appliqué.";—
+2.2.8;Infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions (produits séchés) de graines d’anis exclusivement;50;"Les infusions (produit séché) désignent:
+
+
+
+
+
+
+—
+
+
+les infusions (produit séché) de fleurs, de feuilles, de tiges, de racines et de toute autre partie de la plante (en sachets ou en vrac) utilisées pour la préparation d’une infusion (produit liquide); et
+
+
+
+
+
+
+
+
+
+
+—
+
+
+les infusions instantanées. Dans le cas des extraits en poudre, un facteur de concentration de 4 doit être appliqué.";—
+2.2.9;Infusions (produit liquide);0,20;;
+2.3;Acide cyanhydrique, y compris l’acide cyanhydrique lié dans les glycosides cyanogènes;Teneur maximale (mg/kg);Remarques;
+2.3.1;Graines de lin non transformées entières, broyées, moulues, brisées ou concassées non mises sur le marché pour le consommateur final;250;Les teneurs maximales ne s’appliquent pas aux graines oléagineuses destinées au broyage et au raffinage d’huiles, à condition que les graines oléagineuses pressées restantes ne soient pas mises sur le marché en tant que denrées alimentaires. Si les graines oléagineuses pressées restantes sont mises sur le marché en tant que denrées alimentaires, les teneurs maximales s’appliquent, en tenant compte de l’article 3, paragraphes 1 et 2.;
+2.3.2;Graines de lin non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final;150;La teneur maximale ne s’applique pas aux graines de lin non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final en petites quantités lorsque l’avertissement «À utiliser uniquement pour la cuisson et la pâtisserie. Ne pas consommer cru!» apparaît sur l’étiquette de la face avant de l’emballage (dans le corps de caractère spécifique (11). Les graines de lin non transformées entières, broyées, moulues, brisées ou concassées accompagnées de cet avertissement doivent respecter la teneur maximale indiquée au point 2.3.1.;
+2.3.3;Amandes non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final;35;La teneur maximale ne s’applique pas aux amandes amères non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final en petites quantités lorsque l’avertissement «À utiliser uniquement pour la cuisson et la pâtisserie. Ne pas consommer cru!» apparaît sur l’étiquette de la face avant de l’emballage (dans le corps de caractère spécifique (11).;
+2.3.4;Amandes d’abricot non transformées entières, broyées, moulues, brisées ou concassées mises sur le marché pour le consommateur final;20,0;Les opérateurs qui mettent sur le marché des amandes d’abricot non transformées entières, broyées, moulues, brisées ou concassées pour le consommateur final fournissent à l’autorité compétente, à la demande de celle-ci, la preuve que le produit commercialisé respecte la teneur maximale établie.;
+2.3.5;Racine de manioc (fraîche, épluchée);50,0;;
+2.3.6;Farine de manioc et farine de tapioca;10,0;;
+2.4;Alcaloïdes pyrrolizidiniques;Teneur maximale (μg/kg);Remarques;
+;;"La teneur maximale se rapporte à l’estimation inférieure de la somme des 21 alcaloïdes pyrrolizidiniques suivants:
+
+
+
+
+
+
+—
+
+
+intermédine/lycopsamine, intermédine-N-oxyde/lycopsamine-N-oxyde, sénécionine/sénécivernine, sénécionine-N-oxyde/sénécivernine-N-oxyde, sénéciphylline, sénéciphylline-N-oxyde, rétorsine, rétorsine-N-oxyde, échimidine, échimidine-N-oxyde, lasiocarpine, lasiocarpine-N-oxyde, senkirkine, europine, europine-N-oxyde, héliotrine et héliotrine-N-oxyde
+et des 14 autres alcaloïdes pyrrolizidiniques suivants connus pour coéluer avec un ou plusieurs des 21 alcaloïdes pyrrolizidiniques susmentionnés, au moyen de certaines méthodes d’analyse utilisées actuellement:
+
+
+
+
+
+
+
+
+
+
+—
+
+
+indicine, échinatine, rinderine (possible coélution avec lycopsamine/intermédine), indicine-N-oxyde, échinatine-N-oxyde, rinderine-N-oxyde (possible coélution avec lycopsamine-N-oxyde/intermédine-N-oxyde), integerrimine (possible coélution avec sénécivernine/sénécionine), integerrimine-N-oxyde (possible coélution avec sénécivernine-N-oxyde/sénécionine-N-oxyde), héliosupine (possible coélution avec échimidine), héliosupine-N-oxyde (possible coélution avec échimidine-N-oxyde), spartioïdine (possible coélution avec sénéciphylline), spartioïdine-N-oxyde (possible coélution avec sénéciphylline-N-oxyde), usaramine (possible coélution avec rétorsine), usaramine N-oxyde (possible coélution avec rétorsine N-oxyde).
+
+
+
+
+Les alcaloïdes pyrrolizidiniques, qui peuvent être identifiés individuellement et séparément avec la méthode d’analyse utilisée, sont quantifiés et inclus dans la somme.";—;"intermédine/lycopsamine, intermédine-N-oxyde/lycopsamine-N-oxyde, sénécionine/sénécivernine, sénécionine-N-oxyde/sénécivernine-N-oxyde, sénéciphylline, sénéciphylline-N-oxyde, rétorsine, rétorsine-N-oxyde, échimidine, échimidine-N-oxyde, lasiocarpine, lasiocarpine-N-oxyde, senkirkine, europine, europine-N-oxyde, héliotrine et héliotrine-N-oxyde
+et des 14 autres alcaloïdes pyrrolizidiniques suivants connus pour coéluer avec un ou plusieurs des 21 alcaloïdes pyrrolizidiniques susmentionnés, au moyen de certaines méthodes d’analyse utilisées actuellement:"
+2.4.1;Feuilles de bourrache (fraîches, congelées) mises sur le marché pour le consommateur final;750;Sans préjudice de règles nationales plus restrictives dans certains États membres en ce qui concerne la mise sur le marché de végétaux contenant des alcaloïdes pyrrolizidiniques.;
+2.4.2;Herbes séchées, à l’exclusion des produits énumérés au point 2.4.3;400;Sans préjudice de règles nationales plus restrictives dans certains États membres en ce qui concerne la mise sur le marché de végétaux contenant des alcaloïdes pyrrolizidiniques.;
+2.4.3;Bourrache, livèche, marjolaine et origan (produit séché) et mélanges composés exclusivement de ces herbes séchées;1 000;Sans préjudice de règles nationales plus restrictives dans certains États membres en ce qui concerne la mise sur le marché de végétaux contenant des alcaloïdes pyrrolizidiniques.;
+2.4.4;Thé (Camellia sinensis) et thé aromatisé (12) (Camellia sinensis) (produit séché), à l’exclusion du thé et du thé aromatisé visés au point 2.4.5;150;"Dans le cas des thés aux fruits séchés et aux herbes séchées, l’article 3 s’applique.
+Le thé (Camellia sinensis) (produit séché) désigne:
+
+
+
+
+
+
+—
+
+
+le thé (Camellia sinensis) (produit séché) à partir de feuilles, tiges et fleurs séchées (en sachets ou en vrac) utilisées pour la préparation d’un thé (produit liquide); et
+
+
+
+
+
+
+
+
+
+
+—
+
+
+les thés instantanés. Dans le cas des extraits de thé en poudre, un facteur de concentration de 4 doit être appliqué.";—
+2.4.5;Thé (Camellia sinensis), thé aromatisé (12) (Camellia sinensis) et infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions (produits séchés) pour nourrissons et enfants en bas âge;75;Dans le cas des thés aux fruits séchés et aux herbes séchées, l’article 3 s’applique.;
+2.4.6;Thé (Camellia sinensis), thé aromatisé (12) (Camellia sinensis) et infusions (produit liquide) pour nourrissons et enfants en bas âge;1,0;Dans le cas des thés aux fruits séchés et aux herbes séchées, l’article 3 s’applique.;
+2.4.7;Infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions (produits séchés), à l’exclusion des produits énumérés aux points 2.4.5 et 2.4.8;200;"Les infusions (produit séché) désignent:
+
+
+
+
+
+
+—
+
+
+les infusions (produit séché) de fleurs, de feuilles, de tiges, de racines et de toute autre partie de la plante (en sachets ou en vrac) utilisées pour la préparation d’une infusion (produit liquide); et
+
+
+
+
+
+
+
+
+
+
+—
+
+
+les infusions instantanées. Dans le cas des extraits en poudre, un facteur de concentration de 4 doit être appliqué.
+
+
+
+
+Sans préjudice de règles nationales plus restrictives dans certains États membres en ce qui concerne la mise sur le marché de végétaux contenant des alcaloïdes pyrrolizidiniques.";—
+2.4.8;Infusions (produit séché) et ingrédients destinés à être utilisés dans des infusions (produits séchés) de rooibos, d’anis (Pimpinella anisum), de mélisse, de camomille, de thym, de menthe poivrée, de verveine citronnée et mélanges composés exclusivement de ces herbes séchées, à l’exclusion des infusions visées au point 2.4.5;400;"Les infusions (produit séché) désignent:
+
+
+
+
+
+
+—
+
+
+les infusions (produit séché) de fleurs, de feuilles, de tiges, de racines et de toute autre partie de la plante (en sachets ou en vrac) utilisées pour la préparation d’une infusion (produit liquide); et
+
+
+
+
+
+
+
+
+
+
+—
+
+
+les infusions instantanées. Dans le cas des extraits en poudre, un facteur de concentration de 4 doit être appliqué.";—
+2.4.9;Cumin;400;;
+2.4.10;Compléments alimentaires contenant une préparation de plante (13), y compris les extraits, à l’exclusion des produits énumérés au point 2.4.11;400;"La teneur maximale s’applique aux compléments alimentaires tels que mis sur le marché.
+Sans préjudice de règles nationales plus restrictives dans certains États membres en ce qui concerne la mise sur le marché de végétaux contenant des alcaloïdes pyrrolizidiniques.";
+2.4.11;"Compléments alimentaires à base de pollen
+Pollen et produits de pollen";500;La teneur maximale s’applique aux compléments alimentaires tels que mis sur le marché.;
+2.5;Alcaloïdes opioïdes;Teneur maximale (mg/kg);Remarques;
+;;;"Dans le cas des alcaloïdes opioïdes, les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.
+La teneur maximale se rapporte à la somme de la morphine et de la codéine, pour laquelle un facteur de 0,2 est appliqué à la teneur en codéine. Par conséquent, la teneur maximale se rapporte à la somme de morphine + 0,2 × codéine.";
+2.5.1;Graines de pavot entières, broyées ou moulues mises sur le marché pour le consommateur final;20;;
+2.5.2;Produits de boulangerie contenant des graines de pavot ou produits dérivés de leur transformation;1,50;"Les produits de boulangerie comprennent également les amuse-gueule et en-cas prêts à consommer à base de farine.
+Les produits dérivés de leur transformation désignent les produits contenant au moins 80 % de ces produits à base de graines de pavot.
+L’exploitant du secteur alimentaire qui fournit les graines de pavot à l’exploitant du secteur alimentaire qui fabrique les produits de boulangerie fournit les informations nécessaires pour permettre au fabricant des produits de boulangerie de mettre sur le marché des produits conformes à la teneur maximale. Ces informations comprennent, le cas échéant, des données analytiques.";
+2.6;Équivalents de delta-9-tétrahydrocannabinol (Δ9-THC);Teneur maximale (mg/kg);Remarques;
+;;;"Dans le cas des équivalents de delta-9-tétrahydrocannabinol (Δ9-THC), les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.
+La teneur maximale se rapporte à la somme du delta-9-tétrahydrocannabinol (Δ9-THC) et de l’acide delta-9-tétrahydrocannabinolique (Δ9-THCA) exprimée en Δ9-THC.
+Un facteur de 0,877 est appliqué à la teneur en Δ9-THCA et la teneur maximale se rapporte à la somme de Δ9-THC + 0,877 × Δ9-THCA (en cas de détermination et de quantification séparées du Δ9-THC et du Δ9-THCA).";
+2.6.1;Chènevis (graines de chanvre);3,0;;
+2.6.2;Graines de chanvre moulues, graines de chanvre (partiellement) dégraissées et autres produits transformés à base de graines de chanvre, à l’exclusion des produits énumérés au point 2.6.3;3,0;Les produits transformés à base de graines de chanvre désignent les produits transformés exclusivement à partir de graines de chanvre.;
+2.6.3;Huile de chènevis;7,5;;
+3.1;Plomb;Teneur maximale (mg/kg);Remarques;
+3.1.1;Fruits;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.1.1;Airelles, groseilles, baies de sureau et arbouses;0,20;;
+3.1.1.2;Fruits autres que les airelles, les groseilles, les baies de sureau et les arbouses;0,10;;
+3.1.2;Légumes-racines et légumes-tubercules;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.2.1;Légumes-racines et légumes-tubercules, à l’exclusion des produits énumérés aux points 3.1.2.2 et 3.1.2.3;0,10;Dans le cas des pommes de terre, la teneur maximale s’applique aux pommes de terre pelées.;
+3.1.2.2;Gingembre frais, curcuma frais;0,80;;
+3.1.2.3;Salsifis;0,30;;
+3.1.3;Légumes-bulbes;0,10;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.4;Légumes-fruits;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.4.1;Légumes-fruits, à l’exclusion des produits énumérés au point 3.1.4.2;0,050;;
+3.1.4.2;Maïs doux;0,10;;
+3.1.5;Légumes du genre Brassica;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.5.1;Légumes du genre Brassica autres que ceux énumérés au point 3.1.5.2;0,10;;
+3.1.5.2;Choux feuilles;0,30;;
+3.1.6;Légumes-feuilles, à l’exclusion des herbes fraîches et des fleurs comestibles;0,30;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.7;Légumineuses potagères;0,10;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.8;Légumes-tiges;0,10;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.9;Champignons;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.1.9.1;"Les champignons de couche suivants:
+champignon de Paris (Agaricus bisporus)
+pleurote en huître (Pleurotus ostreatus)
+lentin du chêne (shiitake) (Lentinula edodes)";0,30;;
+3.1.9.2;Champignons sauvages;0,80;;
+3.1.10;Légumineuses séchées;0,20;;
+3.1.11;Céréales;0,20;;
+3.1.12;Épices séchées;;;
+3.1.12.1;Épices en graines;0,90;;
+3.1.12.2;Épices tirées de fruits;0,60;;
+3.1.12.3;Épices tirées d’écorces;2,0;;
+3.1.12.4;Épices tirées de racines ou de rhizomes;1,50;;
+3.1.12.5;Épices tirées de boutons;1,0;;
+3.1.12.6;Épices tirées de pistils de fleurs;1,0;;
+3.1.13;Viandes de bovins, d’ovins, de porcins et de volailles (2), à l’exclusion des produits énumérés au point 3.1.14;0,10;La teneur maximale s’applique au poids à l’état frais.;
+3.1.14;Abats (2);;La teneur maximale s’applique au poids à l’état frais.;
+3.1.14.1;de bovins et d’ovins;0,20;;
+3.1.14.2;de porcins;0,15;;
+3.1.14.3;de volailles;0,10;;
+3.1.15;Produits de la pêche (2) et mollusques bivalves (2);;La teneur maximale s’applique au poids à l’état frais.;
+3.1.15.1;Chair musculaire de poisson;0,30;"Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.1.15.2;Céphalopodes;0,30;La teneur maximale s’applique à l’animal sans viscères.;
+3.1.15.3;Crustacés;0,50;"La teneur maximale s’applique à la chair musculaire des appendices et de l’abdomen, ce qui signifie que le céphalothorax des crustacés est exclu. Dans le cas des crabes et des crustacés de type crabe (Brachyura et Anomura), la teneur maximale s’applique à la chair musculaire des appendices.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.1.15.4;Mollusques bivalves;1,50;"Dans le cas des coquilles Saint-Jacques (Pecten maximus), la teneur maximale s’applique seulement au muscle adducteur et à la gonade.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.1.16;Lait cru (2), lait traité thermiquement et lait destiné à la fabrication de produits à base de lait;0,020;La teneur maximale s’applique au poids à l’état frais.;
+3.1.17;Miel;0,10;;
+3.1.18;Huiles et graisses;0,10;Y compris les graisses du lait.;
+3.1.19;Jus de fruits, jus de fruits à base de concentré, jus de fruits concentrés et nectars de fruits (9);;"La teneur maximale s’applique au poids à l’état frais.
+Dans le cas du jus de fruits concentré, la teneur maximale s’applique au jus reconstitué.";
+3.1.19.1;exclusivement à partir de baies et d’autres petits fruits;0,05;;
+3.1.19.2;autres qu’exclusivement à partir de baies et d’autres petits fruits, y compris les mélanges;0,03;;
+3.1.20;Vins (7), cidres, poirés et vins de fruits;;"La teneur maximale s’applique au poids à l’état frais.
+Y compris les vins pétillants et mousseux, à l’exclusion des vins de liqueur et des vins ayant un titre alcoométrique volumique minimal de 15 %.";
+3.1.20.1;produits à partir des vendanges de 2001 à 2015;0,20;;
+3.1.20.2;produits à partir des vendanges de 2016 à 2021;0,15;;
+3.1.20.3;produits à partir des vendanges de 2022 et suivantes;0,10;;
+3.1.21;Vins aromatisés, boissons aromatisées à base de vin et cocktails aromatisés de produits viticoles (8);;La teneur maximale s’applique au poids à l’état frais.;
+3.1.21.1;produits à partir des vendanges de 2001 à 2015;0,20;;
+3.1.21.2;produits à partir des vendanges de 2016 à 2021;0,15;;
+3.1.21.3;produits à partir des vendanges de 2022 et suivantes;0,10;;
+3.1.22;Vins de liqueur obtenus à partir de raisins (7);;La teneur maximale s’applique au poids à l’état frais.;
+3.1.22.1;produits à partir des vendanges de 2022 et suivantes;0,15;;
+3.1.23;Sels;;;
+3.1.23.1;Sels, à l’exclusion des produits énumérés au 3.1.23.2;1,0;;
+3.1.23.2;Les sels non raffinés suivants: «fleur de sel» et «sel gris», qui sont récoltés à la main dans des marais salants à fond argileux;2,0;;
+3.1.24;Préparations pour nourrissons, préparations de suite (3) et préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.1.24.1;mises sur le marché sous forme de poudre;0,020;;
+3.1.24.2;mises sur le marché à l’état liquide;0,010;;
+3.1.25;Boissons destinées aux nourrissons et aux enfants en bas âge, mises sur le marché et étiquetées comme telles, à l’exclusion des produits énumérés aux points 3.1.24 et 3.1.27;;;
+3.1.25.1;mises sur le marché à l’état liquide ou destinées à être reconstituées suivant les instructions du fabricant;0,020;"Y compris les jus de fruits.
+La teneur maximale s’applique aux produits prêts à être utilisés.";
+3.1.25.2;destinées à être préparées par infusion ou décoction;0,50;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.1.26;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3), à l’exclusion des produits énumérés au point 3.1.25;0,020;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.1.27;Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.1.27.1;mises sur le marché sous forme de poudre;0,020;;
+3.1.27.2;mises sur le marché à l’état liquide;0,010;;
+3.1.28;Compléments alimentaires;3,0;;
+3.2;Cadmium;Teneur maximale (mg/kg);Remarques;
+3.2.1;Fruits et fruits à coque;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.1.1;Fruits, à l’exclusion des produits énumérés aux points 3.2.1.2, 3.2.1.3 et 3.2.1.4;0,050;;
+3.2.1.2;Agrumes, fruits à pépins, fruits à noyau, olives de table, kiwis, bananes, mangues, papayes et ananas;0,020;;
+3.2.1.3;Baies et petits fruits, à l’exclusion des produits énumérés au point 3.2.1.4;0,030;;
+3.2.1.4;Framboises;0,040;;
+3.2.1.5;Fruits à coque;;Les teneurs maximales ne s’appliquent pas aux fruits à coque destinés au broyage et au raffinage d’huiles, à condition que les fruits à coque pressés restants ne soient pas mis sur le marché en tant que denrées alimentaires. Si les fruits à coque pressés restants sont mis sur le marché en tant que denrées alimentaires, les teneurs maximales s’appliquent, en tenant compte de l’article 3, paragraphes 1 et 2.;
+3.2.1.5.1;Fruits à coque, à l’exclusion des produits énumérés au point 3.2.1.5.2;0,20;;
+3.2.1.5.2;Pignons;0,30;;
+3.2.2;Légumes-racines et légumes-tubercules;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.2.1;Légumes-racines et légumes-tubercules, à l’exclusion des produits énumérés aux points 3.2.2.2, 3.2.2.3, 3.2.2.4, 3.2.2.5 et 3.2.2.6;0,10;Dans le cas des pommes de terre, la teneur maximale s’applique aux pommes de terre pelées.;
+3.2.2.2;Betteraves;0,060;;
+3.2.2.3;Céleris-raves;0,15;;
+3.2.2.4;Raiforts, panais, salsifis;0,20;;
+3.2.2.5;Radis;0,020;;
+3.2.2.6;Racines et tubercules tropicaux, persil à grosse racine, navets;0,050;;
+3.2.3;Légumes-bulbes;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.3.1;Légumes-bulbes, à l’exclusion des produits énumérés au point 3.2.3.2;0,030;;
+3.2.3.2;Aulx;0,050;;
+3.2.4;Légumes-fruits;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.4.1;Légumes-fruits, à l’exclusion des produits énumérés au point 3.2.4.2;0,020;;
+3.2.4.2;Aubergines;0,030;;
+3.2.5;Légumes du genre Brassica;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.5.1;Légumes du genre Brassica, à l’exclusion des produits énumérés au point 3.2.5.2;0,040;;
+3.2.5.2;Choux feuilles;0,10;;
+3.2.6;Légumes-feuilles et fines herbes;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.6.1;Légumes-feuilles, à l’exclusion des produits énumérés au point 3.2.6.2;0,10;;
+3.2.6.2;Épinards et feuilles similaires, plants de moutarde et herbes fraîches;0,20;;
+3.2.7;Légumineuses potagères;0,020;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.8;Légumes-tiges;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.8.1;Légumes-tiges, à l’exclusion des produits énumérés aux points 3.2.8.2 et 3.2.8.3;0,030;;
+3.2.8.2;Céleris;0,10;;
+3.2.8.3;Poireaux;0,040;;
+3.2.9;Champignons;;"La teneur maximale s’applique au poids à l’état frais.
+La teneur maximale s’applique après lavage et séparation de la partie destinée à être consommée.";
+3.2.9.1;Champignons de couche, à l’exclusion des produits énumérés au point 3.2.9.2;0,050;;
+3.2.9.2;"Pleurote en huître (Pleurotus ostreatus)
+Lentin du chêne (shiitake) (Lentinula edodes)";0,15;;
+3.2.9.3;Champignons sauvages;0,50;;
+3.2.10;Légumineuses séchées et protéines provenant de légumineuses séchées;;;
+3.2.10.1;Légumineuses séchées, à l’exclusion des produits énumérés au point 3.2.10.2;0,040;;
+3.2.10.2;Protéines provenant de légumineuses séchées;0,10;;
+3.2.11;Graines oléagineuses;;Les teneurs maximales ne s’appliquent pas aux graines oléagineuses destinées au broyage et au raffinage d’huiles, à condition que les graines oléagineuses pressées restantes ne soient pas mises sur le marché en tant que denrées alimentaires. Si les graines oléagineuses pressées restantes sont mises sur le marché en tant que denrées alimentaires, les teneurs maximales s’appliquent, en tenant compte de l’article 3, paragraphes 1 et 2.;
+3.2.11.1;Graines oléagineuses, à l’exclusion des produits énumérés aux points 3.2.11.2, 3.2.11.3, 3.2.11.4, 3.2.11.5 et 3.2.11.6;0,10;;
+3.2.11.2;Graines de colza;0,15;;
+3.2.11.3;Cacahuètes et fèves de soja;0,20;;
+3.2.11.4;Graines de moutarde;0,30;;
+3.2.11.5;Graines de lin et graines de tournesol;0,50;;
+3.2.11.6;Graines de pavot;1,20;;
+3.2.12;Céréales;;Les teneurs maximales ne s’appliquent pas aux céréales utilisées pour la production de bière ou de distillats, à condition que le résidu de céréales restant ne soit pas mis sur le marché en tant que denrée alimentaire. Si le résidu de céréales restant est mis sur le marché en tant que denrée alimentaire, les teneurs maximales s’appliquent, en tenant compte de l’article 3, paragraphes 1 et 2.;
+3.2.12.1;Céréales, à l’exclusion des produits énumérés aux points 3.2.12.2, 3.2.12.3, 3.2.12.4 et 3.2.12.5;0,10;;
+3.2.12.2;Orge et seigle;0,050;;
+3.2.12.3;Riz, quinoa, son de blé et gluten de blé;0,15;;
+3.2.12.4;Blé dur (Triticum durum);0,18;;
+3.2.12.5;Germe de blé;0,20;;
+3.2.13;Produits d’origine animale (2);;La teneur maximale s’applique au poids à l’état frais.;
+3.2.13.1;Viandes de bovin, de mouton, de porc et de volaille;0,050;À l’exclusion des abats.;
+3.2.13.2;Viandes de cheval;0,20;À l’exclusion des abats.;
+3.2.13.3;Foies de bovin, de mouton, de porc, de volaille et de cheval;0,50;;
+3.2.13.4;Rognons de bovin, de mouton, de porc, de volaille et de cheval;1,0;;
+3.2.14;Produits de la pêche (2) et mollusques bivalves (2);;La teneur maximale s’applique au poids à l’état frais.;
+3.2.14.1;Chair musculaire de poisson, à l’exclusion des espèces énumérées aux points 3.2.14.2, 3.2.14.3 et 3.2.14.4;0,050;"Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.14.2;"Chair musculaire des poissons suivants:
+maquereau (espèces du genre Scomber)
+thon (espèces du genre Thunnus, Katsuwonus pelamis, espèces du genre Euthynnus),
+sicyoptère à bec de lièvre (Sicyopterus lagocephalus)";0,10;"Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.14.3;Chair musculaire du bonitou (espèces du genre Auxis);0,15;"Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.14.4;"Chair musculaire des poissons suivants:
+anchois (espèces du genre Engraulis)
+espadon (Xiphias gladius)
+sardine (Sardina pilchardus)";0,25;"Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.14.5;Crustacés;0,50;"La teneur maximale s’applique à la chair musculaire des appendices et de l’abdomen, ce qui signifie que le céphalothorax des crustacés est exclu. Dans le cas des crabes et des crustacés de type crabe (Brachyura et Anomura), la teneur maximale s’applique à la chair musculaire des appendices.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.14.6;Mollusques bivalves;1,0;"Dans le cas des coquilles Saint-Jacques (Pecten maximus), la teneur maximale s’applique seulement au muscle adducteur et à la gonade.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.14.7;Céphalopodes;1,0;"La teneur maximale s’applique à l’animal sans viscères.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.2.15;Produits à base de cacao et de chocolat (14);;;
+3.2.15.1;Chocolat au lait avec < 30 % de matière sèche totale de cacao;0,10;;
+3.2.15.2;"Chocolat avec < 50 % de matière sèche totale de cacao; chocolat au lait avec ≥ 30 % de matière sèche totale de cacao";0,30;;
+3.2.15.3;Chocolat avec ≥ 50 % de matière sèche totale de cacao;0,80;;
+3.2.15.4;Poudre de cacao mise sur le marché pour le consommateur final ou comme ingrédient dans la poudre de cacao sucrée ou le chocolat en poudre mis sur le marché pour le consommateur final (boisson chocolatée);0,60;;
+3.2.16;Sel;0,50;;
+3.2.17;Préparations pour nourrissons, préparations de suite, denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3) et préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.2.17.1;mises sur le marché sous forme de poudre et fabriquées à partir de protéines de lait de vache ou d’hydrolysats de protéines de lait de vache;0,010;;
+3.2.17.2;mises sur le marché à l’état liquide et fabriquées à partir de protéines de lait de vache ou d’hydrolysats de protéines de lait de vache;0,005;;
+3.2.17.3;mises sur le marché sous forme de poudre et fabriquées à partir d’isolats de protéines de soja, seuls ou mélangés à des protéines de lait de vache;0,020;;
+3.2.17.4;mises sur le marché à l’état liquide et fabriquées à partir d’isolats de protéines de soja, seuls ou mélangés à des protéines de lait de vache;0,010;;
+3.2.18;Préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.2.18.1;mises sur le marché sous forme de poudre et fabriquées à partir d’isolats de protéines végétales, autres que les isolats de protéines de soja, seuls ou mélangés à des protéines de lait de vache;0,020;;
+3.2.18.2;mises sur le marché à l’état liquide et fabriquées à partir d’isolats de protéines végétales, autres que les isolats de protéines de soja, seuls ou mélangés à des protéines de lait de vache;0,010;;
+3.2.19;Boissons destinées aux nourrissons et aux enfants en bas âge, étiquetées et placées sur le marché comme telles, à l’exclusion des produits énumérés aux points 3.2.17 et 3.2.18;;;
+3.2.19.1;mises sur le marché à l’état liquide ou destinées à être reconstituées suivant les instructions du fabricant;0,020;"Y compris les jus de fruits.
+La teneur maximale s’applique aux produits prêts à être utilisés.";
+3.2.20;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);0,040;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.2.21;Compléments alimentaires;;;
+3.2.21.1;Compléments alimentaires, à l’exclusion des produits énumérés au point 3.2.21.2;1,0;;
+3.2.21.2;Compléments alimentaires composés à au moins 80 % d’algues marines séchées, de produits dérivés d’algues marines ou de mollusques bivalves séchés (2);3,0;;
+3.3;Mercure;Teneur maximale (mg/kg);Remarques;
+3.3.1;Produits de la pêche (2) et mollusques bivalves (2);;"La teneur maximale s’applique au poids à l’état frais.
+Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Dans le cas des denrées alimentaires séchées, diluées, transformées et/ou composées, l’article 3, paragraphes 1 et 2, s’applique.";
+3.3.1.1;Crustacés, mollusques et chair musculaire de poisson, à l’exclusion des espèces énumérées aux points 3.3.1.2 et 3.3.1.3;0,50;"Dans le cas des crustacés, la teneur maximale s’applique à la chair musculaire des appendices et de l’abdomen, ce qui signifie que le céphalothorax des crustacés est exclu. Dans le cas des crabes et des crustacés de type crabe (Brachyura et Anomura), la teneur maximale s’applique à la chair musculaire des appendices.
+Dans le cas des coquilles Saint-Jacques (Pecten maximus), la teneur maximale s’applique seulement au muscle adducteur et à la gonade.";
+3.3.1.2;"Chair musculaire des poissons suivants:
+pageot acarné (Pagellus acarne)
+sabre noir (Aphanopus carbo)
+dorade rose (Pagellus bogaraveo)
+bonite (Sarda sarda)
+pageot commun (Pagellus erythrinus)
+escolier noir (Lepidocybium flavobrunneum)
+flétan de l’Atlantique (espèces du genre Hippoglossus)
+abadèche du Cap (Genypterus capensis)
+marlin (espèces du genre Makaira)
+cardine (espèces du genre Lepidorhombus)
+rouvet (Ruvettus pretiosus)
+hoplostète orange (Hoplostethus atlanticus)
+abadèche rose (Genypterus blacodes)
+brochet (espèces du genre Esox)
+palomète (Orcynopsis unicolor)
+capelan de Méditerranée (espèces du genre Tricopterus)
+rouget de vase (Mullus barbatus barbatus)
+grenadier de roche (Coryphaenoides rupestris)
+voilier de l’Atlantique (espèces du genre Istiophorus)
+sabre argenté (Lepidopus caudatus)
+escolier serpent (Gempylus serpens)
+esturgeon (espèces du genre Acipenser)
+rouget-barbet de roche (Mullus surmuletus)
+thon (espèces du genre Thunnus, espèces du genre Euthynnus, Katsuwonus pelamis)
+requin (toutes espèces)
+espadon (Xiphias gladius)";1,0;;
+3.3.1.3;"Céphalopodes
+Gastéropodes marins
+Chair musculaire des poissons suivants:
+anchois (espèces du genre Engraulis)
+lieu d’Alaska (Theragra chalcogramma)
+cabillaud (Gadus morhua)
+hareng de l’Atlantique (Clupea harengus)
+pangasius (Pangasius bocourti)
+carpe (espèces appartenant à la famille des cyprinidés)
+limande (Limanda limanda)
+maquereau (espèces du genre Scomber)
+flet d’Europe (Platichthys flesus)
+plie d’Europe (Pleuronectes platessa)
+sprat (Sprattus sprattus)
+silure de verre géant (Pangasianodon gigas)
+lieu jaune (Pollachius pollachius)
+lieu noir (Pollachius virens)
+saumon & truite (espèces du genre Salmo et espèces du genre Oncorhynchus, à l’exclusion de Salmo trutta)
+sardine ou pilchard (espèces du genre Dussumieria, espèces du genre Sardina, espèces du genre Sardinella et espèces du genre Sardinops)
+sole (Solea Solea)
+silure requin (Pangasianodon hypophthalmus)
+merlan (Merlangius merlangus)";0,30;Dans le cas des céphalopodes, la teneur maximale s’applique à l’animal sans viscères.;
+3.3.2;Compléments alimentaires;0,10;;
+3.3.3;Sel;0,10;;
+3.4;Arsenic;Teneur maximale (mg/kg);Remarques;
+;;Arsenic inorganique [somme de As(III) et As(V)];La teneur maximale en arsenic inorganique s’applique aux produits énumérés aux points 3.4.1 à 3.4.4.;
+3.4.1;Céréales et produits à base de céréales;;Riz, riz décortiqué, riz usiné et riz étuvé tels que définis dans la norme Codex 198-1995.;
+3.4.1.1;Riz usiné, non étuvé (riz poli ou riz blanc);0,15;;
+3.4.1.2;Riz étuvé et riz décortiqué;0,25;;
+3.4.1.3;Farine de riz;0,25;;
+3.4.1.4;Galettes de riz soufflé, feuilles de riz, crackers de riz, gâteaux à la farine de riz, flocons de riz et riz soufflé pour le petit-déjeuner;0,30;;
+3.4.1.5;Riz destiné à la production de denrées alimentaires pour les nourrissons et les enfants en bas âge (3);0,10;;
+3.4.1.6;Boissons non alcooliques à base de riz;0,030;;
+3.4.2;Préparations pour nourrissons, préparations de suite, denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3) et préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.4.2.1;mises sur le marché sous forme de poudre;0,020;;
+3.4.2.2;mises sur le marché à l’état liquide;0,010;;
+3.4.3;Aliments pour bébés (3);0,020;La teneur maximale s’applique au produit tel que mis sur le marché.;
+3.4.4;Jus de fruits, jus de fruits concentrés reconstitués et nectars de fruits (9);0,020;;
+;;Arsenic total;La teneur maximale en arsenic total s’applique aux produits énumérés au point 3.4.5.;
+3.4.5;Sel;0,50;;
+3.5;Étain (inorganique);Teneur maximale (mg/kg);Remarques;
+3.5.1;Denrées alimentaires en conserve, à l’exclusion des produits énumérés aux points 3.5.2, 3.5.3, 3.5.4 et 3.5.5;200;La teneur maximale s’applique au poids à l’état frais.;
+3.5.2;Boissons en boîte, à l’exclusion des produits énumérés aux points 3.5.3, 3.5.4 et 3.5.5;100;"La teneur maximale s’applique au poids à l’état frais.
+Y compris les jus de fruits et de légumes.";
+3.5.3;Préparations pour nourrissons en conserve, préparations de suite en conserve (3) et préparations pour enfants en bas âge en conserve (4);50;"À l’exclusion des produits séchés et en poudre en conserve.
+La teneur maximale s’applique au produit tel que mis sur le marché.";
+3.5.4;Aliments pour bébés et préparations à base de céréales en conserve destinés aux nourrissons et enfants en bas âge (3);50;"À l’exclusion des produits séchés et en poudre en conserve.
+La teneur maximale s’applique au produit tel que mis sur le marché.";
+3.5.5;Denrées alimentaires en conserve destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3);50;"À l’exclusion des produits séchés et en poudre en conserve.
+La teneur maximale s’applique au produit tel que mis sur le marché.";
+4.1;Dioxines et PCB;Teneur maximale;Remarques;
+;;Somme des dioxines (pg OMS-PCDD/F-TEQ/g) (15);Somme des dioxines et PCB de type dioxine (pg OMS-PCDD/F-PCB-TEQ/g) (15);Somme des PCB autres que ceux de type dioxine (ng/g) (15)
+4.1.1;Viandes et produits à base de viande, à l’exclusion des abats comestibles et des produits énumérés aux points 4.1.3 et 4.1.4 (2),;;;
+4.1.1.1;de bovins, d’ovins et de caprins;2,5  pg/g de graisses;4,0  pg/g de graisses;40  ng/g de graisses
+4.1.1.2;de porcins;1,0  pg/g de graisses;1,25  pg/g de graisses;40  ng/g de graisses
+4.1.1.3;de volailles;1,75  pg/g de graisses;3,0  pg/g de graisses;40  ng/g de graisses
+4.1.1.4;de cheval;5,0  pg/g de graisses;10,0  pg/g de graisses;—
+4.1.1.5;de lapin;1,0  pg/g de graisses;1,5  pg/g de graisses;—
+4.1.1.6;de sanglier (Sus scrofa);5,0  pg/g de graisses;10,0  pg/g de graisses;—
+4.1.1.7;de gibier à plumes sauvage;2,0  pg/g de graisses;4,0  pg/g de graisses;—
+4.1.1.8;venaison;3,0  pg/g de graisses;7,5  pg/g de graisses;—
+4.1.2;Foies et produits qui en sont dérivés;;;
+4.1.2.1;de bovins et de caprins, de porcins, de volailles et de cheval;0,30  pg/g de poids à l’état frais;0,50  pg/g de poids à l’état frais;3,0  ng/g de poids à l’état frais
+4.1.2.2;d’ovins;1,25  pg/g de poids à l’état frais;2,00  pg/g de poids à l’état frais;3,0  ng/g de poids à l’état frais
+4.1.2.3;de gibier à plumes sauvage;2,5  pg/g de poids à l’état frais;5,0  pg/g de poids à l’état frais;—
+4.1.3;Graisses;;;
+4.1.3.1;de bovins et d’ovins;2,5  pg/g de graisses;4,0  pg/g de graisses;40  ng/g de graisses
+4.1.3.2;de porcins;1,0  pg/g de graisses;1,25  pg/g de graisses;40  ng/g de graisses
+4.1.3.3;de volailles;1,75  pg/g de graisses;3,0  pg/g de graisses;40  ng/g de graisses
+4.1.4;Graisses animales mélangées;1,5  pg/g de graisses;2,50  pg/g de graisses;40  ng/g de graisses
+4.1.5;Produits de la pêche (2) et mollusques bivalves (2), à l’exception des produits énumérés aux points 4.1.6, 4.1.7, 4.1.8, 4.1.9 et 4.1.10;3,5  pg/g de poids à l’état frais;6,5  pg/g de poids à l’état frais;75  ng/g de poids à l’état frais
+4.1.6;Chair musculaire de poisson d’eau douce sauvage capturé et produits qui en sont dérivés;3,5  pg/g de poids à l’état frais;6,5  pg/g de poids à l’état frais;125  ng/g de poids à l’état frais
+4.1.7;Chair musculaire de l’aiguillat commun/chien de mer (Squalus acanthias) sauvage capturé et produits qui en sont dérivés;3,5  pg/g de poids à l’état frais;6,5  pg/g de poids à l’état frais;200  ng/g de poids à l’état frais
+4.1.8;Chair musculaire d’anguille sauvage capturée (Anguilla anguilla) et produits qui en sont dérivés;3,5  pg/g de poids à l’état frais;10,0  pg/g de poids à l’état frais;300  ng/g de poids à l’état frais
+4.1.9;Foie de poisson et produits qui en sont dérivés, à l’exclusion des produits énumérés au point 4.1.10;—;20,0  pg/g de poids à l’état frais;200  ng/g de poids à l’état frais
+4.1.10;Huiles marines (huile de corps de poisson, huile de foie de poisson et huiles d’autres organismes marins mises sur le marché pour le consommateur final);1,75  pg/g de graisses;6,0  pg/g de graisses;200  ng/g de graisses
+4.1.11;Lait cru (2) et produits laitiers (2);2,0  pg/g de graisses;4,0  pg/g de graisses;40  ng/g de graisses
+4.1.12;Œufs et ovoproduits, à l’exclusion des œufs d’oie (2);2,5  pg/g de graisses;5,0  pg/g de graisses;40  ng/g de graisses
+4.1.13;Huiles et graisses végétales;0,75  pg/g de graisses;1,25  pg/g de graisses;40  ng/g de graisses
+4.1.14;Denrées alimentaires destinées aux nourrissons et aux enfants en bas âge (3);0,1  pg/g de poids à l’état frais;0,2  pg/g de poids à l’état frais;1,0  ng/g de poids à l’état frais
+4.2;Substances perfluoroalkylées;Teneur maximale (μg/kg de poids à l’état frais);Remarques;
+;;PFOS;PFOA;PFNA
+4.2.1;Viandes et abats comestibles (2);;;
+4.2.1.1;Viandes de bovins, de porcins et de volailles;0,30;0,80;0,20
+4.2.1.2;Viandes d’ovins;1,0;0,20;0,20
+4.2.1.3;Abats de bovins, d’ovins, de porcins et de volailles;6,0;0,70;0,40
+4.2.1.4;Viandes de gibier, à l’exclusion des viandes d’ours;5,0;3,5;1,5
+4.2.1.5;Abats de gibier, à l’exclusion des abats d’ours;50;25;45
+4.2.2;Produits de la pêche (2) et mollusques bivalves (2);;;
+4.2.2.1;Chair de poisson;;;
+4.2.2.1.1;"Chair musculaire de poisson, à l’exclusion des produits énumérés aux points 4.2.2.1.2 et 4.2.2.1.3
+Chair musculaire des poissons énumérés aux points 4.2.2.1.2 et 4.2.2.1.3, si elle est destinée à la fabrication de denrées alimentaires pour nourrissons et enfants en bas âge";2,0;0,20;0,50
+4.2.2.1.2;"Chair musculaire des poissons suivants, si elle n’est pas destinée à la fabrication de denrées alimentaires pour nourrissons et enfants en bas âge:
+hareng de la Baltique(Clupea harengus membras)
+bonite (espèces du genre Sarda)palomette (espèce du genre Orcynopsis)
+lotte (Lota lota)
+sprat (Sprattus sprattus)
+flet (Platichthys flesus et Glyptocephalus cynoglossus)
+mulet cabot (Mugil cephalus)
+chinchard (Trachurus trachurus)
+brochet (espèces du genre Esox)
+plie (espèces des genres Pleuronectes et Lepidopsetta)
+sardine et pilchard (espèces du genre Sardina)
+bar commun (espèces du genre Dicentrarchus)
+poisson-chat de mer (espèces des genres Silurus et Pangasius)
+lamproie marine (Petromyzon marinus)
+tanche (Tinca tinca)
+corégone blanc (Coregonus albula et Coregonus vandesius)
+silverly lightfish (Phosichthys argenteus)
+saumon sauvage et truite sauvage (espèces sauvages des genres Salmo et Oncorhynchus)
+poisson-loup (espèces du genre Anarhichas)";7,0;1,0;2,5
+4.2.2.1.3;"Chair musculaire des poissons suivants, si elle n’est pas destinée à la fabrication de denrées alimentaires pour nourrissons et enfants en bas âge:
+anchois (espèces du genre Engraulis)
+barbeau (Barbus barbus)
+brème (espèces du genre Abramis)
+omble (espèces du genre Salvelinus)
+anguille (espèces du genre Anguilla)
+sandre (espèces du genre Sander)
+perche (Perca fluviatilis)
+gardon(Rutilus rutilus)
+éperlan (espèces du genre Osmerus)
+corégone (espèces du genre Coregonus autres que celles énumérées au point 4.2.2.1.2)";35;8,0;8,0
+4.2.2.2;Crustacés et mollusques bivalves;3,0;0,70;1,0
+4.2.3;Œufs;1,0;0,30;0,70
+5.1;Hydrocarbures aromatiques polycycliques (HAP);Teneur maximale (μg/kg);Remarques;
+;;Benzo(a)pyrène;Somme des HAP: benzo(a)pyrène, benz(a)anthracène, benzo(b)fluoranthène et chrysène;Pour la somme de HAP, les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.
+5.1.1;Chips de banane;2,0;20,0;
+5.1.2;Poudres de denrées alimentaires d’origine végétale pour la préparation de boissons, à l’exclusion des produits énumérés aux points 5.1.4 et 5.1.5;10,0;50,0;"La préparation de boissons désigne l’utilisation de poudres finement broyées qui doivent être mélangées dans les boissons.
+À l’exclusion du café instantané ou soluble."
+5.1.3;Herbes séchées;10,0;50,0;La teneur maximale s’applique au produit tel que mis sur le marché.
+5.1.4;Fèves de cacao et produits dérivés, à l’exclusion des produits énumérés au point 5.1.5;5,0  μg/kg de graisses;30,0  μg/kg de graisses;Y compris le beurre de cacao.
+5.1.5;Fibre de cacao et produits dérivés de la fibre de cacao, destinés à une utilisation comme ingrédients de denrées alimentaires;3,0;15,0;La fibre de cacao est un produit spécifique du cacao, obtenu à partir de la coque de fève de cacao et contenant des teneurs en HAP plus élevées que les produits à base de cacao fabriqués à partir du grué. La fibre de cacao et les produits dérivés sont des produits intermédiaires de la chaîne de production et sont utilisés comme ingrédients dans la préparation de denrées alimentaires pauvres en calories et à forte teneur en fibres.
+5.1.6;Viandes fumées et produits à base de viande fumés;2,0;12,0;
+5.1.7;Produits de la pêche fumés (2), à l’exclusion des produits énumérés au point 5.1.8;2,0;12,0;"Dans le cas des poissons, la teneur maximale s’applique à leur chair musculaire.
+Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+La teneur maximale pour les crustacés fumés s’applique à la chair musculaire des appendices et de l’abdomen, ce qui signifie que le céphalothorax des crustacés est exclu. Dans le cas des crabes et des crustacés de type crabe (Brachyura et Anomura) fumés, elle s’applique à la chair musculaire des appendices."
+5.1.8;"Sprats fumés et sprats fumés en conserve (Sprattus sprattus)
+Harengs de la Baltique ≤ 14 cm de long fumés et harengs de la Baltique ≤ 14 cm de long fumés en conserve (Clupea harengus membras)
+Katsuobushi (bonite séchée, Katsuwonus pelamis)
+Mollusques bivalves (2) (frais, réfrigérés ou congelés);
+Viandes traitées thermiquement et produits à base de viande traités thermiquement mis sur le marché pour le consommateur final";5,0;30,0;"Dans le cas des poissons destinés à être consommés en entier, la teneur maximale s’applique au poisson entier.
+Viandes et produits à base de viande ayant subi un traitement thermique susceptible d’entraîner la formation de HAP (cuisson par grillade ou au barbecue exclusivement).
+Dans le cas des produits en conserve, la teneur maximale s’applique à la totalité du contenu de la conserve. En ce qui concerne la teneur maximale pour l’ensemble du produit composé, l’article 3, paragraphe 1, point c), et l’article 3, paragraphe 2, s’appliquent."
+5.1.9;Mollusques bivalves fumés (2);6,0;35,0;
+5.1.10;Épices séchées;10,0;50,0;"À l’exclusion de la cardamome et des épices Capsicum spp. fumées
+La teneur maximale s’applique au produit tel que mis sur le marché."
+5.1.11;Huiles et graisses mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires;2,0;10,0;"À l’exclusion du beurre de cacao et de l’huile de coco.
+Cette teneur maximale s’applique aux huiles végétales utilisées comme ingrédients dans les compléments alimentaires."
+5.1.12;Huile de coco mise sur le marché pour le consommateur final ou pour une utilisation comme ingrédient de denrées alimentaires;2,0;20,0;
+5.1.13;Préparations pour nourrissons, préparations de suite (3) et préparations pour enfants en bas âge (4);1,0;1,0;La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).
+5.1.14;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);1,0;1,0;La teneur maximale s’applique au produit tel que mis sur le marché.
+5.1.15;Denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3);1,0;1,0;La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).
+5.1.16;"Compléments alimentaires contenant des plantes et leurs préparations (13)
+Compléments alimentaires contenant de la propolis, de la gelée royale, de la spiruline ou leurs préparations";10,0;50,0;La teneur maximale ne s’applique pas aux compléments alimentaires contenant des huiles végétales. Dans le cas des huiles végétales utilisées comme ingrédients dans les compléments alimentaires, voir point 5.1.11.
+5.2;3-monochloro-propane-1,2-diol (3-MCPD);Teneur maximale (μg/kg);Remarques;
+5.2.1;Protéine végétale hydrolysée;20;La teneur maximale est donnée pour le produit liquide contenant 40 % de matière sèche, ce qui correspond à une teneur maximale de 50 μg/kg dans la matière sèche. Ce chiffre doit être adapté proportionnellement à la teneur du produit en matière sèche.;
+5.2.2;Sauce de soja;20;La teneur maximale est donnée pour le produit liquide contenant 40 % de matière sèche, ce qui correspond à une teneur maximale de 50 μg/kg dans la matière sèche. Ce chiffre doit être adapté proportionnellement à la teneur du produit en matière sèche.;
+5.3;Somme du 3-monochloropropanediol (3-MCPD) et de ses esters d’acides gras, exprimée en 3-MCPD;Teneur maximale (μg/kg);Remarques;
+;;;Pour la somme du 3-monochloropropanediol (3-MCPD) et de ses esters d’acides gras, les teneurs maximales se rapportent aux concentrations inférieures, que l’on calcule en supposant que toutes les valeurs inférieures à la limite de quantification sont égales à zéro.;
+5.3.1;Huiles et graisses végétales, huiles de poisson et huiles provenant d’autres organismes marins, à l’exclusion des produits énumérés au point 5.3.2, mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients des denrées alimentaires relevant des catégories suivantes:;;À l’exclusion des huiles d’olive vierges (7).;
+5.3.1.1;huiles et graisses de noix de coco, de maïs, de colza, de tournesol, de soja, de palmiste et huiles d’olive (composées d’huile d’olive raffinée et d’huile d’olive vierge) et mélanges d’huiles et de graisses avec des huiles et des graisses relevant uniquement de la présente catégorie;1 250;À l’exclusion des huiles d’olive vierges (7).;
+5.3.1.2;autres huiles végétales, huiles de poisson et huiles provenant d’autres organismes marins et mélanges d’huiles et de graisses avec des huiles et des graisses relevant uniquement de la présente catégorie;2 500;Y compris les huiles de grignons d’olive.;
+5.3.1.3;mélanges d’huiles et de graisses provenant des produits énumérés aux points 5.3.1.1 et 5.3.1.2;—;"Les huiles et les graisses utilisées comme ingrédients du mélange doivent respecter la teneur maximale établie pour les huiles et les graisses. Par conséquent, la teneur de la somme du 3-MCPD et de ses esters d’acides gras, exprimée en 3-MCPD dans le mélange, ne doit pas dépasser la teneur calculée conformément à l’article 3, paragraphe 1, point c).
+Si la composition quantitative n’est pas connue de l’autorité compétente ni de l’exploitant du secteur alimentaire qui ne produit pas le mélange, la teneur de la somme du 3-MCPD et de ses esters d’acides gras, exprimée en 3-MCPD dans le mélange, ne doit en aucun cas dépasser 2 500  μg/kg.";
+5.3.2;Huiles et graisses végétales, huiles de poisson et huiles provenant d’autres organismes marins destinées à la production d’aliments pour bébés et de préparations à base de céréales pour nourrissons et enfants en bas âge (3);750;Lorsque le produit est un mélange de différentes huiles ou graisses d’origine botanique identique ou différente, la teneur maximale s’applique au mélange. Les huiles et les graisses utilisées comme ingrédients du mélange doivent respecter la teneur maximale fixée pour les huiles et les graisses au point 5.3.1.;
+5.3.3;Préparations pour nourrissons, préparations de suite, denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3) et préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+5.3.3.1;mises sur le marché sous forme de poudre;125;;
+5.3.3.2;mises sur le marché à l’état liquide;15;;
+5.4;Esters d’acides gras de glycidol, exprimés en glycidol;Teneur maximale (μg/kg);Remarques;
+5.4.1;Huiles et graisses végétales, huiles de poisson et huiles provenant d’autres organismes marins, mises sur le marché pour le consommateur final ou pour une utilisation comme ingrédients de denrées alimentaires, à l’exclusion des produits énumérés au point 5.4.2;1 000;À l’exclusion des huiles d’olive vierges (7).;
+5.4.2;Huiles et graisses végétales, huiles de poisson et huiles provenant d’autres organismes marins destinées à la production d’aliments pour bébés et de préparations à base de céréales pour nourrissons et enfants en bas âge (3);500;"Lorsque le produit est un mélange de différentes huiles ou graisses d’origine botanique identique ou différente, la teneur maximale s’applique au mélange.
+Les huiles et les graisses utilisées comme ingrédients du mélange doivent respecter la teneur maximale fixée pour les huiles et les graisses au point 5.4.1.";
+5.4.3;Préparations pour nourrissons, préparations de suite, denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3) et préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+5.4.3.1;mises sur le marché sous forme de poudre;50;;
+5.4.3.2;mises sur le marché à l’état liquide;6,0;;
+6.1;Nitrates;"Teneur maximale
+(mg NO3/kg)";;
+6.1.1;Épinards frais (Spinacia oleracea);3 500;La teneur maximale ne s’applique pas aux épinards frais destinés à être transformés, qui sont directement transportés en vrac depuis les champs jusqu’à l’établissement où s’effectue la transformation.;
+6.1.2;Épinards conservés, surgelés ou congelés;2 000;;
+6.1.3;Laitues fraîches (Lactuca sativa L.), à l’exclusion des produits énumérés au point 6.1.4;;;
+6.1.3.1;Laitues cultivées sous abri, récoltées entre le 1er octobre et le 31 mars;5 000;"Les laitues cultivées sous abri doivent être étiquetées comme telles; autrement, la teneur maximale fixée au point 6.1.3.2 s’applique.";
+6.1.3.2;Laitues cultivées en plein air, récoltées entre le 1er octobre et le 31 mars;4 000;;
+6.1.3.3;Laitues cultivées sous abri, récoltées entre le 1er avril et le 30 septembre;4 000;"Les laitues cultivées sous abri doivent être étiquetées comme telles; autrement, la teneur maximale fixée au point 6.1.3.4 s’applique.";
+6.1.3.4;Laitues cultivées en plein air, récoltées entre le 1er avril et le 30 septembre;3 000;;
+6.1.4;Laitues de type «Iceberg»;;Y compris Grazer Krauthäuptl.;
+6.1.4.1;Laitues cultivées sous abri;2 500;"Les laitues cultivées sous abri doivent être étiquetées comme telles; autrement, la teneur maximale fixée au point 6.1.4.2 s’applique.";
+6.1.4.2;Laitues cultivées en plein air;2 000;;
+6.1.5;Roquette (Eruca sativa, Diplotaxis sp., Brassica tenuifolia, Sisymbrium tenuifolium);;;
+6.1.5.1;Récolte du 1er octobre au 31 mars;7 000;;
+6.1.5.2;Récolte du 1er avril au 30 septembre;6 000;;
+6.1.6;Aliments pour bébés et préparations à base de céréales destinés aux nourrissons et enfants en bas âge (3);200;La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).;
+6.2;Mélamine;Teneur maximale (mg/kg);Remarques;
+6.2.1;Denrées alimentaires, à l’exclusion des produits énumérés au point 6.2.2;2,5;La teneur maximale ne s’applique pas aux denrées alimentaires pour lesquelles il peut être prouvé qu’une teneur en mélamine supérieure à 2,5 mg/kg résulte de l’utilisation de cyromazine en tant qu’insecticide. La teneur en mélamine ne doit pas être supérieure à celle en cyromazine.;
+6.2.2;Préparations pour nourrissons, préparations de suite (3) et préparations pour enfants en bas âge (4);;La teneur maximale s’applique au produit tel que mis sur le marché.;
+6.2.2.1;mises sur le marché sous forme de poudre;1,0;;
+6.2.2.2;mises sur le marché à l’état liquide;0,15;;
+6.3;Perchlorate;Teneur maximale (mg/kg);Remarques;
+6.3.1;Fruits et légumes, à l’exclusion des produits énumérés aux points 6.3.1.1 et 6.3.1.2;0,05;;
+6.3.1.1;Cucurbitaceae et chou frisé;0,10;;
+6.3.1.2;Légumes-feuilles et fines herbes;0,50;;
+6.3.2;"Thé (Camellia sinensis) (produit séché)
+Infusions de plantes et de fruits (produit séché) et ingrédients utilisés pour les infusions de plantes et de fruits (produits séchés)";0,75;"Les infusions (produit séché) désignent:
+
+
+
+
+
+
+—
+
+
+les infusions (produit séché) de fleurs, de feuilles, de tiges, de racines et de toute autre partie de la plante (en sachets ou en vrac) utilisées pour la préparation d’une infusion (produit liquide); et
+
+
+
+
+
+
+
+
+
+
+—
+
+
+les infusions instantanées. Dans le cas des extraits en poudre, un facteur de concentration de 4 doit être appliqué.";—
+6.3.3;Préparations pour nourrissons, préparations de suite, denrées alimentaires destinées à des fins médicales spéciales pour les nourrissons et les enfants en bas âge (3) et préparations pour enfants en bas âge (4);0,01;La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).;
+6.3.4;Aliments pour bébés (3);0,02;La teneur maximale s’applique aux produits prêts à être utilisés (mis sur le marché comme tels ou après avoir été reconstitués conformément aux instructions du fabricant).;
+6.3.5;Préparations à base de céréales (3);0,01;La teneur maximale s’applique au produit tel que mis sur le marché.;
+(15);"OMS-TEQ: la somme des dioxines [dibenzo-para-dioxines polychlorées (PCDD) et dibenzofuranes polychlorés (PCDF)] et la somme des dioxines et des polychlorobiphényles (PCB) de type dioxine sont calculées en utilisant les facteurs d’équivalence toxique de l’OMS (OMS-TEF) et exprimées en équivalents toxiques de l’OMS (OMS-TEQ). Les OMS-TEF pour l’évaluation des risques pour les êtres humains sont fondés sur les conclusions de la réunion d’experts du programme international sur la sécurité des substances chimiques (PISSC) de l’Organisation mondiale de la santé (OMS), qui a eu lieu à Genève en juin 2005 [Van den Berg et al., «The 2005 World Health Organization Re-evaluation of Human and Mammalian Toxic Equivalency Factors for Dioxins and Dioxin-like Compounds», Toxicological Sciences 93[2], 223-241 (2006)].
+
+
+
+
+
+
+
+
+Congénère
+
+
+Valeur TEF
+
+
+Congénère
+
+
+Valeur TEF
+
+
+
+
+Dioxines
+
+
+ 
+
+
+PCB «de type dioxine»
+
+
+ 
+
+
+
+
+
+Dibenzo-p-dioxines (PCDD)
+
+
+
+ 
+
+
+
+PCB non ortho-substitués
+
+
+
+ 
+
+
+
+
+2,3,7,8-TCDD
+
+
+1 
+
+
+PCB 77
+
+
+0,0001 
+
+
+
+
+1,2,3,7,8-PeCDD
+
+
+1 
+
+
+PCB 81
+
+
+0,0003 
+
+
+
+
+1,2,3,4,7,8-HxCDD
+
+
+0,1 
+
+
+PCB 126
+
+
+0,1 
+
+
+
+
+1,2,3,6,7,8-HxCDD
+
+
+0,1 
+
+
+PCB 169
+
+
+0,03 
+
+
+
+
+1,2,3,7,8,9-HxCDD
+
+
+0,1 
+
+
+ 
+
+
+ 
+
+
+
+
+1,2,3,4,6,7,8-HpCDD
+
+
+0,01 
+
+
+ 
+
+
+ 
+
+
+
+
+OCDD
+
+
+0,0003 
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+PCB mono-ortho-substitués
+
+
+
+ 
+
+
+
+
+2,3,7,8-TCDF
+
+
+0,1 
+
+
+PCB 105
+
+
+0,00003 
+
+
+
+
+1,2,3,7,8-PeCDF
+
+
+0,03 
+
+
+PCB 114
+
+
+0,00003 
+
+
+
+
+2,3,4,7,8-PeCDF
+
+
+0,3 
+
+
+PCB 118
+
+
+0,00003 
+
+
+
+
+1,2,3,4,7,8-HxCDF
+
+
+0,1 
+
+
+PCB 123
+
+
+0,00003 
+
+
+
+
+1,2,3,6,7,8-HxCDF
+
+
+0,1 
+
+
+PCB 156
+
+
+0,00003 
+
+
+
+
+1,2,3,7,8,9-HxCDF
+
+
+0,1 
+
+
+PCB 157
+
+
+0,00003 
+
+
+
+
+2,3,4,6,7,8-HxCDF
+
+
+0,1 
+
+
+PCB 167
+
+
+0,00003 
+
+
+
+
+1,2,3,4,6,7,8-HpCDF
+
+
+0,01 
+
+
+PCB 189
+
+
+0,00003 
+
+
+
+
+1,2,3,4,7,8,9-HpCDF
+
+
+0,01 
+
+
+ 
+
+
+ 
+
+
+
+
+OCDF
+
+
+0,0003 
+
+
+ 
+
+
+ 
+
+
+
+
+Abréviations utilisées: «T» = tétra, «Pe» = penta, «Hx» = hexa, «Hp» = hepta, «O» = octa, «CDD» = chlorodibenzodioxine, «CDF» = chlorodibenzofurane, «CB» = chlorobiphényle.";Congénère;Valeur TEF;Congénère
+Congénère;Valeur TEF;Congénère;Valeur TEF;
+Dioxines;;PCB «de type dioxine»;;
+Dibenzo-p-dioxines (PCDD);;PCB non ortho-substitués;;
+2,3,7,8-TCDD;1;PCB 77;0,0001;
+1,2,3,7,8-PeCDD;1;PCB 81;0,0003;
+1,2,3,4,7,8-HxCDD;0,1;PCB 126;0,1;
+1,2,3,6,7,8-HxCDD;0,1;PCB 169;0,03;
+1,2,3,7,8,9-HxCDD;0,1;;;
+1,2,3,4,6,7,8-HpCDD;0,01;;;
+OCDD;0,0003;;;
+;;PCB mono-ortho-substitués;;
+2,3,7,8-TCDF;0,1;PCB 105;0,00003;
+1,2,3,7,8-PeCDF;0,03;PCB 114;0,00003;
+2,3,4,7,8-PeCDF;0,3;PCB 118;0,00003;
+1,2,3,4,7,8-HxCDF;0,1;PCB 123;0,00003;
+1,2,3,6,7,8-HxCDF;0,1;PCB 156;0,00003;
+1,2,3,7,8,9-HxCDF;0,1;PCB 157;0,00003;
+2,3,4,6,7,8-HxCDF;0,1;PCB 167;0,00003;
+1,2,3,4,6,7,8-HpCDF;0,01;PCB 189;0,00003;
+1,2,3,4,7,8,9-HpCDF;0,01;;;
+OCDF;0,0003;;;
+Congénère;Valeur TEF;Congénère;Valeur TEF;
+Dioxines;;PCB «de type dioxine»;;
+Dibenzo-p-dioxines (PCDD);;PCB non ortho-substitués;;
+2,3,7,8-TCDD;1;PCB 77;0,0001;
+1,2,3,7,8-PeCDD;1;PCB 81;0,0003;
+1,2,3,4,7,8-HxCDD;0,1;PCB 126;0,1;
+1,2,3,6,7,8-HxCDD;0,1;PCB 169;0,03;
+1,2,3,7,8,9-HxCDD;0,1;;;
+1,2,3,4,6,7,8-HpCDD;0,01;;;
+OCDD;0,0003;;;
+;;PCB mono-ortho-substitués;;
+2,3,7,8-TCDF;0,1;PCB 105;0,00003;
+1,2,3,7,8-PeCDF;0,03;PCB 114;0,00003;
+2,3,4,7,8-PeCDF;0,3;PCB 118;0,00003;
+1,2,3,4,7,8-HxCDF;0,1;PCB 123;0,00003;
+1,2,3,6,7,8-HxCDF;0,1;PCB 156;0,00003;
+1,2,3,7,8,9-HxCDF;0,1;PCB 157;0,00003;
+2,3,4,6,7,8-HxCDF;0,1;PCB 167;0,00003;
+1,2,3,4,6,7,8-HpCDF;0,01;PCB 189;0,00003;
+1,2,3,4,7,8,9-HpCDF;0,01;;;
+OCDF;0,0003;;;
