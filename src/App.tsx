@@ -1,10 +1,11 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
-import { Search, RefreshCw, Loader2, Globe, Info, AlertTriangle, ChevronDown, Download, HelpCircle, X, FileSpreadsheet, FileText } from 'lucide-react';
+import { Search, RefreshCw, Loader2, Globe, Info, AlertTriangle, ChevronDown, Download, HelpCircle, X, FileSpreadsheet, FileText, Check, CheckCircle, Circle, Filter } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { fetchContaminantLimits, getCategories, getRegulationInfo, ContaminantLimit, Category } from './services/contaminantService';
 import { checkRegulationUpdates, getLatestRegulationUrl } from './services/eurlexService';
 
 type Lang = 'fr' | 'en';
+type SearchMode = 'contains' | 'exact';
 
 const CATEGORY_COLORS: Record<string, { bg: string; border: string; badge: string; chip: string; chipActive: string; header: string; headerText: string }> = {
   '1': { bg: 'bg-amber-50', border: 'border-amber-200', badge: 'bg-amber-200 text-amber-900', chip: 'bg-amber-50 border border-amber-300 text-amber-800 hover:bg-amber-100', chipActive: 'bg-amber-500 text-white border border-amber-500', header: 'bg-amber-100 border-amber-200', headerText: 'text-amber-900' },
@@ -19,15 +20,9 @@ const getCatId = (code: string) => code.charAt(0);
 const getSubId = (code: string) => code.split('.').slice(0, 2).join('.');
 
 const exportToCSV = (data: ContaminantLimit[], lang: Lang) => {
+  if (data.length === 0) return;
   const headers = ['Code', 'Catégorie', 'Sous-catégorie', 'Produit', 'Limite', 'Notes'];
-  const rows = data.map(item => [
-    item.code,
-    item.category.fr,
-    item.contaminant.fr,
-    item.product,
-    item.limit,
-    item.notes
-  ]);
+  const rows = data.map(item => [item.code, item.category.fr, item.contaminant.fr, item.product, item.limit, item.notes]);
   const csvContent = [headers, ...rows].map(row => row.map(cell => `"${(cell || '').replace(/"/g, '""')}"`).join(';')).join('\n');
   const blob = new Blob(['\ufeff' + csvContent], { type: 'text/csv;charset=utf-8;' });
   const link = document.createElement('a');
@@ -36,22 +31,11 @@ const exportToCSV = (data: ContaminantLimit[], lang: Lang) => {
   link.click();
 };
 
-const exportToExcel = async (data: ContaminantLimit[], lang: Lang) => {
+const exportToExcel = (data: ContaminantLimit[], lang: Lang) => {
+  if (data.length === 0) return;
   const headers = ['Code', 'Catégorie', 'Sous-catégorie', 'Produit', 'Limite', 'Notes'];
-  const rows = data.map(item => [
-    item.code,
-    item.category.fr,
-    item.contaminant.fr,
-    item.product,
-    item.limit,
-    item.notes
-  ]);
-  
-  const xlsxContent = [
-    headers.join('\t'),
-    ...rows.map(row => row.join('\t'))
-  ].join('\n');
-  
+  const rows = data.map(item => [item.code, item.category.fr, item.contaminant.fr, item.product, item.limit, item.notes]);
+  const xlsxContent = [headers.join('\t'), ...rows.map(row => row.join('\t'))].join('\n');
   const blob = new Blob([xlsxContent], { type: 'application/vnd.ms-excel' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
@@ -62,6 +46,7 @@ const exportToExcel = async (data: ContaminantLimit[], lang: Lang) => {
 export default function App() {
   const [lang, setLang] = useState<Lang>('fr');
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchMode, setSearchMode] = useState<SearchMode>('contains');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [results, setResults] = useState<ContaminantLimit[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
@@ -71,6 +56,9 @@ export default function App() {
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
   const [showHelp, setShowHelp] = useState(false);
   const [showExport, setShowExport] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
+  const [selectedRows, setSelectedRows] = useState<Set<string>>(new Set());
+  const [selectMode, setSelectMode] = useState<'none' | 'all' | 'filtered'>('none');
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const loadData = async () => {
@@ -89,7 +77,6 @@ export default function App() {
   };
 
   useEffect(() => { loadData(); }, []);
-
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -100,17 +87,31 @@ export default function App() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const filteredResults = useMemo(() => results.filter(item => {
-    const q = searchTerm.toLowerCase();
-    const matchesSearch = !searchTerm ||
-      item.contaminant.fr.toLowerCase().includes(q) ||
-      item.contaminant.en.toLowerCase().includes(q) ||
-      item.product.toLowerCase().includes(q) ||
-      item.category.fr.toLowerCase().includes(q) ||
-      item.code.toLowerCase().includes(q);
-    const matchesCategory = selectedCategory === 'all' || getCatId(item.code) === selectedCategory;
-    return matchesSearch && matchesCategory;
-  }), [results, searchTerm, selectedCategory]);
+  const filteredResults = useMemo(() => {
+    return results.filter(item => {
+      const q = searchTerm.toLowerCase().trim();
+      if (!q) return selectedCategory === 'all' || getCatId(item.code) === selectedCategory;
+      let matchesSearch = false;
+      if (searchMode === 'exact') {
+        const productLower = item.product.toLowerCase();
+        const contaminantFr = item.contaminant.fr.toLowerCase();
+        const contaminantEn = item.contaminant.en.toLowerCase();
+        matchesSearch = productLower === q || contaminantFr === q || contaminantEn === q || item.code.toLowerCase() === q;
+      } else {
+        matchesSearch = item.product.toLowerCase().includes(q) || item.contaminant.fr.toLowerCase().includes(q) || item.contaminant.en.toLowerCase().includes(q) || item.category.fr.toLowerCase().includes(q) || item.code.toLowerCase().includes(q);
+      }
+      const matchesCategory = selectedCategory === 'all' || getCatId(item.code) === selectedCategory;
+      return matchesSearch && matchesCategory;
+    });
+  }, [results, searchTerm, searchMode, selectedCategory]);
+
+  useEffect(() => {
+    if (searchTerm) {
+      const expanded: Record<string, boolean> = {};
+      groupedResults.forEach(g => { expanded[g.subId] = true; });
+      setExpandedGroups(expanded);
+    }
+  }, [searchTerm, groupedResults]);
 
   const groupedResults = useMemo(() => {
     const groups: { subId: string; subcategory: { fr: string; en: string }; catId: string; items: ContaminantLimit[] }[] = [];
@@ -126,23 +127,31 @@ export default function App() {
     return groups;
   }, [filteredResults]);
 
-  useEffect(() => {
-    if (searchTerm) {
-      const expanded: Record<string, boolean> = {};
-      groupedResults.forEach(g => { expanded[g.subId] = true; });
-      setExpandedGroups(expanded);
-    }
-  }, [searchTerm, groupedResults]);
-
   const toggleGroup = (subId: string) => setExpandedGroups(prev => ({ ...prev, [subId]: prev[subId] === false }));
+  const expandAll = () => { const expanded: Record<string, boolean> = {}; groupedResults.forEach(g => { expanded[g.subId] = true; }); setExpandedGroups(expanded); };
+  const collapseAll = () => setExpandedGroups({});
 
-  const expandAll = () => {
-    const expanded: Record<string, boolean> = {};
-    groupedResults.forEach(g => { expanded[g.subId] = true; });
-    setExpandedGroups(expanded);
+  const toggleRowSelection = (id: string) => {
+    setSelectedRows(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
   };
 
-  const collapseAll = () => setExpandedGroups({});
+  const handleSelectMode = (mode: 'none' | 'all' | 'filtered') => {
+    setSelectMode(mode);
+    if (mode === 'none') setSelectedRows(new Set());
+    else if (mode === 'all') setSelectedRows(new Set(results.map(r => r.id)));
+    else if (mode === 'filtered') setSelectedRows(new Set(filteredResults.map(r => r.id)));
+  };
+
+  const exportSelected = (format: 'csv' | 'excel') => {
+    const dataToExport = selectedRows.size > 0 ? filteredResults.filter(r => selectedRows.has(r.id)) : filteredResults;
+    if (format === 'csv') exportToCSV(dataToExport, lang);
+    else exportToExcel(dataToExport, lang);
+  };
 
   const t = {
     title: lang === 'fr' ? 'Limites de contaminants alimentaires — UE' : 'Food Contaminant Limits — EU',
@@ -151,31 +160,25 @@ export default function App() {
     refresh: lang === 'fr' ? 'Actualiser' : 'Refresh',
     all: lang === 'fr' ? 'Toutes catégories' : 'All categories',
     results: lang === 'fr' ? 'résultats' : 'results',
-    limit: lang === 'fr' ? 'Limite max.' : 'Max. limit',
-    newVersion: lang === 'fr' ? 'Mise à jour disponible' : 'Update available',
     noResults: lang === 'fr' ? 'Aucun résultat' : 'No results',
     limits: lang === 'fr' ? 'limites disponibles' : 'limits available',
     consolidated: lang === 'fr' ? 'Consolidé au :' : 'Consolidated:',
-    amendments: lang === 'fr' ? 'amendements intégrés' : 'amendments included',
     help: lang === 'fr' ? 'Aide' : 'Help',
     export: lang === 'fr' ? 'Exporter' : 'Export',
     exportCSV: lang === 'fr' ? 'Télécharger CSV' : 'Download CSV',
     exportExcel: lang === 'fr' ? 'Télécharger Excel' : 'Download Excel',
     helpTitle: lang === 'fr' ? 'Guide d\'utilisation' : 'User Guide',
-    helpIntro: lang === 'fr' ? 'Cette application permet de rechercher les limites maximales de contaminants dans les denrées alimentaires selon le Règlement (UE) 2023/915.' : 'This application allows you to search for maximum contaminant limits in foodstuffs according to Regulation (EU) 2023/915.',
-    helpSearch: lang === 'fr' ? '🔍 Recherche' : '🔍 Search',
-    helpSearchDesc: lang === 'fr' ? 'Tapez un contaminant (ex: Aflatoxine), un produit (ex: Arachides), ou un code (ex: 1.1.1)' : 'Type a contaminant (e.g., Aflatoxin), a product (e.g., Peanuts), or a code (e.g., 1.1.1)',
-    helpFilter: lang === 'fr' ? '🏷️ Filtrer par catégorie' : '🏷️ Filter by category',
-    helpFilterDesc: lang === 'fr' ? 'Cliquez sur une catégorie pour filtrer les résultats. Cliquez à nouveau pour tout afficher.' : 'Click on a category to filter results. Click again to show all.',
-    helpExpand: lang === 'fr' ? '📋 Développer/Réduire' : '📋 Expand/Collapse',
-    helpExpandDesc: lang === 'fr' ? 'Cliquez sur un en-tête de groupe pour développer ou réduire les limites.' : 'Click on a group header to expand or collapse the limits.',
-    helpExport: lang === 'fr' ? '📥 Exporter' : '📥 Export',
-    helpExportDesc: lang === 'fr' ? 'Téléchargez les résultats filtrés en CSV ou Excel.' : 'Download filtered results in CSV or Excel.',
-    helpLang: lang === 'fr' ? '🌐 Langue' : '🌐 Language',
-    helpLangDesc: lang === 'fr' ? 'Basculez entre français et anglais.' : 'Switch between French and English.',
     close: lang === 'fr' ? 'Fermer' : 'Close',
     expandAll: lang === 'fr' ? 'Tout développer' : 'Expand all',
     collapseAll: lang === 'fr' ? 'Tout réduire' : 'Collapse all',
+    exactSearch: lang === 'fr' ? 'Recherche exacte' : 'Exact match',
+    containsSearch: lang === 'fr' ? 'Contient' : 'Contains',
+    selectAll: lang === 'fr' ? 'Tout sélectionner' : 'Select all',
+    deselectAll: lang === 'fr' ? 'Tout désélectionner' : 'Deselect all',
+    selectFiltered: lang === 'fr' ? 'Sélectionner résultats' : 'Select results',
+    selectedCount: lang === 'fr' ? 'selectionné(s)' : 'selected',
+    exportSelected: lang === 'fr' ? 'Exporter sélection' : 'Export selection',
+    rowsSelected: lang === 'fr' ? `${selectedRows.size} ligne(s) selectionnée(s)` : `${selectedRows.size} row(s) selected`,
   };
 
   return (
@@ -187,84 +190,61 @@ export default function App() {
             <p className="text-xs sm:text-sm text-blue-100 mt-1">{t.subtitle}</p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
-            {hasUpdate && (
-              <a href={getLatestRegulationUrl()} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 bg-red-500 text-white px-3 py-1.5 rounded-lg hover:bg-red-600 text-xs font-medium">
-                <AlertTriangle size={14} />
-                <span className="hidden sm:inline">{t.newVersion}</span>
-              </a>
-            )}
-            <button type="button" onClick={() => setShowHelp(true)} className="flex items-center gap-1.5 bg-white/20 text-white px-3 py-1.5 rounded-lg hover:bg-white/30 text-xs font-medium">
-              <HelpCircle size={14} />
-              <span className="hidden sm:inline">{t.help}</span>
-            </button>
-            <button type="button" onClick={() => setLang(lang === 'fr' ? 'en' : 'fr')} className="flex items-center gap-1.5 bg-white/20 text-white px-3 py-1.5 rounded-lg hover:bg-white/30 text-xs font-medium">
-              <Globe size={14} />
-              {lang.toUpperCase()}
-            </button>
-            <button type="button" onClick={loadData} disabled={loading} className="flex items-center gap-1.5 bg-white/20 text-white px-3 py-1.5 rounded-lg hover:bg-white/30 disabled:opacity-50 text-xs font-medium">
-              <RefreshCw size={14} className={loading ? 'animate-spin' : ''} />
-              <span className="hidden sm:inline">{t.refresh}</span>
-            </button>
+            {hasUpdate && <a href={getLatestRegulationUrl()} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 bg-red-500 text-white px-3 py-1.5 rounded-lg hover:bg-red-600 text-xs font-medium"><AlertTriangle size={14} /><span className="hidden sm:inline">{lang === 'fr' ? 'Mise à jour' : 'Update'}</span></a>}
+            <button type="button" onClick={() => setShowHelp(true)} className="flex items-center gap-1.5 bg-white/20 text-white px-3 py-1.5 rounded-lg hover:bg-white/30 text-xs font-medium"><HelpCircle size={14} /><span className="hidden sm:inline">{t.help}</span></button>
+            <button type="button" onClick={() => setLang(lang === 'fr' ? 'en' : 'fr')} className="flex items-center gap-1.5 bg-white/20 text-white px-3 py-1.5 rounded-lg hover:bg-white/30 text-xs font-medium"><Globe size={14} />{lang.toUpperCase()}</button>
+            <button type="button" onClick={loadData} disabled={loading} className="flex items-center gap-1.5 bg-white/20 text-white px-3 py-1.5 rounded-lg hover:bg-white/30 disabled:opacity-50 text-xs font-medium"><RefreshCw size={14} className={loading ? 'animate-spin' : ''} /><span className="hidden sm:inline">{t.refresh}</span></button>
           </div>
         </div>
       </header>
 
       <main className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-4">
-        {regulationInfo && (
-          <div className="bg-white border border-gray-200 rounded-xl p-3 sm:p-4 flex items-start gap-2 sm:gap-3 shadow-sm">
-            <Info size={18} className="text-blue-500 mt-0.5 shrink-0" />
-            <div className="min-w-0 flex-1">
-              <p className="text-xs sm:text-sm font-semibold text-gray-900 leading-snug">{regulationInfo.title}</p>
-              <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1.5 text-xs sm:text-sm text-gray-600">
-                <span>{t.consolidated} <strong className="text-gray-900">{regulationInfo.lastUpdated}</strong></span>
-                <span className="hidden sm:inline">|</span>
-                <span><strong className="text-gray-900">{results.length}</strong> {t.limits}</span>
+        {regulationInfo && <div className="bg-white border border-gray-200 rounded-xl p-3 sm:p-4 flex items-start gap-2 sm:gap-3 shadow-sm"><Info size={18} className="text-blue-500 mt-0.5 shrink-0" /><div className="min-w-0 flex-1"><p className="text-xs sm:text-sm font-semibold text-gray-900 leading-snug">{regulationInfo.title}</p><div className="flex flex-wrap gap-x-3 gap-y-1 mt-1.5 text-xs sm:text-sm text-gray-600"><span>{t.consolidated} <strong className="text-gray-900">{regulationInfo.lastUpdated}</strong></span><span className="hidden sm:inline">|</span><span><strong className="text-gray-900">{results.length}</strong> {t.limits}</span></div></div></div>}
+
+        <div className="bg-white border border-gray-200 rounded-xl p-4 shadow-sm space-y-3">
+          <div className="relative">
+            <Search size={18} className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+            <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} placeholder={t.search} className="w-full pl-10 sm:pl-12 pr-10 sm:pr-12 py-3 sm:py-3.5 border border-gray-300 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-sm sm:text-base" />
+            {searchTerm && <button type="button" onClick={() => setSearchTerm('')} className="absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-700 text-2xl leading-none" aria-label="Effacer">×</button>}
+          </div>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="flex flex-wrap items-center gap-2">
+              <button type="button" onClick={() => setShowFilters(!showFilters)} className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium ${showFilters ? 'bg-blue-100 text-blue-700 border border-blue-300' : 'bg-gray-100 text-gray-700 border border-gray-300'}`}><Filter size={14} /><span>{lang === 'fr' ? 'Filtres' : 'Filters'}</span></button>
+              <div className="flex rounded-lg border border-gray-300 overflow-hidden">
+                <button type="button" onClick={() => setSearchMode('contains')} className={`px-3 py-1.5 text-xs font-medium ${searchMode === 'contains' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}>{t.containsSearch}</button>
+                <button type="button" onClick={() => setSearchMode('exact')} className={`px-3 py-1.5 text-xs font-medium ${searchMode === 'exact' ? 'bg-blue-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-50'}`}>{t.exactSearch}</button>
               </div>
             </div>
+            <div className="flex flex-wrap gap-2">
+              <button type="button" onClick={() => setSelectedCategory('all')} className={`px-3 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${selectedCategory === 'all' ? 'bg-gray-900 text-white' : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'}`}>{t.all}</button>
+              {categories.map(cat => { const c = CATEGORY_COLORS[cat.id] ?? CATEGORY_COLORS['6']; const active = selectedCategory === cat.id; return <button type="button" key={cat.id} onClick={() => setSelectedCategory(active ? 'all' : cat.id)} className={`px-3 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${active ? c.chipActive : c.chip}`}>{cat.id}. {lang === 'fr' ? cat.name : cat.nameEn}</button>; })}
+            </div>
           </div>
-        )}
-
-        <div className="relative">
-          <Search size={18} className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
-          <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} placeholder={t.search} className="w-full pl-10 sm:pl-12 pr-10 sm:pr-12 py-3 sm:py-3.5 border border-gray-300 rounded-xl shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-sm sm:text-base" />
-          {searchTerm && (
-            <button type="button" onClick={() => setSearchTerm('')} className="absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-700 text-2xl leading-none" aria-label="Effacer">×</button>
+          {showFilters && (
+            <div className="pt-3 border-t border-gray-200 space-y-3">
+              <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-600">
+                <span>{lang === 'fr' ? 'Sélection:' : 'Selection:'}</span>
+                <button type="button" onClick={() => handleSelectMode('filtered')} className="text-blue-600 hover:underline">{t.selectFiltered} ({filteredResults.length})</button>
+                <span>|</span>
+                <button type="button" onClick={() => handleSelectMode('all')} className="text-blue-600 hover:underline">{t.selectAll} ({results.length})</button>
+                <span>|</span>
+                <button type="button" onClick={() => handleSelectMode('none')} className="text-blue-600 hover:underline">{t.deselectAll}</button>
+              </div>
+            </div>
           )}
         </div>
 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div className="flex flex-wrap gap-2">
-            <button type="button" onClick={() => setSelectedCategory('all')} className={`px-3 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${selectedCategory === 'all' ? 'bg-gray-900 text-white' : 'bg-white border border-gray-300 text-gray-700 hover:bg-gray-50'}`}>
-              {t.all}
-            </button>
-            {categories.map(cat => {
-              const c = CATEGORY_COLORS[cat.id] ?? CATEGORY_COLORS['6'];
-              const active = selectedCategory === cat.id;
-              return (
-                <button type="button" key={cat.id} onClick={() => setSelectedCategory(active ? 'all' : cat.id)} className={`px-3 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium transition-all ${active ? c.chipActive : c.chip}`}>
-                  {cat.id}. {lang === 'fr' ? cat.name : cat.nameEn}
-                </button>
-              );
-            })}
-          </div>
-          <div className="flex items-center gap-2" ref={dropdownRef}>
-            <div className="relative">
-              <button type="button" onClick={() => setShowExport(!showExport)} disabled={filteredResults.length === 0} className="flex items-center gap-1.5 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg hover:bg-blue-700 disabled:opacity-50 text-xs sm:text-sm font-medium">
-                <Download size={14} />
-                <span className="hidden sm:inline">{t.export}</span>
-                <ChevronDown size={14} className={`transition-transform ${showExport ? 'rotate-180' : ''}`} />
-              </button>
+          {(searchTerm || selectedCategory !== 'all') && !loading && <p className="text-sm text-gray-500">{filteredResults.length} {t.results}{searchTerm && <span> pour <em className="text-gray-700">"{searchTerm}"</em></span>}</p>}
+          <div className="flex items-center gap-2">
+            {selectedRows.size > 0 && <span className="text-xs text-gray-500">{t.rowsSelected}</span>}
+            <div className="relative" ref={dropdownRef}>
+              <button type="button" onClick={() => setShowExport(!showExport)} disabled={filteredResults.length === 0} className="flex items-center gap-1.5 bg-blue-600 text-white px-3 sm:px-4 py-2 rounded-lg hover:bg-blue-700 disabled:opacity-50 text-xs sm:text-sm font-medium"><Download size={14} /><span className="hidden sm:inline">{selectedRows.size > 0 ? t.exportSelected : t.export}</span><ChevronDown size={14} className={`transition-transform ${showExport ? 'rotate-180' : ''}`} /></button>
               <AnimatePresence>
                 {showExport && (
                   <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-30">
-                    <button type="button" onClick={() => { exportToCSV(filteredResults, lang); setShowExport(false); }} className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
-                      <FileText size={16} className="text-green-600" />
-                      {t.exportCSV}
-                    </button>
-                    <button type="button" onClick={() => { exportToExcel(filteredResults, lang); setShowExport(false); }} className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">
-                      <FileSpreadsheet size={16} className="text-green-600" />
-                      {t.exportExcel}
-                    </button>
+                    <button type="button" onClick={() => { exportSelected('csv'); setShowExport(false); }} className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"><FileText size={16} className="text-green-600" />{t.exportCSV}</button>
+                    <button type="button" onClick={() => { exportSelected('excel'); setShowExport(false); }} className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"><FileSpreadsheet size={16} className="text-green-600" />{t.exportExcel}</button>
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -272,30 +252,15 @@ export default function App() {
           </div>
         </div>
 
-        {(searchTerm || selectedCategory !== 'all') && !loading && (
+        {selectedCategory === 'all' && !searchTerm && (
           <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
-            <span>{filteredResults.length} {t.results}{searchTerm && <span> pour <em className="text-gray-700">"{searchTerm}"</em></span>}</span>
-            <div className="flex gap-2">
-              <button type="button" onClick={expandAll} className="text-blue-600 hover:text-blue-800 text-xs font-medium">{t.expandAll}</button>
-              <span className="text-gray-300">|</span>
-              <button type="button" onClick={collapseAll} className="text-blue-600 hover:text-blue-800 text-xs font-medium">{t.collapseAll}</button>
-            </div>
+            <button type="button" onClick={expandAll} className="text-blue-600 hover:text-blue-800 text-xs font-medium">{t.expandAll}</button>
+            <span className="text-gray-300">|</span>
+            <button type="button" onClick={collapseAll} className="text-blue-600 hover:text-blue-800 text-xs font-medium">{t.collapseAll}</button>
           </div>
         )}
 
-        {loading ? (
-          <div className="flex justify-center items-center h-48 sm:h-64">
-            <Loader2 size={48} className="animate-spin text-blue-600" />
-          </div>
-        ) : groupedResults.length === 0 ? (
-          <div className="text-center py-16 sm:py-24 text-gray-400">
-            <Search size={48} className="mx-auto mb-4 opacity-25" />
-            <p className="text-base sm:text-lg">{t.noResults}</p>
-            <button type="button" onClick={() => { setSearchTerm(''); setSelectedCategory('all'); }} className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-medium">
-              {lang === 'fr' ? 'Réinitialiser les filtres' : 'Reset filters'}
-            </button>
-          </div>
-        ) : (
+        {loading ? <div className="flex justify-center items-center h-48 sm:h-64"><Loader2 size={48} className="animate-spin text-blue-600" /></div> : groupedResults.length === 0 ? <div className="text-center py-16 sm:py-24 text-gray-400"><Search size={48} className="mx-auto mb-4 opacity-25" /><p className="text-base sm:text-lg">{t.noResults}</p><button type="button" onClick={() => { setSearchTerm(''); setSelectedCategory('all'); setSearchMode('contains'); }} className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-medium">{lang === 'fr' ? 'Réinitialiser les filtres' : 'Reset filters'}</button></div> : (
           <div className="space-y-3 sm:space-y-4">
             {groupedResults.map(group => {
               const c = CATEGORY_COLORS[group.catId] ?? CATEGORY_COLORS['6'];
@@ -315,20 +280,30 @@ export default function App() {
                     {isExpanded && (
                       <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.2 }} className="overflow-hidden">
                         <div className={`divide-y ${c.border}`}>
-                          {group.items.map(item => (
-                            <div key={item.id} className={`px-4 sm:px-5 py-3 sm:py-4 ${c.bg}`}>
-                              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 sm:gap-4">
-                                <div className="flex-1 min-w-0">
-                                  <p className="text-sm sm:text-base text-gray-800 leading-snug">{item.product}</p>
-                                  {item.notes && <p className="text-xs text-gray-500 mt-1 italic leading-snug line-clamp-2">{item.notes}</p>}
-                                </div>
-                                <div className="shrink-0 text-left sm:text-right">
-                                  <span className="text-sm sm:text-base font-bold text-gray-900 whitespace-nowrap">{item.limit}</span>
-                                  <p className="text-xs text-gray-400 mt-0.5 sm:mt-1">{item.code}</p>
+                          {group.items.map(item => {
+                            const isSelected = selectedRows.has(item.id);
+                            return (
+                              <div key={item.id} className={`px-4 sm:px-5 py-3 sm:py-4 ${c.bg} ${isSelected ? 'bg-blue-50' : ''}`}>
+                                <div className="flex items-start gap-3">
+                                  <button type="button" onClick={(e) => { e.stopPropagation(); toggleRowSelection(item.id); }} className="shrink-0 mt-0.5">
+                                    {isSelected ? <CheckCircle size={20} className="text-blue-600" /> : <Circle size={20} className="text-gray-400 hover:text-blue-500" />}
+                                  </button>
+                                  <div className="flex-1 min-w-0" onClick={() => toggleRowSelection(item.id)}>
+                                    <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-2 sm:gap-4">
+                                      <div className="flex-1 min-w-0">
+                                        <p className="text-sm sm:text-base text-gray-800 leading-snug">{item.product}</p>
+                                        {item.notes && <p className="text-xs text-gray-500 mt-1 italic leading-snug line-clamp-2">{item.notes}</p>}
+                                      </div>
+                                      <div className="shrink-0 text-left sm:text-right">
+                                        <span className="text-sm sm:text-base font-bold text-gray-900 whitespace-nowrap">{item.limit}</span>
+                                        <p className="text-xs text-gray-400 mt-0.5 sm:mt-1">{item.code}</p>
+                                      </div>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          ))}
+                            );
+                          })}
                         </div>
                       </motion.div>
                     )}
@@ -342,10 +317,7 @@ export default function App() {
 
       <footer className="bg-gray-100 border-t border-gray-200 py-4 sm:py-6 mt-8">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <p className="text-xs sm:text-sm text-gray-500">
-            {lang === 'fr' ? 'Application basée sur le' : 'Application based on'} <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R0915" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Règlement (UE) 2023/915</a>
-            {lang === 'fr' ? ' · Vérification automatique des mises à jour via GitHub Actions' : ' · Automatic update verification via GitHub Actions'}
-          </p>
+          <p className="text-xs sm:text-sm text-gray-500">{lang === 'fr' ? 'Application basée sur le' : 'Application based on'} <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R0915" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Règlement (UE) 2023/915</a></p>
         </div>
       </footer>
 
@@ -355,48 +327,15 @@ export default function App() {
             <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} exit={{ scale: 0.95, opacity: 0 }} className="bg-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[85vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
               <div className="flex items-center justify-between px-5 py-4 border-b border-gray-200">
                 <h2 className="text-lg font-bold text-gray-900">{t.helpTitle}</h2>
-                <button type="button" onClick={() => setShowHelp(false)} className="p-1 rounded-lg hover:bg-gray-100 text-gray-500">
-                  <X size={20} />
-                </button>
+                <button type="button" onClick={() => setShowHelp(false)} className="p-1 rounded-lg hover:bg-gray-100 text-gray-500"><X size={20} /></button>
               </div>
-              <div className="p-5 space-y-5">
-                <p className="text-sm text-gray-600 leading-relaxed">{t.helpIntro}</p>
-                <div className="space-y-4">
-                  <div className="flex gap-3">
-                    <span className="text-2xl">{t.helpSearch.split(' ')[0]}</span>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">{t.helpSearch}</h3>
-                      <p className="text-sm text-gray-600">{t.helpSearchDesc}</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <span className="text-2xl">{t.helpFilter.split(' ')[0]}</span>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">{t.helpFilter}</h3>
-                      <p className="text-sm text-gray-600">{t.helpFilterDesc}</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <span className="text-2xl">{t.helpExpand.split(' ')[0]}</span>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">{t.helpExpand}</h3>
-                      <p className="text-sm text-gray-600">{t.helpExpandDesc}</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <span className="text-2xl">{t.helpExport.split(' ')[0]}</span>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">{t.helpExport}</h3>
-                      <p className="text-sm text-gray-600">{t.helpExportDesc}</p>
-                    </div>
-                  </div>
-                  <div className="flex gap-3">
-                    <span className="text-2xl">{t.helpLang.split(' ')[0]}</span>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">{t.helpLang}</h3>
-                      <p className="text-sm text-gray-600">{t.helpLangDesc}</p>
-                    </div>
-                  </div>
+              <div className="p-5 space-y-4 text-sm text-gray-600">
+                <p>{lang === 'fr' ? 'Cette application permet de rechercher les limites maximales de contaminants dans les denrées alimentaires.' : 'This application allows you to search for maximum contaminant limits in foodstuffs.'}</p>
+                <div className="space-y-3">
+                  <div><h3 className="font-semibold text-gray-900">🔍 {lang === 'fr' ? 'Recherche' : 'Search'}</h3><p>{lang === 'fr' ? 'Utilisez "Contient" pour une recherche approximative ou "Exakte" pour une correspondance exacte.' : 'Use "Contains" for approximate search or "Exact" for exact match.'}</p></div>
+                  <div><h3 className="font-semibold text-gray-900">🏷️ {lang === 'fr' ? 'Catégories' : 'Categories'}</h3><p>{lang === 'fr' ? 'Filtrez par catégorie de contaminant (Mycotoxines, Métaux, etc.)' : 'Filter by contaminant category (Mycotoxins, Metals, etc.)'}</p></div>
+                  <div><h3 className="font-semibold text-gray-900">☑️ {lang === 'fr' ? 'Sélection' : 'Selection'}</h3><p>{lang === 'fr' ? 'Cliquez sur les lignes pour les sélectionner, puis exportez uniquement la sélection.' : 'Click on rows to select them, then export only the selection.'}</p></div>
+                  <div><h3 className="font-semibold text-gray-900">📥 {lang === 'fr' ? 'Exporter' : 'Export'}</h3><p>{lang === 'fr' ? 'Téléchargez les résultats en CSV ou Excel.' : 'Download results in CSV or Excel.'}</p></div>
                 </div>
               </div>
               <div className="px-5 py-4 border-t border-gray-200 bg-gray-50 rounded-b-2xl">
