@@ -113,7 +113,16 @@ export default function App() {
         const productLower = item.product.toLowerCase();
         const contaminantFr = item.contaminant.fr.toLowerCase();
         const contaminantEn = item.contaminant.en.toLowerCase();
-        matchesSearch = productLower === q || contaminantFr === q || contaminantEn === q || item.code.toLowerCase() === q;
+        const words = q.split(/\s+/);
+        matchesSearch = words.every(word => 
+          productLower === word || 
+          productLower.startsWith(word + ' ') || 
+          productLower.endsWith(' ' + word) ||
+          productLower.includes(' ' + word + ' ') ||
+          contaminantFr === word ||
+          contaminantEn === word ||
+          item.code.toLowerCase() === word
+        );
       } else {
         matchesSearch = item.product.toLowerCase().includes(q) || item.contaminant.fr.toLowerCase().includes(q) || item.contaminant.en.toLowerCase().includes(q) || item.category.fr.toLowerCase().includes(q) || item.code.toLowerCase().includes(q);
       }
@@ -215,7 +224,7 @@ export default function App() {
     close: lang === 'fr' ? 'Fermer' : 'Close',
     expandAll: lang === 'fr' ? 'Tout développer' : 'Expand all',
     collapseAll: lang === 'fr' ? 'Tout réduire' : 'Collapse all',
-    exactSearch: lang === 'fr' ? 'Exakte' : 'Exact',
+    exactSearch: lang === 'fr' ? 'Exact' : 'Exact',
     containsSearch: lang === 'fr' ? 'Contient' : 'Contains',
     selectFiltered: lang === 'fr' ? 'Sélectionner résultats' : 'Select results',
     selectAll: lang === 'fr' ? 'Tout sélectionner' : 'Select all',
